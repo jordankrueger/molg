@@ -69,9 +69,57 @@ export default function PredictionTracker() {
     // ... rest of the predictions object stays the same
   };
 
-  return (
+return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
-      {/* Rest of the component stays the same */}
-    </div>
+      {/* Hero Section */}
+      <div className="py-20 px-6 text-center">
+        <h1 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text leading-relaxed">
+          Machines of Loving Grace
+        </h1>
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-10">
+          Tracking the predictions from Dario Amodei's vision of how AI could transform the world for the better. Based on the timeline of 5-10 years after the development of powerful AI.
+        </p>
+
+        {/* Action Buttons */}
+        <div className="flex justify-center gap-4 mb-12">
+          <a 
+            href="https://darioamodei.com/machines-of-loving-grace" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+          >
+            <FileText className="w-5 h-5 mr-2" />
+            Read the Essay
+          </a>
+          <a 
+            href="https://www.reddit.com/r/MachinesofLovingGrace/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition-colors"
+          >
+            <MessageCircle className="w-5 h-5 mr-2" />
+            Discuss & Update
+          </a>
+        </div>
+      </div>
+
+      {/* Predictions Section */}
+      <div className="max-w-4xl mx-auto pb-24 px-6">
+        {Object.entries(predictions).map(([key, section]) => (
+          <div key={key} className="mb-8 bg-white rounded-xl shadow-lg overflow-hidden">
+            <button
+              onClick={() => toggleSection(key)}
+              className="w-full p-6 flex justify-between items-center hover:bg-gray-50 transition-colors"
+            >
+              <div className="text-left">
+                <h2 className="text-2xl font-semibold text-gray-800">{section.title}</h2>
+                <p className="text-gray-600 mt-2">{section.description}</p>
+              </div>
+              {expandedSections[key] ? (
+                <ChevronUp className="text-gray-400" />
+              ) : (
+                <ChevronDown className="text-gray-400" />
+              )}
+            </button>
   );
 }

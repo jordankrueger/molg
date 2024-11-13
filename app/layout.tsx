@@ -1,21 +1,14 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
+import type { Metadata } from 'next'
+import { GeistSans } from 'geist/font/sans'
+import { GeistMono } from 'geist/font/mono'
+import './globals.css'
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const geistSans = GeistSans
+const geistMono = GeistMono
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'AI Progress Tracker',
-  description: 'Tracking predictions about AI transformation from Machines of Loving Grace',
+  description: 'Tracking predictions from Machines of Loving Grace',
 }
 
 export default function RootLayout({
@@ -24,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={geistSans.className}>
       <body>{children}</body>
     </html>
   )
