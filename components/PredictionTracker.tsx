@@ -32,7 +32,7 @@ export default function PredictionTracker() {
   const predictions: Predictions = {
     biology: {
       title: "Biology and Physical Health",
-      description: "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
+      description: "Timeline: 5-10 years after powerful AI development to achieve &apos;50-100 years of progress&apos;",
       predictions: [
         {
           title: "Infectious Disease Prevention",
