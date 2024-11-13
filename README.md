@@ -2,7 +2,7 @@
 [![Next.js](https://img.shields.io/badge/Next.js-13.5-black?style=flat&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat&logo=vercel)](https://vercel.com)
 [![Reddit](https://img.shields.io/badge/Reddit-Community-FF4500?style=flat&logo=reddit)](https://www.reddit.com/r/MachinesofLovingGrace/)
 
@@ -122,7 +122,7 @@ The project is deployed using Vercel. Any changes merged to main will automatica
 - Keep discussions focused on the predictions and their progress
 
 ## License
-MIT License - See LICENSE file for details
+GPL-3.0 License - See LICENSE file for details
 
 ## Contact
 Join our [Reddit community](https://www.reddit.com/r/MachinesofLovingGrace/) for discussions and updates.
