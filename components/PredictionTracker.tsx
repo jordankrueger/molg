@@ -66,10 +66,87 @@ export default function PredictionTracker() {
         }
       ]
     },
-    // ... rest of the predictions object stays the same
+    neuroscience: {
+      title: "Neuroscience and Mental Health",
+      description: "Accelerated progress in understanding and treating mental health conditions",
+      predictions: [
+        {
+          title: "Mental Illness Treatment",
+          description: "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
+          progress: 20,
+        },
+        {
+          title: "Structural Conditions",
+          description: "Solutions for 'structural' conditions like psychopathy and some forms of autism",
+          progress: 10,
+        },
+        {
+          title: "Genetic Prevention",
+          description: "Genetic screening to prevent mental illness while preserving positive traits",
+          progress: 15,
+        },
+        {
+          title: "Everyday Enhancement",
+          description: "Solutions for common issues like focus, mood, and anxiety management",
+          progress: 30,
+        }
+      ]
+    },
+    economics: {
+      title: "Economic Development and Poverty",
+      description: "Rapid economic growth and reduction in global inequality",
+      predictions: [
+        {
+          title: "Health Distribution",
+          description: "50% of AI-driven health benefits reaching poorest countries",
+          progress: 10,
+        },
+        {
+          title: "Economic Growth",
+          description: "20% annual GDP growth in developing world",
+          progress: 5,
+        },
+        {
+          title: "Food Security",
+          description: "Second Green Revolution through AI-driven agricultural advances",
+          progress: 15,
+        },
+        {
+          title: "Climate Change",
+          description: "Major advances in carbon removal and clean energy technology",
+          progress: 20,
+        }
+      ]
+    },
+    governance: {
+      title: "Peace and Governance",
+      description: "AI's impact on democracy, peace, and governance",
+      predictions: [
+        {
+          title: "Democratic Advantage",
+          description: "Democratic coalition gaining clear advantage in AI capabilities",
+          progress: 25,
+        },
+        {
+          title: "Information Environment",
+          description: "Creation of globally free information environment",
+          progress: 15,
+        },
+        {
+          title: "Legal Systems",
+          description: "AI improving impartiality and fairness in legal systems",
+          progress: 10,
+        },
+        {
+          title: "Government Services",
+          description: "Enhanced provision and accessibility of government services",
+          progress: 20,
+        }
+      ]
+    }
   };
 
-return (
+  return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
       {/* Hero Section */}
       <div className="py-20 px-6 text-center">
@@ -121,5 +198,29 @@ return (
                 <ChevronDown className="text-gray-400" />
               )}
             </button>
+
+            {expandedSections[key] && (
+              <div className="px-6 pb-6">
+                {section.predictions.map((prediction, index) => (
+                  <div key={index} className="mb-6 last:mb-0">
+                    <div className="flex justify-between mb-2">
+                      <h3 className="font-medium text-gray-800">{prediction.title}</h3>
+                      <span className="text-gray-600">{prediction.progress}%</span>
+                    </div>
+                    <p className="text-sm text-gray-600 mb-2">{prediction.description}</p>
+                    <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+                      <div 
+                        className="h-full bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-500"
+                        style={{ width: `${prediction.progress}%` }}
+                      ></div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }

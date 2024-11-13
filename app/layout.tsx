@@ -1,10 +1,5 @@
 import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
 import './globals.css'
-
-const geistSans = GeistSans
-const geistMono = GeistMono
 
 export const metadata: Metadata = {
   title: 'AI Progress Tracker',
@@ -17,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={geistSans.className}>
+    <html lang="en">
       <body>{children}</body>
     </html>
   )
