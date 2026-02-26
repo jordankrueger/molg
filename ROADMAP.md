@@ -2,30 +2,38 @@
 
 Audit completed 2026-02-26. Managed by Claude Code.
 
-## High Priority
+## Completed
 
-- [x] **Extract prediction data to JSON** — Moved to `data/predictions.json`. Component imports from there. (2026-02-26)
-- [x] **Upgrade React to stable 19** — Upgraded to React 19.2.4, ReactDOM 19.2.4, @types/react@19, @types/react-dom@19. (2026-02-26)
-- [x] **Fix accessibility** — Added `aria-expanded` on toggle buttons, `role="progressbar"` + `aria-valuenow/min/max/label` on progress bars, `aria-hidden` on decorative icons. (2026-02-26)
+- [x] Extract prediction data to JSON (2026-02-26)
+- [x] Upgrade React to stable 19.2.4 (2026-02-26)
+- [x] Fix accessibility — ARIA attributes on all interactive elements (2026-02-26)
+- [x] Add SEO metadata — OG, Twitter Card, canonical, robots.txt, sitemap.xml (2026-02-26)
+- [x] Update dependencies — PostCSS, Tailwind, TypeScript to latest (2026-02-26)
+- [x] Fix README — correct versions, Cloudflare Pages, project structure (2026-02-26)
+- [x] Fix ESLint config — removed global rule overrides (2026-02-26)
+- [x] Fix HTML entity bug (2026-02-26)
+- [x] Remove unused template assets (2026-02-26)
+- [x] Add "Last Updated" date to page (2026-02-26)
+- [x] Add evidence/sources structure to predictions (2026-02-26)
+- [x] Automated weekly prediction updates via GitHub Actions (2026-02-26)
 
-## Medium Priority
+## Deferred
 
-- [x] **Add SEO metadata** — OG tags, Twitter Card, canonical URL, robots.txt, sitemap.xml added. (2026-02-26)
-- [x] **Update dependencies** — PostCSS, Tailwind 3, TypeScript updated to latest patches. ESLint 8→10 deferred (requires flat config migration). (2026-02-26)
-- [x] **Fix README** — Updated to reflect Next.js 15, Cloudflare Pages, current project structure. (2026-02-26)
-- [x] **Fix ESLint config** — Removed global rule disabling. Lint passes clean without overrides. (2026-02-26)
-- [x] **Fix HTML entity bug** — Moved to JSON data file with plain apostrophes. JSX now uses `&apos;` correctly. (2026-02-26)
+- [ ] **ESLint 8 → 10 migration** — Requires flat config rewrite. Not urgent since lint passes clean.
 
-## Low Priority
+## Automation
 
-- [x] **Remove unused template assets** — Deleted 5 unused SVGs from public/. (2026-02-26)
-- [x] **Optimize Lucide bundle** — Verified tree-shaking is working correctly. Remaining chunk size is mostly React framework, not icons. Not worth replacing. (2026-02-26)
-- [x] **Add "Last Updated" date** — Shows formatted date from `lastUpdated` field in predictions.json. (2026-02-26)
-- [x] **Add evidence/sources** — Added `evidence` array to each prediction in JSON. Component renders evidence links when present. (2026-02-26)
+- **GitHub Actions workflow** runs every Monday at 9am UTC (4am ET)
+- Scans 8 RSS feeds (Nature, STAT News, MIT Tech Review, WHO, UN News, etc.)
+- Sends recent articles to Claude Haiku for evaluation against predictions
+- Updates `data/predictions.json` and `AUDIT-LOG.md` automatically
+- Commits and pushes if changes are found
+- Can also be triggered manually via workflow_dispatch
+- **Requires:** `ANTHROPIC_API_KEY` GitHub secret on the repo
 
 ## Update Process
 
 - Prediction data lives in `data/predictions.json`
 - Push to `main` auto-deploys via Cloudflare Pages
-- Periodic reviews: update progress percentages when notable AI news drops
+- Audit log at `AUDIT-LOG.md` (newest entries first)
 - Domain: aiprogresstracker.com | Cloudflare Pages project: `molg`

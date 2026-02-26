@@ -1,0 +1,37 @@
+name: Update Predictions
+
+on:
+  schedule:
+    # Every Monday at 9am UTC (4am ET)
+    - cron: '0 9 * * 1'
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run prediction updater
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/update-predictions.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "MOLG Bot"
+          git config user.email "noreply@aiprogresstracker.com"
+          git add data/predictions.json AUDIT-LOG.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Weekly prediction update ($(date +%Y-%m-%d))"
+            git push
+          fi
