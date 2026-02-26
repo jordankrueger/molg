@@ -4,9 +4,9 @@ Audit completed 2026-02-26. Managed by Claude Code.
 
 ## High Priority
 
-- [ ] **Extract prediction data to JSON** — Move all 18 predictions from PredictionTracker.tsx to `data/predictions.json`. Enables updates without touching component code.
-- [ ] **Upgrade React to stable 19** — Currently on `19.0.0-rc-66855b96-20241106` (pre-release). Upgrade React + ReactDOM to stable, update @types/react and @types/react-dom to v19.
-- [ ] **Fix accessibility** — Add `aria-expanded` to section toggle buttons, `role="progressbar"` + `aria-valuenow/min/max` to progress bars, `aria-label` on icon-only elements.
+- [x] **Extract prediction data to JSON** — Moved to `data/predictions.json`. Component imports from there. (2026-02-26)
+- [x] **Upgrade React to stable 19** — Upgraded to React 19.2.4, ReactDOM 19.2.4, @types/react@19, @types/react-dom@19. (2026-02-26)
+- [x] **Fix accessibility** — Added `aria-expanded` on toggle buttons, `role="progressbar"` + `aria-valuenow/min/max/label` on progress bars, `aria-hidden` on decorative icons. (2026-02-26)
 
 ## Medium Priority
 
@@ -14,7 +14,7 @@ Audit completed 2026-02-26. Managed by Claude Code.
 - [ ] **Update dependencies** — ESLint 8→10, PostCSS, Tailwind, TypeScript to latest patches.
 - [ ] **Fix README** — Says Next.js 13.5 and Vercel. Actually Next.js 15 on Cloudflare Pages at aiprogresstracker.com.
 - [ ] **Fix ESLint config** — Remove global rule disabling (`no-unused-vars`, `no-unescaped-entities`). Use per-line ignores where needed.
-- [ ] **Fix HTML entity bug** — Line 35 of PredictionTracker.tsx uses `&apos;` in a JS string literal. Should be a plain apostrophe.
+- [x] **Fix HTML entity bug** — Moved to JSON data file with plain apostrophes. JSX now uses `&apos;` correctly. (2026-02-26)
 
 ## Low Priority
 
@@ -25,7 +25,7 @@ Audit completed 2026-02-26. Managed by Claude Code.
 
 ## Update Process
 
-- Prediction data lives in `data/predictions.json` (once extracted)
+- Prediction data lives in `data/predictions.json`
 - Push to `main` auto-deploys via Cloudflare Pages
 - Periodic reviews: update progress percentages when notable AI news drops
 - Domain: aiprogresstracker.com | Cloudflare Pages project: `molg`
