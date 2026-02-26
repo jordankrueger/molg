@@ -13,8 +13,14 @@
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 20,
-        "evidence": []
+        "progress": 22,
+        "evidence": [
+          {
+            "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
+            "url": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+            "date": "2026-02-24"
+          }
+        ]
       },
       {
         "title": "Genetic Disease",
