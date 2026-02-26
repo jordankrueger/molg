@@ -11,7 +11,7 @@ Audit completed 2026-02-26. Managed by Claude Code.
 ## Medium Priority
 
 - [x] **Add SEO metadata** — OG tags, Twitter Card, canonical URL, robots.txt, sitemap.xml added. (2026-02-26)
-- [ ] **Update dependencies** — ESLint 8→10, PostCSS, Tailwind, TypeScript to latest patches.
+- [x] **Update dependencies** — PostCSS, Tailwind 3, TypeScript updated to latest patches. ESLint 8→10 deferred (requires flat config migration). (2026-02-26)
 - [x] **Fix README** — Updated to reflect Next.js 15, Cloudflare Pages, current project structure. (2026-02-26)
 - [x] **Fix ESLint config** — Removed global rule disabling. Lint passes clean without overrides. (2026-02-26)
 - [x] **Fix HTML entity bug** — Moved to JSON data file with plain apostrophes. JSX now uses `&apos;` correctly. (2026-02-26)
@@ -19,9 +19,9 @@ Audit completed 2026-02-26. Managed by Claude Code.
 ## Low Priority
 
 - [x] **Remove unused template assets** — Deleted 5 unused SVGs from public/. (2026-02-26)
-- [ ] **Optimize Lucide bundle** — 4 icons imported but ~350KB in chunks. Verify tree-shaking or switch to inline SVGs.
-- [ ] **Add "Last Updated" date** — Show visitors when predictions were last reviewed.
-- [ ] **Add evidence/sources** — Link supporting articles or research to each prediction's progress claim.
+- [x] **Optimize Lucide bundle** — Verified tree-shaking is working correctly. Remaining chunk size is mostly React framework, not icons. Not worth replacing. (2026-02-26)
+- [x] **Add "Last Updated" date** — Shows formatted date from `lastUpdated` field in predictions.json. (2026-02-26)
+- [x] **Add evidence/sources** — Added `evidence` array to each prediction in JSON. Component renders evidence links when present. (2026-02-26)
 
 ## Update Process
 

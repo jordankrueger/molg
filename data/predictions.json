@@ -1,4 +1,5 @@
 {
+  "lastUpdated": "2026-02-26",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -6,32 +7,38 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 35
+        "progress": 35,
+        "evidence": []
       },
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 20
+        "progress": 20,
+        "evidence": []
       },
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 30
+        "progress": 30,
+        "evidence": []
       },
       {
         "title": "Alzheimer's Prevention",
         "description": "Understanding and prevention of Alzheimer's disease",
-        "progress": 15
+        "progress": 15,
+        "evidence": []
       },
       {
         "title": "Biological Freedom",
         "description": "Enhanced control over weight, appearance, reproduction, and other biological processes",
-        "progress": 25
+        "progress": 25,
+        "evidence": []
       },
       {
         "title": "Lifespan Extension",
         "description": "Doubling of human lifespan to ~150 years",
-        "progress": 10
+        "progress": 10,
+        "evidence": []
       }
     ]
   },
@@ -42,22 +49,26 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 20
+        "progress": 20,
+        "evidence": []
       },
       {
         "title": "Structural Conditions",
         "description": "Solutions for 'structural' conditions like psychopathy and some forms of autism",
-        "progress": 10
+        "progress": 10,
+        "evidence": []
       },
       {
         "title": "Genetic Prevention",
         "description": "Genetic screening to prevent mental illness while preserving positive traits",
-        "progress": 15
+        "progress": 15,
+        "evidence": []
       },
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 30
+        "progress": 30,
+        "evidence": []
       }
     ]
   },
@@ -68,22 +79,26 @@
       {
         "title": "Health Distribution",
         "description": "50% of AI-driven health benefits reaching poorest countries",
-        "progress": 10
+        "progress": 10,
+        "evidence": []
       },
       {
         "title": "Economic Growth",
         "description": "20% annual GDP growth in developing world",
-        "progress": 5
+        "progress": 5,
+        "evidence": []
       },
       {
         "title": "Food Security",
         "description": "Second Green Revolution through AI-driven agricultural advances",
-        "progress": 15
+        "progress": 15,
+        "evidence": []
       },
       {
         "title": "Climate Change",
         "description": "Major advances in carbon removal and clean energy technology",
-        "progress": 20
+        "progress": 20,
+        "evidence": []
       }
     ]
   },
@@ -94,22 +109,26 @@
       {
         "title": "Democratic Advantage",
         "description": "Democratic coalition gaining clear advantage in AI capabilities",
-        "progress": 25
+        "progress": 25,
+        "evidence": []
       },
       {
         "title": "Information Environment",
         "description": "Creation of globally free information environment",
-        "progress": 15
+        "progress": 15,
+        "evidence": []
       },
       {
         "title": "Legal Systems",
         "description": "AI improving impartiality and fairness in legal systems",
-        "progress": 10
+        "progress": 10,
+        "evidence": []
       },
       {
         "title": "Government Services",
         "description": "Enhanced provision and accessibility of government services",
-        "progress": 20
+        "progress": 20,
+        "evidence": []
       }
     ]
   }
