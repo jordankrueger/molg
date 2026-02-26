@@ -10,15 +10,15 @@ Audit completed 2026-02-26. Managed by Claude Code.
 
 ## Medium Priority
 
-- [ ] **Add SEO metadata** — Open Graph tags, Twitter Card tags, canonical URL, robots.txt, sitemap.xml. Important for Reddit/social sharing.
+- [x] **Add SEO metadata** — OG tags, Twitter Card, canonical URL, robots.txt, sitemap.xml added. (2026-02-26)
 - [ ] **Update dependencies** — ESLint 8→10, PostCSS, Tailwind, TypeScript to latest patches.
-- [ ] **Fix README** — Says Next.js 13.5 and Vercel. Actually Next.js 15 on Cloudflare Pages at aiprogresstracker.com.
-- [ ] **Fix ESLint config** — Remove global rule disabling (`no-unused-vars`, `no-unescaped-entities`). Use per-line ignores where needed.
+- [x] **Fix README** — Updated to reflect Next.js 15, Cloudflare Pages, current project structure. (2026-02-26)
+- [x] **Fix ESLint config** — Removed global rule disabling. Lint passes clean without overrides. (2026-02-26)
 - [x] **Fix HTML entity bug** — Moved to JSON data file with plain apostrophes. JSX now uses `&apos;` correctly. (2026-02-26)
 
 ## Low Priority
 
-- [ ] **Remove unused template assets** — `file.svg`, `globe.svg`, `next.svg`, `vercel.svg`, `window.svg` in public/.
+- [x] **Remove unused template assets** — Deleted 5 unused SVGs from public/. (2026-02-26)
 - [ ] **Optimize Lucide bundle** — 4 icons imported but ~350KB in chunks. Verify tree-shaking or switch to inline SVGs.
 - [ ] **Add "Last Updated" date** — Show visitors when predictions were last reviewed.
 - [ ] **Add evidence/sources** — Link supporting articles or research to each prediction's progress claim.
