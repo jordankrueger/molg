@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-26",
+  "lastUpdated": "2026-03-02",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,8 +7,19 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 35,
-        "evidence": []
+        "progress": 37,
+        "evidence": [
+          {
+            "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
+            "url": "https://www.who.int/news/item/27-02-2026-denmark-becomes-first-country-in-the-european-union-to-eliminate-of-mother-to-child-transmission-of-hiv-and-syphilis",
+            "date": "2026-02-27"
+          },
+          {
+            "title": "WHO validates elimination of trachoma as a public health problem in Libya",
+            "url": "https://www.who.int/news/item/18-02-2026-who-validates-elimination-of-trachoma-as-a-public-health-problem-in-libya",
+            "date": "2026-02-18"
+          }
+        ]
       },
       {
         "title": "Cancer Treatment",
@@ -31,8 +42,14 @@
       {
         "title": "Alzheimer's Prevention",
         "description": "Understanding and prevention of Alzheimer's disease",
-        "progress": 15,
-        "evidence": []
+        "progress": 17,
+        "evidence": [
+          {
+            "title": "Beyond amyloid plaques: AI reveals hidden chemical changes across the Alzheimer's brain",
+            "url": "https://www.sciencedaily.com/releases/2026/02/260228093505.htm",
+            "date": "2026-02-28"
+          }
+        ]
       },
       {
         "title": "Biological Freedom",
