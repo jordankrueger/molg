@@ -3,6 +3,18 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-03-09
+
+**Articles scanned:** 155 | **Overall progress:** 18.7%
+
+**Changes:**
+- **Mental Illness Treatment** (biology): 20% → 22% — Two concrete advances in depression treatment: ketamine's mechanism of action clarified through brain imaging showing fast antidepressant effects via receptor reshaping, and new modified psilocin compounds that target serotonin pathways without hallucinations. These represent mechanistic progress toward effective treatments for treatment-resistant depression.
+- **Alzheimer's Prevention** (biology): 17% → 19% — Discovery of tanycytes' role in clearing toxic tau protein from the brain through transport into the bloodstream represents a concrete mechanistic advance toward understanding and potentially preventing Alzheimer's disease pathology.
+- **Infectious Disease Prevention** (biology): 37% → 38% — Chile's WHO verification as first Americas country to eliminate leprosy and Denmark's certification for eliminating mother-to-child transmission of HIV and syphilis demonstrate concrete progress on infectious disease elimination globally, though these are regional achievements rather than global prevention.
+- **Information Environment** (governance): 15% → 13% — Multiple reports indicate setbacks for information environment goals: FDA cutting back public advisory meetings amid controversy (reducing transparency), organized scientific fraud networks spreading faster than corrections, and concerns about AI-driven harassment online. These represent deterioration rather than progress toward a free information environment.
+
+**Summary:** This week's article review examined 80 recent news items across health, science, and technology domains. Most articles covered incremental scientific progress or policy developments without clear bearing on the 2026-2035 predictions. However, four changes were warranted: two small gains in mental health treatment (ketamine mechanism clarification and modified psilocin compounds) and Alzheimer's research (tanycytes' tau-clearing role), one marginal gain in infectious disease elimination (leprosy and perinatal HIV/syphilis eliminations verified), and notably one setback in information environment progress due to FDA transparency cuts, growing scientific fraud networks, and AI-driven online harassment concerns. The data suggests modest biological/medical progress balanced against governance and information environment deterioration.
+
 ## 2026-03-02
 
 **Articles scanned:** 156 | **Overall progress:** 18.7%

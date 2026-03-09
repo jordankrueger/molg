@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02",
+  "lastUpdated": "2026-03-09",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 37,
+        "progress": 38,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -18,6 +18,11 @@
             "title": "WHO validates elimination of trachoma as a public health problem in Libya",
             "url": "https://www.who.int/news/item/18-02-2026-who-validates-elimination-of-trachoma-as-a-public-health-problem-in-libya",
             "date": "2026-02-18"
+          },
+          {
+            "title": "Chile becomes the first country in the Americas to be verified by WHO for the elimination of leprosy",
+            "url": "https://www.who.int/news/item/04-03-2026-chile-becomes-the-first-country-in-the-americas-to-be-verified-by-who-for-the-elimination-of-leprosy",
+            "date": "2026-03-04"
           }
         ]
       },
@@ -42,12 +47,17 @@
       {
         "title": "Alzheimer's Prevention",
         "description": "Understanding and prevention of Alzheimer's disease",
-        "progress": 17,
+        "progress": 19,
         "evidence": [
           {
             "title": "Beyond amyloid plaques: AI reveals hidden chemical changes across the Alzheimer's brain",
             "url": "https://www.sciencedaily.com/releases/2026/02/260228093505.htm",
             "date": "2026-02-28"
+          },
+          {
+            "title": "Scientists discover hidden brain cells that may stop Alzheimer's tau buildup",
+            "url": "https://www.sciencedaily.com/releases/2026/03/260307155945.htm",
+            "date": "2026-03-07"
           }
         ]
       },
@@ -138,8 +148,14 @@
       {
         "title": "Information Environment",
         "description": "Creation of globally free information environment",
-        "progress": 15,
-        "evidence": []
+        "progress": 13,
+        "evidence": [
+          {
+            "title": "STAT+: As controversial decisions mount, FDA shuns public advisory meetings",
+            "url": "https://www.statnews.com/2026/03/09/fda-cuts-back-advisory-meetings-controversial-decisions-grow/",
+            "date": "2026-03-09"
+          }
+        ]
       },
       {
         "title": "Legal Systems",
