@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09",
+  "lastUpdated": "2026-03-16",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 38,
+        "progress": 39,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -29,20 +29,31 @@
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 22,
+        "progress": 24,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
             "url": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
             "date": "2026-02-24"
+          },
+          {
+            "title": "Cancer cells can 'barf' proteins onto their cell surface. That may create new targets for immunotherapies",
+            "url": "https://www.statnews.com/2026/03/12/cancer-researchers-new-immunology-target-oncogene-src/",
+            "date": "2026-03-12"
           }
         ]
       },
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 30,
-        "evidence": []
+        "progress": 31,
+        "evidence": [
+          {
+            "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
+            "url": "https://www.sciencedaily.com/releases/2026/03/260314030507.htm",
+            "date": "2026-03-14"
+          }
+        ]
       },
       {
         "title": "Alzheimer's Prevention",

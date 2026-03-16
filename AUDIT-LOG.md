@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-03-16
+
+**Articles scanned:** 152 | **Overall progress:** 18.9%
+
+**Changes:**
+- **Cancer Treatment** (biology): 22% → 24% — Article on cancer cells 'barfing' proteins onto cell surface represents concrete scientific advancement in identifying new immunotherapy targets for solid tumors, a major obstacle to improving cancer treatment outcomes.
+- **Infectious Disease Prevention** (biology): 38% → 39% — Chile's verification as having eliminated leprosy (first in Americas, second globally) demonstrates practical achievement of disease elimination through improved prevention and treatment approaches, though this is one disease among many infectious diseases.
+- **Genetic Disease** (biology): 30% → 31% — Discovery that TDP43 protein controls key DNA repair processes and links DNA repair to ALS represents fundamental advancement in understanding genetic disease mechanisms, potentially enabling better screening and prevention approaches.
+
+**Summary:** This week's news showed modest but concrete progress in biology and health domains. The most significant finding was a cancer immunotherapy breakthrough identifying new protein-based targets on cancer cell surfaces, which represents practical advancement toward better solid tumor treatment. Leprosy elimination in Chile demonstrates real-world infectious disease control success, and new discoveries about the TDP43 protein's role in DNA repair advance understanding of genetic disease mechanisms. The coverage also revealed ongoing health policy challenges (drug pricing debates, telehealth access limitations, vaccine skepticism) and governance concerns (health crisis in Middle East, measles resurgence) that work against progress on several predictions. No changes were warranted for neuroscience, economics, or governance predictions based on available evidence.
+
 ## 2026-03-09
 
 **Articles scanned:** 155 | **Overall progress:** 18.7%
