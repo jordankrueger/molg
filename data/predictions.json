@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16",
+  "lastUpdated": "2026-03-23",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -29,7 +29,7 @@
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 24,
+        "progress": 25,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -40,6 +40,11 @@
             "title": "Cancer cells can 'barf' proteins onto their cell surface. That may create new targets for immunotherapies",
             "url": "https://www.statnews.com/2026/03/12/cancer-researchers-new-immunology-target-oncogene-src/",
             "date": "2026-03-12"
+          },
+          {
+            "title": "New AI tool predicts cancer spread with surprising accuracy",
+            "url": "https://www.sciencedaily.com/releases/2026/03/260321012709.htm",
+            "date": "2026-03-21"
           }
         ]
       },

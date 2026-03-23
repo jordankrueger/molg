@@ -3,6 +3,16 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-03-23
+
+**Articles scanned:** 152 | **Overall progress:** 19.0%
+
+**Changes:**
+- **Alzheimer's Prevention** (neuroscience): 19% → 21% — Scientists discovered a specific molecular mechanism ('death switch') driving Alzheimer's and demonstrated ability to disable it in mice, representing concrete mechanistic progress toward understanding and prevention
+- **Cancer Treatment** (biology): 24% → 25% — New AI model (MangroveGS) demonstrates ~80% accuracy in predicting cancer metastasis risk from gene patterns, representing incremental progress in AI-assisted cancer prediction and treatment planning
+
+**Summary:** This week's news coverage focused heavily on healthcare policy, regulatory challenges, and mid-stage pharmaceutical development, with notable setbacks in the information environment and governance domains. Two articles provided concrete scientific progress: discovery of Alzheimer's molecular mechanisms in mice and an AI tool achieving 80% accuracy in cancer metastasis prediction. However, multiple stories highlighted institutional challenges undermining Amodei's predictions—including FDA politicization, AI-driven billing fraud (sepsis coding), vaccine policy turmoil, and persistent child mortality despite known interventions. The WHO reported slowing progress on child mortality reduction and ongoing Middle East health crises. These systemic governance and trust issues represent real headwinds against the optimistic scenario, though they didn't warrant downward adjustments given the essay's long timeframe. The modest upward adjustments reflect genuine but incremental scientific progress rather than major breakthroughs.
+
 ## 2026-03-16
 
 **Articles scanned:** 152 | **Overall progress:** 18.9%
