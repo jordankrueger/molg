@@ -3,6 +3,19 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-03-30
+
+**Articles scanned:** 154 | **Overall progress:** 19.4%
+
+**Changes:**
+- **Infectious Disease Prevention** (biology): 39% → 40% — WHO recommending new diagnostic tools for TB detection (point-of-care tests, tongue swabs) represents incremental progress in infectious disease prevention infrastructure and accessibility
+- **Genetic Disease** (biology): 31% → 33% — FDA approval of Rocket Pharma's Kresladi gene therapy for LAD-1 (rare immune disorder) demonstrates concrete progress in genetic disease treatment through advanced gene therapy, despite small patient numbers
+- **Everyday Enhancement** (neuroscience): 30% → 32% — Science Daily reports development of new gene therapy that turns off pain without opioids using AI-assisted brain mapping, directly addressing pain management and cognitive function enhancement
+- **Cancer Treatment** (biology): 25% → 26% — Insilico Medicine's $2.75 billion commercialization deal with Eli Lilly demonstrates significant AI-driven drug development scaling for cancer and other diseases, showing market validation of AI drug discovery
+- **Climate Change** (economics): 20% → 21% — Science Daily reports development of new carbon material that could make carbon capture more affordable and efficient, representing concrete progress toward climate-related technology advancement
+
+**Summary:** This week's review examined 80 recent articles from health, science, and technology sources. Five modest but concrete advances warrant progress updates. The most significant development is Insilico Medicine's landmark $2.75B commercialization deal with Eli Lilly, demonstrating that AI-driven drug discovery has achieved sufficient maturity for major pharmaceutical investment at scale. Gene therapy approvals (Rocket Pharma's LAD-1) and pain management breakthroughs show incremental progress in genetic disease and everyday enhancement categories. WHO's new TB diagnostics and carbon capture material advances represent continued progress in infectious disease prevention and climate technology, respectively. Several other articles discussed health policy challenges (CDC leadership transitions, healthcare workforce changes, NIH restrictions on foreign partnerships) and notable scientific findings (microplastics measurement errors, microgravity sperm behavior) but lacked sufficient concrete evidence of progress toward the specific predictions. The overall picture is one of steady incremental advancement rather than breakthrough achievements.
+
 ## 2026-03-23
 
 **Articles scanned:** 152 | **Overall progress:** 19.0%

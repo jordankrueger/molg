@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23",
+  "lastUpdated": "2026-03-30",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 39,
+        "progress": 40,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -23,13 +23,18 @@
             "title": "Chile becomes the first country in the Americas to be verified by WHO for the elimination of leprosy",
             "url": "https://www.who.int/news/item/04-03-2026-chile-becomes-the-first-country-in-the-americas-to-be-verified-by-who-for-the-elimination-of-leprosy",
             "date": "2026-03-04"
+          },
+          {
+            "title": "WHO recommends new diagnostic tools to help end TB",
+            "url": "https://www.who.int/news/item/24-03-2026-who-recommends-new-diagnostic-tools-to-help-end-tb",
+            "date": "2026-03-24"
           }
         ]
       },
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 25,
+        "progress": 26,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -45,18 +50,28 @@
             "title": "New AI tool predicts cancer spread with surprising accuracy",
             "url": "https://www.sciencedaily.com/releases/2026/03/260321012709.htm",
             "date": "2026-03-21"
+          },
+          {
+            "title": "AI drug developer Insilico Medicine and Lilly ink commercialization deal worth up to $2.75 billion",
+            "url": "https://www.statnews.com/2026/03/29/insilico-medicine-lilly-sign-ai-drug-commercialization-deal/",
+            "date": "2026-03-29"
           }
         ]
       },
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 31,
+        "progress": 33,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
             "url": "https://www.sciencedaily.com/releases/2026/03/260314030507.htm",
             "date": "2026-03-14"
+          },
+          {
+            "title": "FDA approves Rocket gene therapy for rare immune disorder",
+            "url": "https://www.statnews.com/2026/03/26/rocket-pharma-kresladi-lad-1-fda-approval/",
+            "date": "2026-03-26"
           }
         ]
       },
@@ -116,8 +131,14 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 30,
-        "evidence": []
+        "progress": 32,
+        "evidence": [
+          {
+            "title": "This new therapy turns off pain without opioids or addiction",
+            "url": "https://www.sciencedaily.com/releases/2026/03/260328043558.htm",
+            "date": "2026-03-28"
+          }
+        ]
       }
     ]
   },
@@ -146,8 +167,14 @@
       {
         "title": "Climate Change",
         "description": "Major advances in carbon removal and clean energy technology",
-        "progress": 20,
-        "evidence": []
+        "progress": 21,
+        "evidence": [
+          {
+            "title": "This new carbon material could make carbon capture far more affordable",
+            "url": "https://www.sciencedaily.com/releases/2026/03/260328043549.htm",
+            "date": "2026-03-28"
+          }
+        ]
       }
     ]
   },
