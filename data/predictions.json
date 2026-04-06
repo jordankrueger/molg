@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30",
+  "lastUpdated": "2026-04-06",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 40,
+        "progress": 41,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -61,7 +61,7 @@
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 33,
+        "progress": 35,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -72,6 +72,11 @@
             "title": "FDA approves Rocket gene therapy for rare immune disorder",
             "url": "https://www.statnews.com/2026/03/26/rocket-pharma-kresladi-lad-1-fda-approval/",
             "date": "2026-03-26"
+          },
+          {
+            "title": "Deafness reversed: One injection restores hearing in just weeks",
+            "url": "https://www.sciencedaily.com/releases/2026/04/260403044651.htm",
+            "date": "2026-04-03"
           }
         ]
       },
@@ -113,8 +118,14 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 20,
-        "evidence": []
+        "progress": 21,
+        "evidence": [
+          {
+            "title": "These overlooked brain cells may control fear and PTSD",
+            "url": "https://www.sciencedaily.com/releases/2026/04/260403224508.htm",
+            "date": "2026-04-03"
+          }
+        ]
       },
       {
         "title": "Structural Conditions",

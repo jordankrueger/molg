@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-04-06
+
+**Articles scanned:** 153 | **Overall progress:** 19.6%
+
+**Changes:**
+- **Infectious Disease Prevention** (biology): 40% → 41% — WHO recommendations for new TB diagnostic tools (point-of-care tests, tongue swabs) represent incremental progress in infectious disease detection and prevention infrastructure, though implementation is early-stage.
+- **Genetic Disease** (biology): 33% → 35% — Gene therapy successfully restores hearing in deaf patients with a single injection showing rapid results (weeks), representing a concrete breakthrough in genetic disease treatment that aligns directly with the prediction.
+- **Mental Illness Treatment** (neuroscience): 20% → 21% — Discovery that astrocytes control fear memory and PTSD responses provides mechanistic insight into treating these conditions, though this is fundamental research rather than clinical deployment.
+
+**Summary:** This evaluation covered 80 recent articles across health, science, and technology sectors. Most content did not warrant progress changes—many articles discussed policy challenges (FDA delays forcing biotech closures, budget cuts to NIH and health agencies, drug tariffs), trust erosion in medical institutions (peptides over statins, vaccine hesitancy), and systemic barriers to care (pediatric mental health gaps, insurance coverage issues). However, three concrete scientific breakthroughs merited small updates: WHO's new TB diagnostics represent infrastructural progress in infectious disease detection; a gene therapy that restores hearing via single injection is a genuine breakthrough in genetic disease treatment; and mechanistic discovery of astrocytes' role in fear/PTSD offers research progress toward mental illness treatment. The overall picture suggests AI and biotech advances exist alongside significant institutional, regulatory, and social friction preventing rapid translation to the 'machines of loving grace' outcomes.
+
 ## 2026-03-30
 
 **Articles scanned:** 154 | **Overall progress:** 19.4%
