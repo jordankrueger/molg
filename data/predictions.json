@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06",
+  "lastUpdated": "2026-04-13",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 41,
+        "progress": 42,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -28,6 +28,11 @@
             "title": "WHO recommends new diagnostic tools to help end TB",
             "url": "https://www.who.int/news/item/24-03-2026-who-recommends-new-diagnostic-tools-to-help-end-tb",
             "date": "2026-03-24"
+          },
+          {
+            "title": "First-ever WHO Forum unites 800+ Collaborating Centres for stronger scientific collaboration",
+            "url": "https://www.who.int/news/item/09-04-2026-first-ever-who-forum-unites-800--collaborating-centres-for-stronger-scientific-collaboration",
+            "date": "2026-04-09"
           }
         ]
       },
@@ -61,7 +66,7 @@
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 35,
+        "progress": 37,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -77,6 +82,11 @@
             "title": "Deafness reversed: One injection restores hearing in just weeks",
             "url": "https://www.sciencedaily.com/releases/2026/04/260403044651.htm",
             "date": "2026-04-03"
+          },
+          {
+            "title": "Clinical trial shows gene editing works for β-Thalassaemia, too",
+            "url": "https://arstechnica.com/science/2026/04/clinical-trial-shows-gene-editing-works-for-%ce%b2-thalassaemia-too/",
+            "date": "2026-04-XX"
           }
         ]
       },
@@ -100,8 +110,14 @@
       {
         "title": "Biological Freedom",
         "description": "Enhanced control over weight, appearance, reproduction, and other biological processes",
-        "progress": 25,
-        "evidence": []
+        "progress": 27,
+        "evidence": [
+          {
+            "title": "Stanford scientists discover \"natural Ozempic\" without side effects",
+            "url": "https://www.sciencedaily.com/releases/2026/04/260412221946.htm",
+            "date": "2026-04-12"
+          }
+        ]
       },
       {
         "title": "Lifespan Extension",
@@ -178,12 +194,17 @@
       {
         "title": "Climate Change",
         "description": "Major advances in carbon removal and clean energy technology",
-        "progress": 21,
+        "progress": 23,
         "evidence": [
           {
             "title": "This new carbon material could make carbon capture far more affordable",
             "url": "https://www.sciencedaily.com/releases/2026/03/260328043549.htm",
             "date": "2026-03-28"
+          },
+          {
+            "title": "Renewables dominate 2025's newly installed generating capacity",
+            "url": "https://arstechnica.com/science/2026/04/globally-86-percent-of-the-new-generating-capacity-was-renewable-in-2025/",
+            "date": "2026-04-XX"
           }
         ]
       }

@@ -3,6 +3,19 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-04-13
+
+**Articles scanned:** 153 | **Overall progress:** 20.0%
+
+**Changes:**
+- **Infectious Disease Prevention** (biology): 41% → 42% — WHO convened the first Global Forum of Collaborating Centres with 800+ institutions across 80+ countries, and announced One Health initiatives addressing zoonotic diseases and climate-health linkages. This represents concrete institutional progress toward coordinated infectious disease prevention infrastructure.
+- **Genetic Disease** (biology): 35% → 37% — Clinical trial demonstrated gene editing efficacy for β-thalassaemia, advancing CRISPR-based therapeutic applications for genetic diseases. This represents concrete clinical validation of genetic disease treatment approaches.
+- **Biological Freedom** (biology): 25% → 27% — Stanford scientists discovered BRP, an AI-identified molecule mimicking appetite-suppressing effects of Ozempic without side effects, advancing biological control over weight. Additionally, research on eating timing (fasting and early breakfast) linked to lower BMI provides evidence of behavioral mechanisms for weight management.
+- **Alzheimer's Prevention** (neuroscience): 19% → 21% — Research found that loss of smell signals early-stage Alzheimer's disease through immune-mediated destruction of smell-related nerve fibers, providing a potential early biomarker for disease detection years before cognitive decline. This advances understanding and potential early prevention pathways.
+- **Climate Change** (economics): 21% → 23% — Global renewable energy capacity deployment reached 86% of newly installed generating capacity in 2025, demonstrating accelerating clean energy transition. WHO-France One Health Summit announced new initiatives addressing climate change and zoonotic disease linkages.
+
+**Summary:** This evaluation examined 80 recent news articles from STAT News, WHO, MIT Technology Review, Ars Technica, The Verge, and Science Daily published April 6-13, 2026. Most articles covered incremental developments in healthcare delivery, pharmaceutical policy, gaming/entertainment, and space exploration rather than transformative progress toward Amodei's long-term predictions. However, five concrete advances warranted modest progress updates: WHO's historic coordination of 800+ collaborating centers for disease prevention (Infectious Disease Prevention +1%), clinical validation of CRISPR for β-thalassaemia (Genetic Disease +2%), discovery of side-effect-free appetite suppressant molecules via AI (Biological Freedom +2%), early-stage Alzheimer's detection through olfactory biomarkers (Alzheimer's Prevention +2%), and 86% renewable energy in 2025 new capacity (Climate Change +2%). Notable articles on hospital chatbots, CAR-T immunotherapy advances in autoimmunity, portable medical records initiatives, and AI-driven colorectal cancer screening showed progress in healthcare infrastructure but lacked sufficient clinical/population-level impact to warrant category changes. No evidence suggested setbacks in any prediction categories.
+
 ## 2026-04-06
 
 **Articles scanned:** 153 | **Overall progress:** 19.6%
