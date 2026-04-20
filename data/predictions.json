@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-20",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -39,7 +39,7 @@
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 26,
+        "progress": 28,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -60,13 +60,18 @@
             "title": "AI drug developer Insilico Medicine and Lilly ink commercialization deal worth up to $2.75 billion",
             "url": "https://www.statnews.com/2026/03/29/insilico-medicine-lilly-sign-ai-drug-commercialization-deal/",
             "date": "2026-03-29"
+          },
+          {
+            "title": "The race to catch KRAS, pancreatic cancer's 'greasy ball,' and create the most promising drug in decades",
+            "url": "https://www.statnews.com/2026/04/19/daraxonrasib-pancreatic-cancer-kras-revolution-medicines-patient-story/",
+            "date": "2026-04-19"
           }
         ]
       },
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 37,
+        "progress": 39,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -87,6 +92,11 @@
             "title": "Clinical trial shows gene editing works for β-Thalassaemia, too",
             "url": "https://arstechnica.com/science/2026/04/clinical-trial-shows-gene-editing-works-for-%ce%b2-thalassaemia-too/",
             "date": "2026-04-XX"
+          },
+          {
+            "title": "Clinical trial shows gene editing works for β-Thalassaemia, too",
+            "url": "https://www.arstechnica.com/science/2026/04/clinical-trial-shows-gene-editing-works-for-%ce%b2-thalassaemia-too/",
+            "date": "2026-04-15"
           }
         ]
       },
@@ -134,12 +144,17 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 21,
+        "progress": 23,
         "evidence": [
           {
             "title": "These overlooked brain cells may control fear and PTSD",
             "url": "https://www.sciencedaily.com/releases/2026/04/260403224508.htm",
             "date": "2026-04-03"
+          },
+          {
+            "title": "How Trump is pushing psychedelics reform through the health agencies",
+            "url": "https://www.statnews.com/2026/04/18/psychedelics-ptsd-mental-health-research-boost-from-trump-executive-order/",
+            "date": "2026-04-18"
           }
         ]
       },

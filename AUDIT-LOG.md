@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-04-20
+
+**Articles scanned:** 153 | **Overall progress:** 20.3%
+
+**Changes:**
+- **Cancer Treatment** (biology): 26% → 28% — Revolution Medicines' daraxonrasib showing unprecedented success in pancreatic cancer (KRAS mutation), with doubled survival time for patients. Multiple articles describe this as potentially 'opening up a new era' of treatment. This represents concrete clinical progress on one of the hardest cancer types.
+- **Mental Illness Treatment** (neuroscience): 21% → 23% — Trump administration directed federal government to rush access to psychedelic treatments and reevaluate their status as controlled substances. This represents meaningful policy acceleration toward PTSD and depression treatment, though implementation still pending.
+- **Genetic Disease** (biology): 37% → 39% — Clinical trial demonstrated gene editing success for β-Thalassaemia, expanding the practical applications of CRISPR-based genetic disease treatment beyond previous targets.
+
+**Summary:** This week's news review focused on 80 articles spanning healthcare, biology, physics, and space. Three articles warranted modest progress updates. The most significant is Revolution Medicines' breakthrough with daraxonrasib for pancreatic cancer (KRAS mutations), showing doubled survival times in clinical trials—representing concrete progress on one of the most difficult cancer types. The Trump administration's executive order to accelerate psychedelic drug access for mental health conditions, particularly PTSD, represents policy-level acceleration toward mental illness treatment, though implementation details remain pending. A clinical trial showing successful gene editing for β-Thalassaemia extends the proven track record of genetic disease treatment. Notable but insufficient for changes: articles on measles outbreak setbacks (contradicting infectious disease prevention), continued healthcare access restrictions for reproductive and transgender care (contradicting biological freedom), and Sudan's deepening health crisis (contradicting health distribution goals). These setbacks offset some optimistic developments and reflect ongoing structural barriers to achieving Amodei's predictions.
+
 ## 2026-04-13
 
 **Articles scanned:** 153 | **Overall progress:** 20.0%
