@@ -3,6 +3,19 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-04-27
+
+**Articles scanned:** 156 | **Overall progress:** 20.9%
+
+**Changes:**
+- **Mental Illness Treatment** (neuroscience): 23% → 25% — FDA approval for Motif Neurotech's brain implant feasibility trial represents concrete progress toward treating depression through neurotech intervention, moving from research to clinical testing phase.
+- **Everyday Enhancement** (neuroscience): 32% → 34% — FDA expedited review of psychedelics for mental health treatments and Trump administration support signals regulatory acceleration for novel mood and mental health interventions beyond traditional pharmaceuticals.
+- **Infectious Disease Prevention** (biology): 42% → 44% — WHO prequalification of first-ever malaria treatment for newborns and infants, plus trachoma elimination in Algeria and mother-to-child HIV transmission elimination in Bahamas represent concrete advances in infectious disease prevention and treatment reach.
+- **Health Distribution** (economics): 10% → 12% — WHO's Big Catch-Up initiative delivering 100+ million childhood vaccinations to 36 countries and multiple African disease eliminations demonstrate expanding health benefits reaching developing regions.
+- **Climate Change** (economics): 23% → 25% — Court ruling blocking anti-renewable policies and reports of 'largest ever' global solar growth represent tangible policy and deployment progress in clean energy technology advancement.
+
+**Summary:** This week's news evaluation focused on recent biomedical, WHO health initiatives, and clean energy developments. Notable concrete progress emerged in mental health treatment with FDA approval of a brain implant trial for depression and FDA expedited review of psychedelics, supporting the neuroscience predictions. WHO achievements in infectious disease—including first-ever newborn malaria treatment, trachoma elimination, and HIV transmission elimination—demonstrate tangible disease prevention progress with global reach. Vaccination initiatives reaching developing nations support health distribution predictions. Clean energy reported record solar growth with supportive court rulings. Minor negative signals appeared regarding AI healthcare adoption (Utah AI doctor suspension) and research integrity (journal retraction issues), but these didn't warrant prediction decreases as they reflect implementation challenges rather than capability setbacks. Five conservative 2-point increases were warranted based on concrete clinical/policy milestones rather than announcements.
+
 ## 2026-04-20
 
 **Articles scanned:** 153 | **Overall progress:** 20.3%

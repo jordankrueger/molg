@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20",
+  "lastUpdated": "2026-04-27",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 42,
+        "progress": 44,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -33,6 +33,11 @@
             "title": "First-ever WHO Forum unites 800+ Collaborating Centres for stronger scientific collaboration",
             "url": "https://www.who.int/news/item/09-04-2026-first-ever-who-forum-unites-800--collaborating-centres-for-stronger-scientific-collaboration",
             "date": "2026-04-09"
+          },
+          {
+            "title": "WHO prequalifies first-ever malaria treatment for newborns and infants, adds new diagnostic tests",
+            "url": "https://www.who.int/news/item/24-04-2026-who-prequalifies-first-ever-malaria-treatment-for-newborns-and-infants-adds-new-diagnostic-tests",
+            "date": "2026-04-24"
           }
         ]
       },
@@ -144,7 +149,7 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 23,
+        "progress": 25,
         "evidence": [
           {
             "title": "These overlooked brain cells may control fear and PTSD",
@@ -155,6 +160,11 @@
             "title": "How Trump is pushing psychedelics reform through the health agencies",
             "url": "https://www.statnews.com/2026/04/18/psychedelics-ptsd-mental-health-research-boost-from-trump-executive-order/",
             "date": "2026-04-18"
+          },
+          {
+            "title": "STAT+: Zap in a cap: How one neurotech startup is using a hat to treat depression",
+            "url": "https://www.statnews.com/2026/04/27/motif-neurotech-gets-fda-nod-brain-implant-depression/?utm_campaign=rss",
+            "date": "2026-04-27"
           }
         ]
       },
@@ -173,12 +183,17 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 32,
+        "progress": 34,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
             "url": "https://www.sciencedaily.com/releases/2026/03/260328043558.htm",
             "date": "2026-03-28"
+          },
+          {
+            "title": "STAT+: FDA to speed up review of three psychedelics as mental health treatments",
+            "url": "https://www.statnews.com/2026/04/24/trump-psychedelic-drugs-fda-priority-review-mental-health-treatment/?utm_campaign=rss",
+            "date": "2026-04-24"
           }
         ]
       }
@@ -191,8 +206,14 @@
       {
         "title": "Health Distribution",
         "description": "50% of AI-driven health benefits reaching poorest countries",
-        "progress": 10,
-        "evidence": []
+        "progress": 12,
+        "evidence": [
+          {
+            "title": "Largest catch-up initiative delivers over 100 million childhood vaccinations",
+            "url": "https://www.who.int/news/item/24-04-2026-largest-catch-up-initiative-delivers-over-100-million-childhood-vaccinations",
+            "date": "2026-04-24"
+          }
+        ]
       },
       {
         "title": "Economic Growth",
@@ -209,7 +230,7 @@
       {
         "title": "Climate Change",
         "description": "Major advances in carbon removal and clean energy technology",
-        "progress": 23,
+        "progress": 25,
         "evidence": [
           {
             "title": "This new carbon material could make carbon capture far more affordable",
@@ -220,6 +241,11 @@
             "title": "Renewables dominate 2025's newly installed generating capacity",
             "url": "https://arstechnica.com/science/2026/04/globally-86-percent-of-the-new-generating-capacity-was-renewable-in-2025/",
             "date": "2026-04-XX"
+          },
+          {
+            "title": "Global growth in solar \"the largest ever observed for any source\"",
+            "url": "https://arstechnica.com/science/2026/04/global-growth-in-solar-the-largest-ever-observed-for-any-source/",
+            "date": "2026-04-24"
           }
         ]
       }
