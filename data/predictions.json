@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-05-04",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 44,
+        "progress": 46,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -149,7 +149,7 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 25,
+        "progress": 26,
         "evidence": [
           {
             "title": "These overlooked brain cells may control fear and PTSD",
@@ -165,6 +165,11 @@
             "title": "STAT+: Zap in a cap: How one neurotech startup is using a hat to treat depression",
             "url": "https://www.statnews.com/2026/04/27/motif-neurotech-gets-fda-nod-brain-implant-depression/?utm_campaign=rss",
             "date": "2026-04-27"
+          },
+          {
+            "title": "Scientists just discovered what coffee is really doing to your gut and brain",
+            "url": "https://www.sciencedaily.com/releases/2026/05/260502233911.htm",
+            "date": "2026-05-02"
           }
         ]
       },
@@ -258,18 +263,29 @@
       {
         "title": "Democratic Advantage",
         "description": "Democratic coalition gaining clear advantage in AI capabilities",
-        "progress": 25,
-        "evidence": []
+        "progress": 23,
+        "evidence": [
+          {
+            "title": "Trump's mass firing just dealt another blow to American science",
+            "url": "https://www.technologyreview.com/2026/05/01/1136722/mass-firing-trump-fresh-blow-american-science-nsf-nsb/",
+            "date": "2026-05-01"
+          }
+        ]
       },
       {
         "title": "Information Environment",
         "description": "Creation of globally free information environment",
-        "progress": 13,
+        "progress": 11,
         "evidence": [
           {
             "title": "STAT+: As controversial decisions mount, FDA shuns public advisory meetings",
             "url": "https://www.statnews.com/2026/03/09/fda-cuts-back-advisory-meetings-controversial-decisions-grow/",
             "date": "2026-03-09"
+          },
+          {
+            "title": "A new US phone network for Christians aims to block porn and gender-related content",
+            "url": "https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/",
+            "date": "2026-05-01"
           }
         ]
       },

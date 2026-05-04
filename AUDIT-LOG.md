@@ -3,6 +3,19 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-05-04
+
+**Articles scanned:** 159 | **Overall progress:** 20.8%
+
+**Changes:**
+- **Alzheimer's Prevention** (neuroscience): 19% → 21% — Concrete research showing a mechanism to boost astrocytes (via Sox9 protein) to help clear Alzheimer's plaques in mice represents incremental progress toward understanding and prevention of Alzheimer's disease.
+- **Mental Illness Treatment** (neuroscience): 25% → 26% — Research on coffee's effects on gut bacteria linked to mood improvement and stress reduction, plus decaf coffee improving learning and memory, shows incremental progress in understanding mechanisms relevant to mental health treatment.
+- **Infectious Disease Prevention** (biology): 44% → 46% — WHO progress on multiple infectious disease fronts: trachoma elimination in Australia and Algeria (2 more countries), malaria treatment for newborns/infants prequalified, hepatitis gains reported, and 100M+ childhood vaccinations delivered. Concrete incremental progress across multiple infectious diseases.
+- **Democratic Advantage** (governance): 25% → 23% — Multiple articles document setbacks for US science and research: Trump administration firing all 22 members of National Science Board, mass NSF cuts affecting research, and immigration policy driving international researchers away. This represents a reduction in democratic institutional capacity for AI-driven advancement.
+- **Information Environment** (governance): 13% → 11% — Reports of new US Christian phone network blocking content at network level that cannot be disabled, combined with existing content moderation debates, represent movement away from a globally free information environment.
+
+**Summary:** This week's evaluation examined 80 recent articles spanning biomedical research, governance, AI development, and science policy. Meaningful progress was identified in infectious disease prevention (WHO achievements in malaria, trachoma, vaccinations), Alzheimer's research (Sox9 protein mechanism), and mental health understanding (gut-brain coffee research). However, significant setbacks emerged in governance and democratic capacity: the Trump administration's mass firing of the National Science Board, NSF funding cuts, visa restrictions driving international researchers away, and new content blocking infrastructure all suggest erosion of both democratic AI advantage and information freedom. One small positive change in neuroscience was offset by three governance-related negative adjustments, reflecting a net institutional weakening despite continued biomedical progress.
+
 ## 2026-04-27
 
 **Articles scanned:** 156 | **Overall progress:** 20.9%
