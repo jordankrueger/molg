@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-05-11
+
+**Articles scanned:** 157 | **Overall progress:** 21.1%
+
+**Changes:**
+- **Lifespan Extension** (biology): 10% → 12% — Concrete experimental evidence of longevity gene transfer from naked mole rats to mice resulting in extended lifespan and improved health outcomes represents tangible progress toward understanding and potentially implementing lifespan extension mechanisms.
+- **Structural Conditions** (neuroscience): 10% → 12% — Discovery of brain structural differences in psychopathy (striatum ~10% larger) provides concrete neurobiological understanding of a structural condition, advancing toward potential interventions mentioned in the prediction.
+- **Alzheimer's Prevention** (biology): 19% → 20% — Study demonstrating that restoring youthful gut microbiome reverses liver aging and prevents cancer in mice represents incremental progress in understanding aging mechanisms relevant to neurodegenerative diseases, though effect on Alzheimer's specifically remains indirect.
+
+**Summary:** This week's articles were reviewed against Amodei's predictions with conservative assessment standards. Most coverage focused on ongoing healthcare administration issues (FDA leadership, hantavirus outbreak response), incremental pharmaceutical developments, and technology news unrelated to the specific predictions. Three articles provided concrete scientific evidence warranting small progress updates: successful longevity gene transfer in mice (Lifespan Extension +2%), discovery of neurobiological markers in psychopathy (Structural Conditions +2%), and reversal of liver aging via microbiome restoration (Alzheimer's Prevention +1%). Articles on IVF technology advancement and AI in healthcare regulation were noteworthy contextually but lacked sufficient concrete evidence of progress toward the specific predictions evaluated. The hantavirus outbreak and various pharmaceutical disputes represent ongoing challenges but not progress toward the stated goals.
+
 ## 2026-05-04
 
 **Articles scanned:** 159 | **Overall progress:** 20.8%

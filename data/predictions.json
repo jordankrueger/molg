@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04",
+  "lastUpdated": "2026-05-11",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -108,7 +108,7 @@
       {
         "title": "Alzheimer's Prevention",
         "description": "Understanding and prevention of Alzheimer's disease",
-        "progress": 19,
+        "progress": 20,
         "evidence": [
           {
             "title": "Beyond amyloid plaques: AI reveals hidden chemical changes across the Alzheimer's brain",
@@ -119,6 +119,11 @@
             "title": "Scientists discover hidden brain cells that may stop Alzheimer's tau buildup",
             "url": "https://www.sciencedaily.com/releases/2026/03/260307155945.htm",
             "date": "2026-03-07"
+          },
+          {
+            "title": "Scientists reversed liver aging with young gut bacteria in stunning study",
+            "url": "https://www.sciencedaily.com/releases/2026/05/260509210643.htm",
+            "date": "2026-05-09"
           }
         ]
       },
@@ -137,8 +142,14 @@
       {
         "title": "Lifespan Extension",
         "description": "Doubling of human lifespan to ~150 years",
-        "progress": 10,
-        "evidence": []
+        "progress": 12,
+        "evidence": [
+          {
+            "title": "Scientists successfully transfer longevity gene and extend lifespan",
+            "url": "https://www.sciencedaily.com/releases/2026/05/260510030948.htm",
+            "date": "2026-05-10"
+          }
+        ]
       }
     ]
   },
@@ -176,8 +187,14 @@
       {
         "title": "Structural Conditions",
         "description": "Solutions for 'structural' conditions like psychopathy and some forms of autism",
-        "progress": 10,
-        "evidence": []
+        "progress": 12,
+        "evidence": [
+          {
+            "title": "Brain scans reveal a shocking difference between psychopaths and other people",
+            "url": "https://www.sciencedaily.com/releases/2026/05/260510030946.htm",
+            "date": "2026-05-10"
+          }
+        ]
       },
       {
         "title": "Genetic Prevention",
