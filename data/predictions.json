@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 47,
+        "progress": 48,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -113,7 +113,7 @@
       {
         "title": "Alzheimer's Prevention",
         "description": "Understanding and prevention of Alzheimer's disease",
-        "progress": 20,
+        "progress": 22,
         "evidence": [
           {
             "title": "Beyond amyloid plaques: AI reveals hidden chemical changes across the Alzheimer's brain",
@@ -129,6 +129,11 @@
             "title": "Scientists reversed liver aging with young gut bacteria in stunning study",
             "url": "https://www.sciencedaily.com/releases/2026/05/260509210643.htm",
             "date": "2026-05-09"
+          },
+          {
+            "title": "Scientists reverse Alzheimer's in mice with breakthrough nanotechnology",
+            "url": "https://www.sciencedaily.com/releases/2026/05/260517030326.htm",
+            "date": "2026-05-17"
           }
         ]
       },

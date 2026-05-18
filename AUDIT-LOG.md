@@ -5,6 +5,17 @@ Each entry shows what was scanned, what changed, and why.
 
 ## 2026-05-18
 
+**Articles scanned:** 157 | **Overall progress:** 21.4%
+
+**Changes:**
+- **Alzheimer's Prevention** (biology): 20% → 22% — Science Daily reports scientists reversed Alzheimer's symptoms in mice using nanotechnology that restores the brain's natural cleanup system and repairs the blood-brain barrier. While this is promising preclinical research, it demonstrates meaningful progress toward understanding and preventing Alzheimer's, though human trials remain ahead.
+- **Mental Illness Treatment** (biology): 26% → 27% — Science Daily reports researchers identified a previously unknown brain nutrient deficit (choline) linked to anxiety disorders, with strongest evidence in the prefrontal cortex. This represents concrete progress in understanding the biological mechanisms underlying anxiety, which could lead to more effective treatments.
+- **Infectious Disease Prevention** (biology): 47% → 48% — Tunisia was validated by WHO as having eliminated trachoma as a public health problem, marking a significant achievement in infectious disease control. While a single disease elimination does not dramatically shift the trajectory, it demonstrates concrete progress toward the goal of preventing natural infectious diseases.
+
+**Summary:** This week's news coverage revealed mixed signals on AI-driven health progress. The most significant developments were three concrete scientific advances: reversal of Alzheimer's symptoms in mice through nanotechnology-based brain cleanup restoration, identification of a choline nutrient deficit in anxiety disorders, and Tunisia's validated elimination of trachoma as a public health problem. However, the broader health landscape showed concerning trends. WHO's global health statistics report indicated that the world is falling short on health targets with progress slowing or reversing in some areas. Multiple infectious disease outbreaks dominated headlines (Ebola in DRC/Uganda, hantavirus on cruise ships), and institutional instability in health governance emerged with FDA leadership departures. While the specific scientific breakthroughs warrant modest progress updates for Alzheimer's prevention, mental illness treatment, and infectious disease prevention, they are offset by evidence that global health progress overall remains sluggish and vulnerable to setbacks from emerging disease threats.
+
+## 2026-05-18
+
 **Articles scanned:** 157 | **Overall progress:** 21.2%
 
 **Changes:**
