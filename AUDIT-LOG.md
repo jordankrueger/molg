@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-05-18
+
+**Articles scanned:** 157 | **Overall progress:** 21.2%
+
+**Changes:**
+- **Alzheimer's Prevention** (neuroscience): 20% → 22% — Breakthrough nanotechnology treatment that reversed Alzheimer's symptoms in mice by restoring the brain's natural cleanup system and repairing the blood-brain barrier represents concrete progress toward understanding and preventing Alzheimer's disease mechanisms.
+- **Everyday Enhancement** (neuroscience): 34% → 35% — Discovery that people with anxiety disorders have noticeably lower levels of choline, a brain nutrient crucial for healthy brain function, provides a concrete biochemical target for addressing anxiety management through nutritional intervention.
+- **Infectious Disease Prevention** (biology): 46% → 47% — Tunisia validated by WHO as having eliminated trachoma as a public health problem represents concrete progress in infectious disease prevention at scale, demonstrating that near-eradication of specific infectious diseases is achievable.
+
+**Summary:** This week's review focused on 80 recent articles from STAT News, WHO, MIT Technology Review, Ars Technica, The Verge, and Science Daily (May 7-18, 2026). The dominant theme was emerging infectious disease crises (Ebola outbreak declared PHEIC, hantavirus outbreak responses) and governance/regulatory turbulence in healthcare (FDA leadership upheaval, CDC advisory committee credibility issues, political interference in health policy). While these negative developments are notable, they suggest setbacks in governance and disease prevention capacity that offset some progress indicators. However, three concrete scientific breakthroughs warrant small upward adjustments: (1) a nanotechnology breakthrough reversing Alzheimer's symptoms in mice, supporting the neuroscience prevention goal; (2) identification of choline deficiency in anxiety disorders, advancing everyday mental health enhancement; and (3) Tunisia's WHO-validated elimination of trachoma, confirming progress on infectious disease prevention. The news landscape shows tension between incremental scientific advances and deteriorating global health governance and preparedness systems.
+
 ## 2026-05-11
 
 **Articles scanned:** 157 | **Overall progress:** 21.1%

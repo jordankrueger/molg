@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11",
+  "lastUpdated": "2026-05-18",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 46,
+        "progress": 47,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -38,6 +38,11 @@
             "title": "WHO prequalifies first-ever malaria treatment for newborns and infants, adds new diagnostic tests",
             "url": "https://www.who.int/news/item/24-04-2026-who-prequalifies-first-ever-malaria-treatment-for-newborns-and-infants-adds-new-diagnostic-tests",
             "date": "2026-04-24"
+          },
+          {
+            "title": "Tunisia validated by WHO as having eliminated trachoma as a public health problem",
+            "url": "https://www.who.int/news/item/14-05-2026-who-validates-tunisia-trachoma-elimination",
+            "date": "2026-05-14"
           }
         ]
       },
@@ -205,7 +210,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 34,
+        "progress": 35,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -216,6 +221,11 @@
             "title": "STAT+: FDA to speed up review of three psychedelics as mental health treatments",
             "url": "https://www.statnews.com/2026/04/24/trump-psychedelic-drugs-fda-priority-review-mental-health-treatment/?utm_campaign=rss",
             "date": "2026-04-24"
+          },
+          {
+            "title": "Scientists find hidden brain nutrient deficit that may fuel anxiety",
+            "url": "https://www.sciencedaily.com/releases/2026/05/260515234759.htm",
+            "date": "2026-05-15"
           }
         ]
       }
