@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "MOLG Bot"
           git config user.email "noreply@aiprogresstracker.com"
-          git add data/predictions.json AUDIT-LOG.md
+          git add data/predictions.json AUDIT-LOG.md data/last-run-summary.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else

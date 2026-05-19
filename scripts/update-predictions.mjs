@@ -19,6 +19,19 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
 const PREDICTIONS_PATH = resolve(ROOT, 'data/predictions.json');
 const AUDIT_LOG_PATH = resolve(ROOT, 'AUDIT-LOG.md');
+const SUMMARY_PATH = resolve(ROOT, 'data/last-run-summary.json');
+
+function writeRunSummary({ rssFeedsOk, articlesEvaluated, predictionsChanged, note }) {
+  const payload = {
+    generated_at: new Date().toISOString(),
+    rss_feeds_ok: rssFeedsOk,
+    rss_feeds_total: RSS_FEEDS.length,
+    articles_evaluated: articlesEvaluated,
+    predictions_changed: predictionsChanged,
+  };
+  if (note) payload.note = note;
+  writeFileSync(SUMMARY_PATH, JSON.stringify(payload, null, 2) + '\n');
+}
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 if (!ANTHROPIC_API_KEY) {
@@ -163,8 +176,10 @@ async function main() {
   const feedResults = await Promise.allSettled(
     RSS_FEEDS.map(feed => fetchFeed(feed))
   );
+  let rssFeedsOk = 0;
   for (const result of feedResults) {
     if (result.status === 'fulfilled') {
+      rssFeedsOk += 1;
       allItems.push(...result.value);
     }
   }
@@ -176,8 +191,16 @@ async function main() {
   if (recentItems.length === 0) {
     console.log('No recent articles found. Writing audit log and exiting.');
     appendAuditLog(today, 0, 'No recent articles found from any RSS feeds. Feeds may be down.', [], predictions);
+    writeRunSummary({
+      rssFeedsOk,
+      articlesEvaluated: 0,
+      predictionsChanged: 0,
+      note: 'No recent articles found from any RSS feeds.',
+    });
     process.exit(0);
   }
+
+  const articlesEvaluated = Math.min(recentItems.length, 80);
 
   // 4. Build article summary for Claude (truncate to keep token usage reasonable)
   const articleSummary = recentItems
@@ -251,6 +274,12 @@ If no changes are warranted, return: { "changes": [], "summary": "..." }`;
   } catch (err) {
     console.error('Failed to parse Claude response:', responseText.slice(0, 500));
     appendAuditLog(today, recentItems.length, 'Error: Could not parse Claude API response.', [], predictions);
+    writeRunSummary({
+      rssFeedsOk,
+      articlesEvaluated,
+      predictionsChanged: 0,
+      note: 'Claude API response unparseable.',
+    });
     process.exit(1);
   }
 
@@ -309,6 +338,14 @@ If no changes are warranted, return: { "changes": [], "summary": "..." }`;
   // 8. Write audit log
   appendAuditLog(today, recentItems.length, evaluation.summary, evaluation.changes, predictions);
   console.log('Audit log updated.');
+
+  // 9. Write run summary for Drift watcher
+  writeRunSummary({
+    rssFeedsOk,
+    articlesEvaluated,
+    predictionsChanged: evaluation.changes.length,
+  });
+  console.log('Run summary written.');
 }
 
 function appendAuditLog(date, articlesScanned, summary, changes, predictions) {
