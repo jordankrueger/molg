@@ -3,6 +3,16 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-05-19
+
+**Articles scanned:** 159 | **Overall progress:** 21.4%
+
+**Changes:**
+- **Alzheimer's Prevention** (neuroscience): 22% → 24% — Concrete breakthrough in nanotechnology demonstrated reversal of Alzheimer's symptoms in mice through amyloid protein clearance and blood-brain barrier repair. While animal models don't guarantee human efficacy, this represents meaningful mechanistic progress toward understanding and preventing Alzheimer's.
+- **Cancer Treatment** (biology): 28% → 29% — Article describes CAR-T immunotherapy (a revolutionary cancer treatment) showing potential to transform autoimmune disease treatment. This represents incremental progress in cancer treatment technology, though evidence of 95%+ mortality reduction is still distant.
+
+**Summary:** This week's news coverage focused heavily on infectious disease outbreak management (Ebola, hantavirus), healthcare policy and access issues (drug pricing, insurance coverage), and broader scientific breakthroughs. While WHO reporting indicated global health gains are slowing and reversing in many areas—a concerning sign for poverty and disease predictions—there were two concrete scientific advances: a nanotechnology breakthrough reversing Alzheimer's symptoms in mice, and progress in leveraging CAR-T cancer immunotherapy for broader therapeutic applications. Most other articles addressed policy, regulatory, or legal matters rather than scientific progress toward the essay's predictions. The news cycle revealed significant infrastructure challenges in healthcare delivery and access rather than fundamental breakthroughs on the major prediction targets.
+
 ## 2026-05-18
 
 **Articles scanned:** 157 | **Overall progress:** 21.4%

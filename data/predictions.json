@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-19",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -49,7 +49,7 @@
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 28,
+        "progress": 29,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -75,6 +75,11 @@
             "title": "The race to catch KRAS, pancreatic cancer's 'greasy ball,' and create the most promising drug in decades",
             "url": "https://www.statnews.com/2026/04/19/daraxonrasib-pancreatic-cancer-kras-revolution-medicines-patient-story/",
             "date": "2026-04-19"
+          },
+          {
+            "title": "A revolutionary cancer treatment could transform autoimmune disease",
+            "url": "https://arstechnica.com/science/2026/05/a-revolutionary-cancer-treatment-could-transform-autoimmune-disease/",
+            "date": "2026-05-18"
           }
         ]
       },
