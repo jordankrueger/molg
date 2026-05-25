@@ -3,6 +3,18 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-05-25
+
+**Articles scanned:** 164 | **Overall progress:** 21.7%
+
+**Changes:**
+- **Cancer Treatment** (biology): 29% → 31% — Merck-Kelun ADC drug showed 65% risk reduction in tumor progression for lung cancer in Phase 3 trial, and Lilly's triple-G drug showed positive arthritis trial results. These represent concrete clinical advances in targeted cancer therapies, though still incremental progress toward the 95%+ mortality reduction target.
+- **Everyday Enhancement** (neuroscience): 35% → 36% — AI applications for routine clinical intake and check-in processes represent concrete progress toward AI-enabled solutions for everyday cognitive and organizational challenges. Opinion piece acknowledges practical value of AI in administrative health tasks, showing real-world deployment potential.
+- **Infectious Disease Prevention** (biology): 48% → 49% — Tunisia validated by WHO as having eliminated trachoma as a public health problem, representing concrete progress on infectious disease prevention. Additionally, AI-based systems successfully completed drug-retargeting tasks, potentially accelerating infectious disease treatment discovery.
+- **Lifespan Extension** (biology): 12% → 13% — Retro Biosciences (Sam Altman's longevity startup) successfully raised $1.8 billion in funding, demonstrating significant capital mobilization for lifespan extension research. While not a direct scientific breakthrough, it represents substantial real-world progress toward developing longevity interventions.
+
+**Summary:** This week's news showed incremental but real progress in several prediction areas. Most notably, concrete clinical trial results for cancer treatments (Merck-Kelun ADC achieving 65% tumor progression risk reduction) support modest progress on Cancer Treatment. Infrastructure developments like Retro Biosciences' major funding round and AI-enabled healthcare administrative tools represent tangible steps toward Lifespan Extension and Everyday Enhancement. Tunisia's WHO-validated elimination of trachoma and successful AI drug-retargeting work support incremental progress on Infectious Disease Prevention. However, several articles highlighted setbacks (Parkinson's drug trial failure, political/regulatory challenges to health initiatives, reports of global health gains facing reversal) that suggest headwinds remain. Most other predictions showed little concrete evidence of progress in available news, with many dominated by political, administrative, or policy concerns rather than scientific breakthroughs.
+
 ## 2026-05-19
 
 **Articles scanned:** 159 | **Overall progress:** 21.4%

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19",
+  "lastUpdated": "2026-05-25",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 48,
+        "progress": 49,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -43,13 +43,18 @@
             "title": "Tunisia validated by WHO as having eliminated trachoma as a public health problem",
             "url": "https://www.who.int/news/item/14-05-2026-who-validates-tunisia-trachoma-elimination",
             "date": "2026-05-14"
+          },
+          {
+            "title": "Tunisia validated by WHO as having eliminated trachoma as a public health problem",
+            "url": "https://www.who.int/news/item/14-05-2026-tunisia-validated-by-who-as-having-eliminated-trachoma-as-a-public-health-problem",
+            "date": "2026-05-14"
           }
         ]
       },
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 29,
+        "progress": 31,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -80,6 +85,11 @@
             "title": "A revolutionary cancer treatment could transform autoimmune disease",
             "url": "https://arstechnica.com/science/2026/05/a-revolutionary-cancer-treatment-could-transform-autoimmune-disease/",
             "date": "2026-05-18"
+          },
+          {
+            "title": "Merck-Kelun lung cancer drug cut risk of tumor progression by 65%, ASCO abstract shows",
+            "url": "https://www.statnews.com/2026/05/21/merck-kelun-sac-tmt-lung-cancer-drug-trial-results/",
+            "date": "2026-05-21"
           }
         ]
       },
@@ -157,12 +167,17 @@
       {
         "title": "Lifespan Extension",
         "description": "Doubling of human lifespan to ~150 years",
-        "progress": 12,
+        "progress": 13,
         "evidence": [
           {
             "title": "Scientists successfully transfer longevity gene and extend lifespan",
             "url": "https://www.sciencedaily.com/releases/2026/05/260510030948.htm",
             "date": "2026-05-10"
+          },
+          {
+            "title": "Longevity startup Retro Biosciences says latest fundraising values it at $1.8 billion",
+            "url": "https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/",
+            "date": "2026-05-22"
           }
         ]
       }
@@ -220,7 +235,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 35,
+        "progress": 36,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -236,6 +251,11 @@
             "title": "Scientists find hidden brain nutrient deficit that may fuel anxiety",
             "url": "https://www.sciencedaily.com/releases/2026/05/260515234759.htm",
             "date": "2026-05-15"
+          },
+          {
+            "title": "Opinion: Check-in and intake at the doctor's office are perfect for AI",
+            "url": "https://www.statnews.com/2026/05/22/chatbots-doctor-office-check-in-intake-ai/",
+            "date": "2026-05-22"
           }
         ]
       }
