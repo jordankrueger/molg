@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25",
+  "lastUpdated": "2026-06-01",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 49,
+        "progress": 48,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -48,13 +48,18 @@
             "title": "Tunisia validated by WHO as having eliminated trachoma as a public health problem",
             "url": "https://www.who.int/news/item/14-05-2026-tunisia-validated-by-who-as-having-eliminated-trachoma-as-a-public-health-problem",
             "date": "2026-05-14"
+          },
+          {
+            "title": "As Ebola outbreak grows, Trump administration veers from previous government playbook",
+            "url": "https://www.statnews.com/2026/05/30/trump-ebola-response-biden-pandemic-preparations-thrown-away/",
+            "date": "2026-05-30"
           }
         ]
       },
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 31,
+        "progress": 33,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -90,13 +95,18 @@
             "title": "Merck-Kelun lung cancer drug cut risk of tumor progression by 65%, ASCO abstract shows",
             "url": "https://www.statnews.com/2026/05/21/merck-kelun-sac-tmt-lung-cancer-drug-trial-results/",
             "date": "2026-05-21"
+          },
+          {
+            "title": "STAT+: Practice-changing results reported for Revolution Medicines pancreatic cancer drug",
+            "url": "https://www.statnews.com/2026/05/31/pancreatic-cancer-daraxonrasib-revolution-medicines-results-asco-2026/",
+            "date": "2026-05-31"
           }
         ]
       },
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 39,
+        "progress": 40,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -122,6 +132,11 @@
             "title": "Clinical trial shows gene editing works for β-Thalassaemia, too",
             "url": "https://www.arstechnica.com/science/2026/04/clinical-trial-shows-gene-editing-works-for-%ce%b2-thalassaemia-too/",
             "date": "2026-04-15"
+          },
+          {
+            "title": "STAT+: Servier to buy Edgewise Therapeutics' muscular dystrophy drug",
+            "url": "https://www.statnews.com/2026/06/01/servier-edgewise-therapeutics-muscular-dystrophy-drug-sevasemten/",
+            "date": "2026-06-01"
           }
         ]
       },
@@ -235,7 +250,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 36,
+        "progress": 37,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -256,6 +271,11 @@
             "title": "Opinion: Check-in and intake at the doctor's office are perfect for AI",
             "url": "https://www.statnews.com/2026/05/22/chatbots-doctor-office-check-in-intake-ai/",
             "date": "2026-05-22"
+          },
+          {
+            "title": "China has approved the world's first invasive brain-computer chip—here's what's next",
+            "url": "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/",
+            "date": "2026-06-01"
           }
         ]
       }
@@ -292,7 +312,7 @@
       {
         "title": "Climate Change",
         "description": "Major advances in carbon removal and clean energy technology",
-        "progress": 25,
+        "progress": 27,
         "evidence": [
           {
             "title": "This new carbon material could make carbon capture far more affordable",
@@ -308,6 +328,11 @@
             "title": "Global growth in solar \"the largest ever observed for any source\"",
             "url": "https://arstechnica.com/science/2026/04/global-growth-in-solar-the-largest-ever-observed-for-any-source/",
             "date": "2026-04-24"
+          },
+          {
+            "title": "How a new extraction process could unlock the world's lithium",
+            "url": "https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero/",
+            "date": "2026-05-28"
           }
         ]
       }

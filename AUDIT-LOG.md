@@ -3,6 +3,19 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-06-01
+
+**Articles scanned:** 162 | **Overall progress:** 22.0%
+
+**Changes:**
+- **Cancer Treatment** (biology): 31% → 33% — Multiple concrete clinical advances reported at ASCO 2026: Revolution Medicines' daraxonrasib showed practice-changing results for pancreatic cancer (extending survival from 6.7 to 13.2 months), BioNTech/Pfizer bispecifics showed promising lung cancer data, and low-dose immunotherapies demonstrated efficacy in head/neck squamous cell carcinoma in resource-limited settings. These represent incremental but meaningful progress toward better cancer outcomes.
+- **Genetic Disease** (biology): 39% → 40% — Servier's $1.55 billion acquisition of Edgewise Therapeutics' muscular dystrophy drug (sevasemten) represents commercial validation and advancement of genetic disease treatment. This indicates meaningful progress in translating genetic disease research into accessible therapies.
+- **Infectious Disease Prevention** (biology): 49% → 48% — The ongoing Ebola Bundibugyo outbreak in DRC with cases spreading to Uganda, combined with reports that the Trump administration is disregarding previous pandemic preparedness playbooks, represents a concerning setback to infectious disease prevention capabilities and coordination. This suggests structural vulnerabilities in global disease prevention infrastructure.
+- **Everyday Enhancement** (neuroscience): 36% → 37% — China's approval of the world's first invasive brain-computer interface chip, demonstrated by paralyzed patient Dong Hui successfully using it to write, represents concrete progress in neural enhancement and brain-computer interfaces for functional improvement, advancing everyday enhancement capabilities.
+- **Climate Change** (economics): 25% → 27% — Multiple concrete advances in clean energy and related technologies: new lithium extraction process that reduces costs and environmental impact, climate tech companies going public with significant valuations ($6 billion for Solv Energy), and solar/hydro pushing coal off the US grid. These represent tangible progress toward climate solutions infrastructure.
+
+**Summary:** This week's news coverage included significant developments in oncology (ASCO 2026 conference with multiple cancer drug advances), neurotechnology (China's first invasive brain-computer chip), clean energy (lithium extraction breakthrough and climate tech IPOs), and genetic diseases (muscular dystrophy drug acquisition). However, an active Ebola outbreak with concerning pandemic response gaps offset some optimism. Five changes were warranted: small increases for cancer treatment (ASCO results), genetic disease (commercial validation), everyday enhancement (BCI advancement), and climate change (multiple clean tech breakthroughs), partially offset by a decrease in infectious disease prevention confidence due to pandemic preparedness setbacks.
+
 ## 2026-05-25
 
 **Articles scanned:** 164 | **Overall progress:** 21.7%
