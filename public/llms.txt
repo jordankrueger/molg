@@ -1,0 +1,10 @@
+# AI Progress Tracker
+
+> An independent, regularly-updated scorecard tracking real-world progress toward the predictions in Dario Amodei's essay "Machines of Loving Grace." Built and maintained by Jordan Krueger.
+
+## About
+- [Home](https://aiprogresstracker.com): The live tracker — each prediction, its current status, and the evidence behind it
+- [Source essay](https://darioamodei.com/machines-of-loving-grace): Dario Amodei's "Machines of Loving Grace"
+
+## Notes
+- Updated weekly. This is an independent project and is not affiliated with Anthropic or Dario Amodei.
