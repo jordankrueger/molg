@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Accessibility — AI Progress Tracker',
@@ -39,7 +40,7 @@ export default function AccessibilityPage() {
       </p>
 
       <p className="mt-10">
-        <a className="underline" href="/">← Back to the tracker</a>
+        <Link className="underline" href="/">← Back to the tracker</Link>
       </p>
     </main>
   )
