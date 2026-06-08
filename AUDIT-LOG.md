@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-06-08
+
+**Articles scanned:** 156 | **Overall progress:** 22.2%
+
+**Changes:**
+- **Infectious Disease Prevention** (biology): 48% → 49% — AI-designed universal coronavirus vaccine passing first human trial demonstrates concrete progress on infectious disease prevention. The vaccine showed safety and immune responses against multiple coronaviruses including pandemic threats. This represents meaningful advancement in both AI application to vaccine design and multi-pathogen prevention capabilities.
+- **Cancer Treatment** (biology): 33% → 34% — Two concrete advances in cancer treatment: (1) Pancreatic cancer combination therapy from Tango/Revolution showing high response rates in early-stage trial, and (2) GLP-1 drugs linked to 30% lower breast cancer risk in large study. While not reaching the 95%+ reduction target, these represent measurable progress in treatment efficacy and cancer prevention.
+- **Everyday Enhancement** (neuroscience): 37% → 38% — Research discovery identifying acetylcholine as the key brain signal for breaking bad habits represents concrete neuroscience progress toward everyday cognitive enhancement. The mechanism was identified through controlled study (mice in virtual maze) and suggests pathway toward behavioral improvement tools.
+
+**Summary:** This week's articles focused heavily on diabetes/obesity treatment advances, infectious disease response to an Ebola outbreak, and diverse scientific breakthroughs. The most concrete progress toward Amodei's predictions came from three areas: (1) an AI-designed coronavirus vaccine passing human trials, demonstrating real advance in infectious disease prevention; (2) pancreatic cancer combination therapy and GLP-1 drugs showing cancer treatment/prevention benefits; and (3) neuroscience research identifying acetylcholine's role in habit-breaking. The Ebola outbreak coverage, while significant for global health, shows ongoing challenges rather than progress toward prevention. Most other articles address adjacent topics (obesity drugs, food safety, quantum computing, robotaxis) but lack clear connection to the specific 5-10 year predictions being tracked. Three small progress increases (1 point each) are warranted based on concrete evidence of advancement.
+
 ## 2026-06-01
 
 **Articles scanned:** 162 | **Overall progress:** 22.0%

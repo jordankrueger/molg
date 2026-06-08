@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-08",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 48,
+        "progress": 49,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -53,13 +53,18 @@
             "title": "As Ebola outbreak grows, Trump administration veers from previous government playbook",
             "url": "https://www.statnews.com/2026/05/30/trump-ebola-response-biden-pandemic-preparations-thrown-away/",
             "date": "2026-05-30"
+          },
+          {
+            "title": "AI-designed universal coronavirus vaccine passes first human trial",
+            "url": "https://www.sciencedaily.com/releases/2026/06/260605023357.htm",
+            "date": "2026-06-05"
           }
         ]
       },
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 33,
+        "progress": 34,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -100,6 +105,11 @@
             "title": "STAT+: Practice-changing results reported for Revolution Medicines pancreatic cancer drug",
             "url": "https://www.statnews.com/2026/05/31/pancreatic-cancer-daraxonrasib-revolution-medicines-results-asco-2026/",
             "date": "2026-05-31"
+          },
+          {
+            "title": "Ozempic and similar weight-loss drugs linked to 30% lower breast cancer risk",
+            "url": "https://www.sciencedaily.com/releases/2026/06/260605023400.htm",
+            "date": "2026-06-05"
           }
         ]
       },
@@ -250,7 +260,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 37,
+        "progress": 38,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -276,6 +286,11 @@
             "title": "China has approved the world's first invasive brain-computer chip—here's what's next",
             "url": "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/",
             "date": "2026-06-01"
+          },
+          {
+            "title": "Scientists discover the brain chemical that helps you break bad habits",
+            "url": "https://www.sciencedaily.com/releases/2026/06/260606075901.htm",
+            "date": "2026-06-06"
           }
         ]
       }
