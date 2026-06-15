@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08",
+  "lastUpdated": "2026-06-15",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 49,
+        "progress": 50,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -58,6 +58,11 @@
             "title": "AI-designed universal coronavirus vaccine passes first human trial",
             "url": "https://www.sciencedaily.com/releases/2026/06/260605023357.htm",
             "date": "2026-06-05"
+          },
+          {
+            "title": "Amid confusion over Pfizer's emergency penicillin program, newborn is diagnosed with preventable syphilis",
+            "url": "https://www.statnews.com/2026/06/15/pfizer-bicillin-shortage-preventable-congenital-syphilis-surging/",
+            "date": "2026-06-15"
           }
         ]
       },
@@ -260,7 +265,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 38,
+        "progress": 40,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -291,6 +296,11 @@
             "title": "Scientists discover the brain chemical that helps you break bad habits",
             "url": "https://www.sciencedaily.com/releases/2026/06/260606075901.htm",
             "date": "2026-06-06"
+          },
+          {
+            "title": "Your brain can keep improving into your 90s, study finds",
+            "url": "https://www.sciencedaily.com/releases/2026/06/260613034222.htm",
+            "date": "2026-06-13"
           }
         ]
       }
@@ -321,8 +331,14 @@
       {
         "title": "Food Security",
         "description": "Second Green Revolution through AI-driven agricultural advances",
-        "progress": 15,
-        "evidence": []
+        "progress": 17,
+        "evidence": [
+          {
+            "title": "Scientists turned red lettuce green and something surprising happened",
+            "url": "https://www.sciencedaily.com/releases/2026/06/260614011854.htm",
+            "date": "2026-06-14"
+          }
+        ]
       },
       {
         "title": "Climate Change",
@@ -389,8 +405,14 @@
       {
         "title": "Legal Systems",
         "description": "AI improving impartiality and fairness in legal systems",
-        "progress": 10,
-        "evidence": []
+        "progress": 11,
+        "evidence": [
+          {
+            "title": "Have politics finally come for the National Academies of Science?",
+            "url": "https://arstechnica.com/science/2026/06/have-politics-finally-come-for-the-national-academies-of-science/",
+            "date": "2026-06-12"
+          }
+        ]
       },
       {
         "title": "Government Services",

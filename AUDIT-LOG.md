@@ -3,6 +3,18 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-06-15
+
+**Articles scanned:** 154 | **Overall progress:** 22.5%
+
+**Changes:**
+- **Infectious Disease Prevention** (biology): 49% → 50% — Multiple articles document ongoing challenges with preventable infectious diseases (congenital syphilis surges despite available penicillin, Ebola outbreak requiring continental response coordination). While these represent current failures rather than progress, they also highlight that the infrastructure and knowledge exist—the gap is distribution and implementation. WHO's blood safety improvements (85% voluntary donations) and pandemic preparedness agreements show incremental institutional progress toward prevention frameworks.
+- **Everyday Enhancement** (neuroscience): 38% → 40% — Two pieces of concrete evidence for cognitive enhancement: (1) A peer-reviewed study showing brain-training activities measurably improved memory and reduced age-related brain shrinkage in adults up to age 94; (2) Learning musical instruments in older adults showed measurable protection against memory decline. These represent validated, scalable interventions for focus and cognitive performance.
+- **Food Security** (economics): 15% → 17% — Concrete progress on AI-driven agricultural advancement: genome editing of lettuce to customize nutritional profiles while maintaining normal growth represents direct application of biotechnology to enhance crop nutrition. Additionally, a California politician passed unprecedented food policy legislation (more in 3 years than most legislators in entire careers), showing policy momentum alongside technical capability.
+- **Legal Systems** (governance): 10% → 11% — Recent articles document serious threats to legal and scientific impartiality (scientists ejected from diabetes conference for distributing reprints, threats of arrest, political interference in National Academies, grantmaking politicization). However, one small positive: hospital finance conference focus on reducing administrative friction and improving affordability suggests incremental progress in systems efficiency, though governance impartiality itself appears to be declining.
+
+**Summary:** This week's news coverage primarily from medical, science, and technology outlets reveals a paradoxical landscape: significant technical advances in narrow domains (cognitive enhancement through training, genomic crop customization, CO2 catalysis) are being accompanied by institutional and governance deterioration. The most striking pattern is the tension between scientific capability and institutional dysfunction—preventable diseases like congenital syphilis continue due to supply chain and bureaucratic failures rather than knowledge gaps, while political interference in scientific institutions is explicitly documented. Four modest progress updates were warranted: incremental advances in infectious disease prevention frameworks, validated cognitive enhancement methods, agricultural biotechnology applications, and marginal improvements in healthcare system efficiency. However, the governance and legal systems show concerning headwinds from politicization that may ultimately constrain the realization of the other technical achievements outlined in Amodei's predictions.
+
 ## 2026-06-08
 
 **Articles scanned:** 156 | **Overall progress:** 22.2%
