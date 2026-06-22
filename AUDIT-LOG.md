@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-06-22
+
+**Articles scanned:** 153 | **Overall progress:** 22.8%
+
+**Changes:**
+- **Mental Illness Treatment** (neuroscience): 26% → 28% — Definium Therapeutics' LSD therapy showed positive Phase 3 results for major depression, representing concrete clinical progress toward effective treatments for a major mental illness.
+- **Genetic Disease** (biology): 40% → 42% — FDA reversed its rejection of Regenxbio's gene therapy for a rare childhood brain disorder (Hunter syndrome), showing concrete progress in gene therapy for genetic diseases.
+- **Structural Conditions** (neuroscience): 12% → 13% — Research published showing brain immune cells being reprogrammed to fight Alzheimer's and reduce plaque buildup, representing concrete progress toward understanding and potentially treating neurodegenerative structural conditions.
+
+**Summary:** This week's news review focused on recent health, biotech, and science developments. Notable concrete progress includes: Definium's successful Phase 3 trial of LSD therapy for major depression, representing tangible advancement in psychiatric treatments; FDA's reversal on Regenxbio's gene therapy for Hunter syndrome, demonstrating progress in genetic disease treatment; and research showing reprogramming of brain immune cells to fight Alzheimer's with plaque reduction and memory improvement. These three articles provided clear clinical evidence warranting modest progress increases in mental illness treatment, genetic disease treatment, and structural neurodegenerative conditions. The broader biotech landscape showed significant M&A activity and mRNA vaccine endorsements, but these represented industry momentum rather than specific advances toward Amodei's predictions. Articles on geoengineering challenges, health equity research funding concerns, and systemic issues in psychiatric ERs highlighted obstacles rather than progress. Most remaining articles covered tangential scientific topics not directly relevant to the core predictions.
+
 ## 2026-06-15
 
 **Articles scanned:** 154 | **Overall progress:** 22.5%

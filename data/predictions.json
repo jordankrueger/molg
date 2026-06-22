@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15",
+  "lastUpdated": "2026-06-22",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -121,7 +121,7 @@
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 40,
+        "progress": 42,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -152,6 +152,11 @@
             "title": "STAT+: Servier to buy Edgewise Therapeutics' muscular dystrophy drug",
             "url": "https://www.statnews.com/2026/06/01/servier-edgewise-therapeutics-muscular-dystrophy-drug-sevasemten/",
             "date": "2026-06-01"
+          },
+          {
+            "title": "FDA reverses course on Regenxbio's childhood gene therapy after rejection",
+            "url": "https://www.statnews.com/2026/06/22/fda-reverses-course-regenxbio-gene-therapy-navsunli-hunter-syndrome/",
+            "date": "2026-06-22"
           }
         ]
       },
@@ -220,7 +225,7 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 26,
+        "progress": 28,
         "evidence": [
           {
             "title": "These overlooked brain cells may control fear and PTSD",
@@ -241,18 +246,28 @@
             "title": "Scientists just discovered what coffee is really doing to your gut and brain",
             "url": "https://www.sciencedaily.com/releases/2026/05/260502233911.htm",
             "date": "2026-05-02"
+          },
+          {
+            "title": "Definium LSD therapy helped patients with major depression in late-stage trial",
+            "url": "https://www.statnews.com/2026/06/22/definium-lsd-dt120-major-depression-phase-3-data/",
+            "date": "2026-06-22"
           }
         ]
       },
       {
         "title": "Structural Conditions",
         "description": "Solutions for 'structural' conditions like psychopathy and some forms of autism",
-        "progress": 12,
+        "progress": 13,
         "evidence": [
           {
             "title": "Brain scans reveal a shocking difference between psychopaths and other people",
             "url": "https://www.sciencedaily.com/releases/2026/05/260510030946.htm",
             "date": "2026-05-10"
+          },
+          {
+            "title": "Scientists reprogram brain immune cells to fight Alzheimer's",
+            "url": "https://www.sciencedaily.com/releases/2026/06/260619020506.htm",
+            "date": "2026-06-19"
           }
         ]
       },
