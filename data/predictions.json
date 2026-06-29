@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-29",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 50,
+        "progress": 52,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -63,13 +63,18 @@
             "title": "Amid confusion over Pfizer's emergency penicillin program, newborn is diagnosed with preventable syphilis",
             "url": "https://www.statnews.com/2026/06/15/pfizer-bicillin-shortage-preventable-congenital-syphilis-surging/",
             "date": "2026-06-15"
+          },
+          {
+            "title": "Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections",
+            "url": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
+            "date": "2026-06-24"
           }
         ]
       },
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 34,
+        "progress": 36,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -115,13 +120,18 @@
             "title": "Ozempic and similar weight-loss drugs linked to 30% lower breast cancer risk",
             "url": "https://www.sciencedaily.com/releases/2026/06/260605023400.htm",
             "date": "2026-06-05"
+          },
+          {
+            "title": "STAT+: Moderna co-founder Kenneth Chien on the future of mRNA — and Moderna",
+            "url": "https://www.statnews.com/2026/06/29/moderna-founder-kenneth-chien-on-cancer-vaccine-and-mrna-future/?utm_campaign=rss",
+            "date": "2026-06-29"
           }
         ]
       },
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 42,
+        "progress": 44,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -157,6 +167,11 @@
             "title": "FDA reverses course on Regenxbio's childhood gene therapy after rejection",
             "url": "https://www.statnews.com/2026/06/22/fda-reverses-course-regenxbio-gene-therapy-navsunli-hunter-syndrome/",
             "date": "2026-06-22"
+          },
+          {
+            "title": "WHO urges scale up of newborn screening to improve early detection and care of birth defects",
+            "url": "https://www.who.int/news/item/23-06-2026-who-urges-scale-up-of-newborn-screening-to-improve-early-detection-and-care-of-birth-defects",
+            "date": "2026-06-23"
           }
         ]
       },
@@ -280,7 +295,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 40,
+        "progress": 42,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -316,6 +331,11 @@
             "title": "Your brain can keep improving into your 90s, study finds",
             "url": "https://www.sciencedaily.com/releases/2026/06/260613034222.htm",
             "date": "2026-06-13"
+          },
+          {
+            "title": "Scientists discover ancient brain cells that help block distractions",
+            "url": "https://www.sciencedaily.com/releases/2026/06/260624025426.htm",
+            "date": "2026-06-24"
           }
         ]
       }
@@ -346,19 +366,24 @@
       {
         "title": "Food Security",
         "description": "Second Green Revolution through AI-driven agricultural advances",
-        "progress": 17,
+        "progress": 19,
         "evidence": [
           {
             "title": "Scientists turned red lettuce green and something surprising happened",
             "url": "https://www.sciencedaily.com/releases/2026/06/260614011854.htm",
             "date": "2026-06-14"
+          },
+          {
+            "title": "These tiny soil microbes could rescue crops from salty farmland",
+            "url": "https://www.sciencedaily.com/releases/2026/06/260626124703.htm",
+            "date": "2026-06-26"
           }
         ]
       },
       {
         "title": "Climate Change",
         "description": "Major advances in carbon removal and clean energy technology",
-        "progress": 27,
+        "progress": 28,
         "evidence": [
           {
             "title": "This new carbon material could make carbon capture far more affordable",
@@ -379,6 +404,11 @@
             "title": "How a new extraction process could unlock the world's lithium",
             "url": "https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero/",
             "date": "2026-05-28"
+          },
+          {
+            "title": "Hawaii is turning ocean plastic and fishing nets into roads",
+            "url": "https://www.sciencedaily.com/releases/2026/06/260625014830.htm",
+            "date": "2026-06-25"
           }
         ]
       }

@@ -3,6 +3,20 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-06-29
+
+**Articles scanned:** 153 | **Overall progress:** 23.4%
+
+**Changes:**
+- **Infectious Disease Prevention** (biology): 50% → 52% — Stripe, Anthropic, and OpenAI backing an effort to stop respiratory infections represents concrete institutional commitment to solving a major infectious disease problem. This is meaningful progress toward reliable prevention systems.
+- **Cancer Treatment** (biology): 34% → 36% — Moderna's mRNA cancer vaccine being described as potentially 'transformative for biotech' by co-founder Kenneth Chien, combined with Edison Scientific creating new biotechs focused on drug discovery, shows concrete progress in cancer vaccine development and AI-accelerated drug discovery.
+- **Genetic Disease** (biology): 42% → 44% — WHO's call to scale up newborn screening for birth defects, combined with embryo editing advances (despite ethical debates), shows concrete progress in early detection and prevention of genetic diseases.
+- **Everyday Enhancement** (neuroscience): 40% → 42% — Discovery of brain neurons that act as a 'focus filter' to block distractions represents concrete neuroscience progress toward understanding and enhancing focus and attention management.
+- **Food Security** (economics): 17% → 19% — Discovery that beneficial soil bacteria enhance plant resilience in salty soils through lignin production represents concrete progress in agricultural biotechnology to improve crop yields on marginal land, contributing to second Green Revolution.
+- **Climate Change** (economics): 27% → 28% — Hawaii successfully turning ocean plastic and fishing nets into road asphalt represents concrete progress in practical carbon reduction and waste management technology implementation.
+
+**Summary:** This week's articles showed meaningful progress across multiple prediction areas. The most significant developments were: (1) major AI companies backing respiratory infection prevention efforts, indicating serious institutional commitment to infectious disease solutions; (2) mRNA cancer vaccines and AI-accelerated drug discovery showing concrete biotech progress; (3) WHO scaling newborn screening and embryo editing advances for genetic disease detection; (4) neuroscience breakthroughs on focus mechanisms; (5) agricultural innovations using soil microbes for crop resilience; and (6) practical climate solutions like plastic-to-asphalt conversion. Several articles described promising announcements and research directions but lacked sufficient concrete evidence of near-term implementation. Notable was the tension between scientific/health progress and political headwinds (US science budget cuts, gender-affirming care restrictions, biotech talent concerns), which could impact realization of benefits but did not warrant prediction decreases given their speculative impact.
+
 ## 2026-06-22
 
 **Articles scanned:** 153 | **Overall progress:** 22.8%
