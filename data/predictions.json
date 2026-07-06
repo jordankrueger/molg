@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29",
+  "lastUpdated": "2026-07-06",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 52,
+        "progress": 53,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -68,6 +68,11 @@
             "title": "Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections",
             "url": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
             "date": "2026-06-24"
+          },
+          {
+            "title": "WHO adds first diagnostic test for Ebola Bundibugyo virus to its Emergency Use Listing",
+            "url": "https://www.who.int/news/item/02-07-2026-who-adds-first-diagnostic-test-for-ebola-bundibugyo-virus-to-its-emergency-use-listing",
+            "date": "2026-07-02"
           }
         ]
       },
@@ -131,7 +136,7 @@
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 44,
+        "progress": 45,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -178,7 +183,7 @@
       {
         "title": "Alzheimer's Prevention",
         "description": "Understanding and prevention of Alzheimer's disease",
-        "progress": 22,
+        "progress": 24,
         "evidence": [
           {
             "title": "Beyond amyloid plaques: AI reveals hidden chemical changes across the Alzheimer's brain",
@@ -199,6 +204,11 @@
             "title": "Scientists reverse Alzheimer's in mice with breakthrough nanotechnology",
             "url": "https://www.sciencedaily.com/releases/2026/05/260517030326.htm",
             "date": "2026-05-17"
+          },
+          {
+            "title": "Scientists may have finally found how Alzheimer's spreads through the brain",
+            "url": "https://www.sciencedaily.com/releases/2026/06/260630020521.htm",
+            "date": "2026-06-30"
           }
         ]
       },
@@ -295,7 +305,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 42,
+        "progress": 43,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -336,6 +346,11 @@
             "title": "Scientists discover ancient brain cells that help block distractions",
             "url": "https://www.sciencedaily.com/releases/2026/06/260624025426.htm",
             "date": "2026-06-24"
+          },
+          {
+            "title": "Scientists say creatine may help fight depression",
+            "url": "https://www.sciencedaily.com/releases/2026/06/260630020231.htm",
+            "date": "2026-06-30"
           }
         ]
       }
@@ -383,7 +398,7 @@
       {
         "title": "Climate Change",
         "description": "Major advances in carbon removal and clean energy technology",
-        "progress": 28,
+        "progress": 29,
         "evidence": [
           {
             "title": "This new carbon material could make carbon capture far more affordable",
@@ -409,6 +424,11 @@
             "title": "Hawaii is turning ocean plastic and fishing nets into roads",
             "url": "https://www.sciencedaily.com/releases/2026/06/260625014830.htm",
             "date": "2026-06-25"
+          },
+          {
+            "title": "US home battery installations hit record high on rising electricity costs",
+            "url": "https://www.ars-technica.com/science/2026/07/us-home-battery-installations-hit-record-high-in-early-2026/",
+            "date": "2026-07-02"
           }
         ]
       }
