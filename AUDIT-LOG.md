@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-07-13
+
+**Articles scanned:** 150 | **Overall progress:** 24.0%
+
+**Changes:**
+- **Cancer Treatment** (biology): 36% → 38% — Breakthrough in pancreatic cancer treatment reported by STAT News, described as 'the biggest breakthrough in the field in decades.' This represents concrete progress toward the 95%+ reduction in cancer mortality, though pancreatic cancer specifically is one disease among many and the breakthrough is still early stage.
+- **Alzheimer's Prevention** (biology): 24% → 26% — Two pieces of evidence show incremental progress: (1) Research on tau protein's role in memory formation could inform prevention strategies, and (2) AAIC conference coverage indicates continued focus on blood-brain barrier crossing and tau treatments. However, progress remains early-stage research rather than clinical prevention solutions.
+- **Everyday Enhancement** (neuroscience): 43% → 44% — Research on brain rewiring through multitask training shows physical reorganization that frees the prefrontal cortex and improves performance. This represents concrete progress toward solutions for focus and cognitive enhancement, though it's based on intensive training rather than technological intervention.
+
+**Summary:** This week's news cycle (July 6-14, 2026) contained mixed signals regarding Amodei's predictions. On the positive side, concrete medical breakthroughs were reported in pancreatic cancer treatment (described as the biggest advance in decades), continued tau protein research for Alzheimer's, and neuroscience findings on brain plasticity and multitasking. However, offsetting these advances were concerning policy developments: the HHS moving to curb SSRI use, significant Medicaid cuts affecting family caregivers, a vaccine-skeptical nominee for HHS, and WHO warnings that cancer cases will nearly double by 2050 despite current research efforts. The article on caregiving wage cuts and family financial ruin particularly contradicts the prediction of widespread AI-driven health benefits reaching vulnerable populations. Overall, the week showed continued incremental scientific progress in three domains (pancreatic cancer, Alzheimer's research, and brain plasticity), but these gains are modest and offset by policy headwinds and epidemiological warnings suggesting slower progress toward the essay's 5-10 year timelines.
+
 ## 2026-07-06
 
 **Articles scanned:** 154 | **Overall progress:** 23.7%

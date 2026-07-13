@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06",
+  "lastUpdated": "2026-07-13",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -79,7 +79,7 @@
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 36,
+        "progress": 38,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -130,6 +130,11 @@
             "title": "STAT+: Moderna co-founder Kenneth Chien on the future of mRNA — and Moderna",
             "url": "https://www.statnews.com/2026/06/29/moderna-founder-kenneth-chien-on-cancer-vaccine-and-mrna-future/?utm_campaign=rss",
             "date": "2026-06-29"
+          },
+          {
+            "title": "A breakthrough in pancreatic cancer has experts excited — and braced for what's to come",
+            "url": "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/",
+            "date": "2026-07-13"
           }
         ]
       },
@@ -183,7 +188,7 @@
       {
         "title": "Alzheimer's Prevention",
         "description": "Understanding and prevention of Alzheimer's disease",
-        "progress": 24,
+        "progress": 26,
         "evidence": [
           {
             "title": "Beyond amyloid plaques: AI reveals hidden chemical changes across the Alzheimer's brain",
@@ -209,6 +214,11 @@
             "title": "Scientists may have finally found how Alzheimer's spreads through the brain",
             "url": "https://www.sciencedaily.com/releases/2026/06/260630020521.htm",
             "date": "2026-06-30"
+          },
+          {
+            "title": "Tau in the spotlight at Alzheimer's conference",
+            "url": "https://www.statnews.com/2026/07/12/aaic-in-30-alzheimers-treaatments-focus-on-tau-blood-brain-barrier/",
+            "date": "2026-07-12"
           }
         ]
       },
@@ -305,7 +315,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 43,
+        "progress": 44,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -351,6 +361,11 @@
             "title": "Scientists say creatine may help fight depression",
             "url": "https://www.sciencedaily.com/releases/2026/06/260630020231.htm",
             "date": "2026-06-30"
+          },
+          {
+            "title": "Scientists discover how the brain rewires itself to truly multitask",
+            "url": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
+            "date": "2026-07-12"
           }
         ]
       }
