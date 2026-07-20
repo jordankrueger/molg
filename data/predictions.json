@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-20",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 53,
+        "progress": 54,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -73,6 +73,11 @@
             "title": "WHO adds first diagnostic test for Ebola Bundibugyo virus to its Emergency Use Listing",
             "url": "https://www.who.int/news/item/02-07-2026-who-adds-first-diagnostic-test-for-ebola-bundibugyo-virus-to-its-emergency-use-listing",
             "date": "2026-07-02"
+          },
+          {
+            "title": "El Salvador validated by WHO as having eliminated trachoma as a public health problem",
+            "url": "https://www.who.int/news/item/13-07-2026-el-salvador-validated-by-who-as-having-eliminated-trachoma-as-a-public-health-problem",
+            "date": "2026-07-13"
           }
         ]
       },
@@ -188,7 +193,7 @@
       {
         "title": "Alzheimer's Prevention",
         "description": "Understanding and prevention of Alzheimer's disease",
-        "progress": 26,
+        "progress": 28,
         "evidence": [
           {
             "title": "Beyond amyloid plaques: AI reveals hidden chemical changes across the Alzheimer's brain",
@@ -219,6 +224,11 @@
             "title": "Tau in the spotlight at Alzheimer's conference",
             "url": "https://www.statnews.com/2026/07/12/aaic-in-30-alzheimers-treaatments-focus-on-tau-blood-brain-barrier/",
             "date": "2026-07-12"
+          },
+          {
+            "title": "New WHO guidelines: up to 45% of dementia risk could be prevented or delayed",
+            "url": "https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed",
+            "date": "2026-07-15"
           }
         ]
       },
@@ -260,7 +270,7 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 28,
+        "progress": 30,
         "evidence": [
           {
             "title": "These overlooked brain cells may control fear and PTSD",
@@ -286,6 +296,11 @@
             "title": "Definium LSD therapy helped patients with major depression in late-stage trial",
             "url": "https://www.statnews.com/2026/06/22/definium-lsd-dt120-major-depression-phase-3-data/",
             "date": "2026-06-22"
+          },
+          {
+            "title": "Common antidepressant may ease long COVID's crushing fatigue",
+            "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
+            "date": "2026-07-18"
           }
         ]
       },

@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-07-20
+
+**Articles scanned:** 154 | **Overall progress:** 24.3%
+
+**Changes:**
+- **Mental Illness Treatment** (neuroscience): 28% → 30% — Concrete evidence of a low-cost antidepressant (fluvoxamine) showing meaningful benefits for long COVID fatigue in a randomized clinical trial of 399 adults, demonstrating practical progress in treating a mental health-adjacent condition with established pharmaceutical intervention.
+- **Alzheimer's Prevention** (biology): 26% → 28% — WHO released updated guidelines indicating that up to 45% of dementia risk could be prevented or delayed through evidence-based interventions, representing concrete progress in understanding and implementing preventive approaches to cognitive decline.
+- **Infectious Disease Prevention** (biology): 53% → 54% — El Salvador validated by WHO as having eliminated trachoma as a public health problem, demonstrating concrete progress in preventing and controlling infectious disease that causes blindness, a milestone in global infectious disease control.
+
+**Summary:** This week's news review focused on 80 recent articles across healthcare, technology, and science domains. Three articles warranted modest progress updates: WHO's new dementia prevention guidelines showing 45% of dementia risk is preventable (supporting Alzheimer's Prevention), a randomized clinical trial demonstrating fluvoxamine's effectiveness for long COVID fatigue (supporting Mental Illness Treatment), and El Salvador's WHO-validated elimination of trachoma (supporting Infectious Disease Prevention). Most other articles, while scientifically interesting, did not represent concrete progress toward the specific predictions. Notable non-qualifying items included announcements of AI supercomputers for pharma (promising but not yet delivering results), ongoing healthcare system failures (insurance denials, medication shortages), and concerns about AI bias in hiring—these reflect persistent challenges rather than progress toward the predictions. The week showed steady incremental advances in established areas rather than breakthrough developments.
+
 ## 2026-07-13
 
 **Articles scanned:** 150 | **Overall progress:** 24.0%
