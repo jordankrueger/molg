@@ -3,6 +3,18 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-07-27
+
+**Articles scanned:** 157 | **Overall progress:** 24.3%
+
+**Changes:**
+- **Genetic Disease** (biology): 45% → 47% — Oak Hill Bio's development of Angelman syndrome medicine represents concrete progress in genetic disease treatment using modern approaches. AlphaFold AI being used to redesign gene-editing proteins for safety demonstrates tangible advancement in making genetic interventions more practical and safer.
+- **Infectious Disease Prevention** (biology): 54% → 52% — Multiple concerning developments undermine progress on infectious disease prevention: measles cases in 2026 have already surpassed all of 2025, indicating declining vaccination rates and worsening disease control; multiple cyclospora outbreaks demonstrate persistent food safety and waterborne disease challenges; and declining immunization coverage in some regions despite WHO efforts shows fragile progress.
+- **Alzheimer's Prevention** (neuroscience): 28% → 30% — WHO released updated guidelines showing that up to 45% of dementia risk could be prevented or delayed through evidence-based interventions, and new research identified APOE2 gene's protective mechanisms against Alzheimer's, opening pathways for treatment development.
+- **Health Distribution** (economics): 12% → 13% — Merck's voluntary licensing deals for experimental HIV prevention pill in poor countries demonstrates concrete progress toward distributing AI-advanced health interventions to developing nations, though still limited in scope.
+
+**Summary:** This week's news revealed mixed signals on Amodei's predictions. Positive developments included concrete progress on genetic diseases (Angelman syndrome drug development, AI-enhanced gene editing), Alzheimer's prevention (WHO guidelines and APOE2 mechanism discovery), and health distribution to developing countries (Merck licensing deals). However, infectious disease prevention showed concerning setbacks with measles cases surpassing 2025 totals despite vaccination programs, multiple cyclospora outbreaks, and declining immunization coverage—suggesting public health infrastructure and vaccine confidence remain problematic. The organ preservation breakthrough (supercooled kidneys) and AI applications in drug discovery were noteworthy but not yet sufficiently advanced for prediction updates. The political environment showed mixed signals with some nutrition and transparency gains but also challenges around medical misinformation and funding shifts away from life sciences.
+
 ## 2026-07-20
 
 **Articles scanned:** 154 | **Overall progress:** 24.3%

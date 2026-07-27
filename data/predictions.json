@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-27",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 54,
+        "progress": 52,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -146,7 +146,7 @@
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 45,
+        "progress": 47,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -393,12 +393,17 @@
       {
         "title": "Health Distribution",
         "description": "50% of AI-driven health benefits reaching poorest countries",
-        "progress": 12,
+        "progress": 13,
         "evidence": [
           {
             "title": "Largest catch-up initiative delivers over 100 million childhood vaccinations",
             "url": "https://www.who.int/news/item/24-04-2026-largest-catch-up-initiative-delivers-over-100-million-childhood-vaccinations",
             "date": "2026-04-24"
+          },
+          {
+            "title": "Merck strikes voluntary licensing deals in poor countries for an experimental HIV prevention pill",
+            "url": "https://www.statnews.com/pharmalot/2026/07/24/merck-experimental-hiv-prevention-pill-licensing-deals/",
+            "date": "2026-07-24"
           }
         ]
       },
