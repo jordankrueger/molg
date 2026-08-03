@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-08-03",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -146,7 +146,7 @@
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 47,
+        "progress": 49,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -187,6 +187,11 @@
             "title": "WHO urges scale up of newborn screening to improve early detection and care of birth defects",
             "url": "https://www.who.int/news/item/23-06-2026-who-urges-scale-up-of-newborn-screening-to-improve-early-detection-and-care-of-birth-defects",
             "date": "2026-06-23"
+          },
+          {
+            "title": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
+            "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
+            "date": "2026-07-31"
           }
         ]
       },
@@ -270,7 +275,7 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 30,
+        "progress": 31,
         "evidence": [
           {
             "title": "These overlooked brain cells may control fear and PTSD",
@@ -301,6 +306,11 @@
             "title": "Common antidepressant may ease long COVID's crushing fatigue",
             "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
             "date": "2026-07-18"
+          },
+          {
+            "title": "AI can tell if your brain is aging faster than you are",
+            "url": "https://www.sciencedaily.com/releases/2026/07/260729051540.htm",
+            "date": "2026-07-29"
           }
         ]
       },
@@ -330,7 +340,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 44,
+        "progress": 45,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -381,6 +391,11 @@
             "title": "Scientists discover how the brain rewires itself to truly multitask",
             "url": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
             "date": "2026-07-12"
+          },
+          {
+            "title": "Are AI scribes useful tools in medical education, or a crutch that imperils learning?",
+            "url": "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch/?utm_campaign=rss",
+            "date": "2026-08-03"
           }
         ]
       }

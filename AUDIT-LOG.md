@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-08-03
+
+**Articles scanned:** 150 | **Overall progress:** 24.6%
+
+**Changes:**
+- **Genetic Disease** (biology): 47% → 49% — Article documents AI (AlphaFold) being used to redesign gene-editing proteins to make them safer, demonstrating concrete progress in improving genetic disease treatment tools
+- **Mental Illness Treatment** (neuroscience): 30% → 31% — Science Daily article reports AI can detect brain aging patterns linked to dementia risk through EEG analysis, representing incremental progress in understanding and early detection of neurological conditions
+- **Everyday Enhancement** (neuroscience): 44% → 45% — STAT News article discusses AI scribes in medical education, indicating practical progress toward enhancing cognitive and professional performance through AI tools, though concerns about over-reliance remain
+
+**Summary:** This week's articles were reviewed against Amodei's predictions across biology, neuroscience, economics, and governance. Most content consisted of pharmaceutical industry news, regulatory developments, and general science coverage that did not demonstrate concrete progress toward the specific milestones outlined. Three modest gains were identified: AlphaFold's application to safer gene-editing proteins advances genetic disease treatment (biology +2%), AI-based brain aging detection supports mental illness treatment progress (neuroscience +1%), and emerging AI scribes represent incremental everyday cognitive enhancement (neuroscience +1%). Articles on Montana's expanded right-to-try laws, syphilis drug shortages, and various regulatory conflicts were noteworthy but did not constitute measurable progress toward these particular predictions. No predictions warranted downward adjustments.
+
 ## 2026-07-27
 
 **Articles scanned:** 157 | **Overall progress:** 24.3%
