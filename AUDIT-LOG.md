@@ -3,6 +3,18 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-08-10
+
+**Articles scanned:** 150 | **Overall progress:** 24.9%
+
+**Changes:**
+- **Cancer Treatment** (biology): 38% → 40% — FDA approval of Replimune's melanoma immunotherapy (oncolytic virus) after two prior rejections represents concrete progress in novel cancer treatment modalities. The article describes this as a 'big win' after a tumultuous regulatory path, indicating advancement in immunotherapeutic approaches.
+- **Alzheimer's Prevention** (neuroscience): 28% → 30% — New research revealing tau's previously unknown role in neurodegeneration provides mechanistic insights that could advance drug development targeting this top Alzheimer's pathway. This represents concrete scientific progress in understanding disease pathogenesis.
+- **Structural Conditions** (neuroscience): 13% → 15% — New autism therapy showing benefits in adult mice by blocking glycine transporter SLC6A20, with effects demonstrated in human brain organoids and sustained improvements in behavioral models. This represents concrete progress in treating autism-related symptoms at the biological level.
+- **Everyday Enhancement** (neuroscience): 45% → 47% — Wearable ultrasound patch demonstrated to boost REM sleep without drugs or surgery, shortening time to REM by 43 minutes and extending it by ~16 minutes in 28 participants, with observed signs of improved stress regulation. This is concrete technology enabling enhancement of sleep quality.
+
+**Summary:** This week's news cycle included substantial biomedical and neuroscience developments. The most significant concrete progress occurred in cancer immunotherapy (Replimune FDA approval after prior rejections), Alzheimer's mechanistic understanding (tau protein research), autism treatment (novel glycine transporter inhibitor showing effects in adult models and human organoids), and sleep enhancement technology (ultrasound patch). Beyond these four warranted updates, articles covered emerging challenges (radiopharmaceutical safety concerns, drug shortages, regulatory restrictions on international researchers) and policy setbacks (NIH restricting visa holders from key funding pathways, China tightening clinical trial regulations) that create headwinds against some predictions. Notable was the absence of major breakthroughs in infectious disease prevention, economic development, or governance despite relevant articles on these topics—most represented either incremental progress, policy discussions, or setbacks rather than clear advances toward the stated predictions.
+
 ## 2026-08-03
 
 **Articles scanned:** 150 | **Overall progress:** 24.6%

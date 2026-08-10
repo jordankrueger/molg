@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-10",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -84,7 +84,7 @@
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 38,
+        "progress": 40,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -140,6 +140,11 @@
             "title": "A breakthrough in pancreatic cancer has experts excited — and braced for what's to come",
             "url": "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/",
             "date": "2026-07-13"
+          },
+          {
+            "title": "FDA approves Replimune melanoma drug previously rejected twice",
+            "url": "https://www.statnews.com/2026/08/06/replimune-melanoma-drug-rp1-fda-approves-phase-3-confirmatory-trial/",
+            "date": "2026-08-06"
           }
         ]
       },
@@ -317,7 +322,7 @@
       {
         "title": "Structural Conditions",
         "description": "Solutions for 'structural' conditions like psychopathy and some forms of autism",
-        "progress": 13,
+        "progress": 15,
         "evidence": [
           {
             "title": "Brain scans reveal a shocking difference between psychopaths and other people",
@@ -328,6 +333,11 @@
             "title": "Scientists reprogram brain immune cells to fight Alzheimer's",
             "url": "https://www.sciencedaily.com/releases/2026/06/260619020506.htm",
             "date": "2026-06-19"
+          },
+          {
+            "title": "New autism therapy shows surprising benefits even in adult mice",
+            "url": "https://www.sciencedaily.com/releases/2026/08/260805082508.htm",
+            "date": "2026-08-05"
           }
         ]
       },
@@ -340,7 +350,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 45,
+        "progress": 47,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -396,6 +406,11 @@
             "title": "Are AI scribes useful tools in medical education, or a crutch that imperils learning?",
             "url": "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch/?utm_campaign=rss",
             "date": "2026-08-03"
+          },
+          {
+            "title": "Wearable ultrasound patch boosts REM sleep without drugs or surgery",
+            "url": "https://www.sciencedaily.com/releases/2026/08/260806050709.htm",
+            "date": "2026-08-06"
           }
         ]
       }
