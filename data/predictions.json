@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10",
+  "lastUpdated": "2026-08-17",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -151,7 +151,7 @@
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 49,
+        "progress": 51,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -197,6 +197,11 @@
             "title": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
             "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
             "date": "2026-07-31"
+          },
+          {
+            "title": "Cloning could be used to save species—or make human 'organ sacks'",
+            "url": "https://www.technologyreview.com/2026/08/14/1141919/cloning-save-species-or-make-human-organ-sacks/",
+            "date": "2026-08-14"
           }
         ]
       },
@@ -463,7 +468,7 @@
       {
         "title": "Climate Change",
         "description": "Major advances in carbon removal and clean energy technology",
-        "progress": 29,
+        "progress": 31,
         "evidence": [
           {
             "title": "This new carbon material could make carbon capture far more affordable",
@@ -494,6 +499,11 @@
             "title": "US home battery installations hit record high on rising electricity costs",
             "url": "https://www.ars-technica.com/science/2026/07/us-home-battery-installations-hit-record-high-in-early-2026/",
             "date": "2026-07-02"
+          },
+          {
+            "title": "So much solar: Digging into the list of every US power plant that went online this year",
+            "url": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
+            "date": "2026-08-17"
           }
         ]
       }

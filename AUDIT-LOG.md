@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-08-17
+
+**Articles scanned:** 149 | **Overall progress:** 25.1%
+
+**Changes:**
+- **Alzheimer's Prevention** (neuroscience): 28% → 30% — Two concrete advances in Alzheimer's research: discovery of a protein (CRH) that helps brain repair itself after injury, and an experimental compound that prevented damaging protein clumps in mouse brains while reducing amyloid buildup. Additionally, estrogen therapy study showed 39% lower dementia odds and 35% fewer Alzheimer's signs.
+- **Genetic Disease** (biology): 49% → 51% — Advances in genetic engineering demonstrated: scientists successfully used CRISPR to create female clones of male mice by removing Y chromosome, and genome models are being used to design novel organisms. These represent meaningful progress in genetic manipulation capabilities.
+- **Climate Change** (economics): 29% → 31% — Significant deployment progress on clean energy infrastructure: major expansion of solar power plants coming online in the US, and DeepMind's hurricane prediction model providing an extra day of forecast accuracy, improving climate adaptation and weather forecasting capabilities.
+
+**Summary:** This week's news coverage focused heavily on healthcare policy challenges, AI governance concerns, and scientific research advances. Regarding Amodei's predictions, the most concrete progress came from neuroscience research showing specific mechanisms for Alzheimer's treatment (protein-blocking compounds and estrogen therapy benefits), genetic engineering breakthroughs in CRISPR applications for cloning, and clean energy infrastructure deployment (major solar expansion) with improved weather prediction AI. Several articles noted challenges rather than progress: Epic Systems facing antitrust scrutiny, healthcare surveillance concerns, and OpenAI disbanding its preparedness team suggest headwinds against some governance and transparency predictions. Three small progress adjustments were warranted based on concrete scientific and infrastructure advances, while many other articles represented either incremental developments or policy setbacks that don't merit score changes.
+
 ## 2026-08-10
 
 **Articles scanned:** 150 | **Overall progress:** 24.9%
