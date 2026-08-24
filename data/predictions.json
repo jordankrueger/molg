@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-24",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 52,
+        "progress": 53,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -78,13 +78,18 @@
             "title": "El Salvador validated by WHO as having eliminated trachoma as a public health problem",
             "url": "https://www.who.int/news/item/13-07-2026-el-salvador-validated-by-who-as-having-eliminated-trachoma-as-a-public-health-problem",
             "date": "2026-07-13"
+          },
+          {
+            "title": "Scientists deploy Merck's Ebola vaccine in DRC",
+            "url": "https://www.statnews.com/2026/08/21/health-news-scientists-deploy-merck-ebola-vaccine-in-drc/",
+            "date": "2026-08-21"
           }
         ]
       },
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 40,
+        "progress": 42,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -145,13 +150,18 @@
             "title": "FDA approves Replimune melanoma drug previously rejected twice",
             "url": "https://www.statnews.com/2026/08/06/replimune-melanoma-drug-rp1-fda-approves-phase-3-confirmatory-trial/",
             "date": "2026-08-06"
+          },
+          {
+            "title": "Inside Moderna and Merck's cancer vaccine triumph",
+            "url": "https://www.statnews.com/2026/08/24/inside-moderna-and-merck-cancer-vaccine-triumph/?utm_campaign=rss",
+            "date": "2026-08-24"
           }
         ]
       },
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 51,
+        "progress": 53,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -202,6 +212,11 @@
             "title": "Cloning could be used to save species—or make human 'organ sacks'",
             "url": "https://www.technologyreview.com/2026/08/14/1141919/cloning-save-species-or-make-human-organ-sacks/",
             "date": "2026-08-14"
+          },
+          {
+            "title": "FDA approves Ultragenyx gene therapy",
+            "url": "https://www.statnews.com/2026/08/20/biotech-news-utlragenyx-gene-therapy/?utm_campaign=rss",
+            "date": "2026-08-20"
           }
         ]
       },
@@ -262,7 +277,7 @@
       {
         "title": "Lifespan Extension",
         "description": "Doubling of human lifespan to ~150 years",
-        "progress": 13,
+        "progress": 14,
         "evidence": [
           {
             "title": "Scientists successfully transfer longevity gene and extend lifespan",
@@ -273,6 +288,11 @@
             "title": "Longevity startup Retro Biosciences says latest fundraising values it at $1.8 billion",
             "url": "https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/",
             "date": "2026-05-22"
+          },
+          {
+            "title": "This shark can live 400 years. Its eyes barely seem to age",
+            "url": "https://www.sciencedaily.com/releases/2026/08/260821012232.htm",
+            "date": "2026-08-21"
           }
         ]
       }
@@ -285,7 +305,7 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 31,
+        "progress": 32,
         "evidence": [
           {
             "title": "These overlooked brain cells may control fear and PTSD",
@@ -321,6 +341,11 @@
             "title": "AI can tell if your brain is aging faster than you are",
             "url": "https://www.sciencedaily.com/releases/2026/07/260729051540.htm",
             "date": "2026-07-29"
+          },
+          {
+            "title": "Schizophrenia's lost brain connections follow a surprising pattern",
+            "url": "https://www.sciencedaily.com/releases/2026/08/260820002443.htm",
+            "date": "2026-08-20"
           }
         ]
       },
@@ -355,7 +380,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 47,
+        "progress": 48,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -416,6 +441,11 @@
             "title": "Wearable ultrasound patch boosts REM sleep without drugs or surgery",
             "url": "https://www.sciencedaily.com/releases/2026/08/260806050709.htm",
             "date": "2026-08-06"
+          },
+          {
+            "title": "This common vitamin was linked to 13% better cognitive scores",
+            "url": "https://www.sciencedaily.com/releases/2026/08/260822015138.htm",
+            "date": "2026-08-22"
           }
         ]
       }

@@ -3,6 +3,20 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-08-24
+
+**Articles scanned:** 149 | **Overall progress:** 25.6%
+
+**Changes:**
+- **Cancer Treatment** (biology): 40% → 42% — Moderna and Merck's cancer vaccine trial success represents meaningful progress in cancer treatment efficacy. The article describes their collaboration as a 'triumph' that worked 'despite big doubts,' indicating a significant milestone in personalized cancer immunotherapy.
+- **Infectious Disease Prevention** (biology): 52% → 53% — Deployment of Merck's Ebola vaccine in the Democratic Republic of Congo represents concrete progress in infectious disease prevention through vaccine deployment and real-world application.
+- **Genetic Disease** (biology): 51% → 53% — FDA approval of Ultragenyx gene therapy and Regeneron's ultra-rare disease drug represent concrete advances in genetic disease treatment. However, these are offset somewhat by continued safety concerns with Regenxbio's gene therapy trial, resulting in a modest net gain.
+- **Lifespan Extension** (biology): 13% → 14% — Research on Greenland sharks showing minimal retinal aging over centuries and a weight-loss hormone (GDF15) protecting liver health provide incremental insights into aging mechanisms. While preliminary, these represent foundational research toward lifespan extension.
+- **Everyday Enhancement** (neuroscience): 47% → 48% — Research on vitamin D supplementation improving cognitive scores by 13% in older adults with mild cognitive impairment provides evidence of practical enhancement approaches for everyday cognitive performance.
+- **Mental Illness Treatment** (neuroscience): 31% → 32% — Research on schizophrenia revealing specific patterns of synaptic loss and brain damage patterns, combined with AI discoveries about genetic switches that regulate genes, provides foundational understanding for potential future treatments.
+
+**Summary:** This week's news coverage included multiple biomedical advances with concrete implementation. The most significant developments were Moderna and Merck's cancer vaccine success and FDA approvals for gene therapies, providing evidence of progress in oncology and rare genetic disease treatment. Additional support came from Ebola vaccine deployment, cognitive enhancement research via vitamin D, and mechanistic insights into schizophrenia and aging. However, these remain incremental steps toward the transformative outcomes described in Amodei's predictions. Gene therapy development continues but with some safety setbacks that temper optimism. Most changes are conservative at 1-2 percentage points, reflecting that while progress is evident, we remain in early stages of realizing the full scope of the predictions.
+
 ## 2026-08-17
 
 **Articles scanned:** 149 | **Overall progress:** 25.1%
