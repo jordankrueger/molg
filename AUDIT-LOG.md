@@ -3,6 +3,18 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-08-31
+
+**Articles scanned:** 149 | **Overall progress:** 25.9%
+
+**Changes:**
+- **Cancer Treatment** (biology): 42% → 44% — Multiple concrete advances in cancer therapy reported: FDA approval of Mimrylo for polycythemia vera (a blood cancer), clinical success of personalized mRNA vaccine for melanoma showing renewed promise for mRNA cancer vaccines, and radiopharmaceuticals emerging as a competitive treatment approach with researchers pushing dosing boundaries. These represent tangible therapeutic progress toward reducing cancer mortality.
+- **Lifespan Extension** (biology): 14% → 16% — A startup (Generation Lab) has developed what they claim is a rejuvenation treatment using an injectable combination of existing drugs called '1 Generation' targeting blood rejuvenation. While speculative and early-stage, this represents concrete commercial development toward anti-aging interventions. Additionally, research from the Dog Aging Project shows metabolic biomarkers correlating with lifespan in both dogs and humans, providing scientific foundation for longevity research.
+- **Everyday Enhancement** (neuroscience): 48% → 49% — Research showing HEPA air purifiers improved executive function by ~12% in adults 40+ after just one month of use represents a concrete, non-pharmaceutical intervention for cognitive enhancement. This demonstrates simple environmental modifications can enhance brain function, supporting the prediction of solutions for focus and mental performance.
+- **Climate Change** (economics): 31% → 33% — Two significant developments: (1) Discovery that Western Australia's iron-rich rocks can naturally generate hydrogen at scale, potentially providing a major new low-emission energy source; (2) Clean energy deployment has continued booming despite political headwinds. These represent concrete advances in carbon-free energy technology and renewable infrastructure deployment.
+
+**Summary:** This week's articles covered primarily biomedical, energy, and space technology developments. The most significant concrete progress appears in cancer therapeutics (new drug approvals and mRNA vaccine success), early-stage longevity interventions (startup blood rejuvenation treatment), cognitive enhancement through environmental modification (air purification), and clean energy breakthroughs (natural hydrogen generation in Australia). Four predictions warranted modest 1-2 point increases based on tangible advances: Cancer Treatment (new therapies approved and in trials), Lifespan Extension (commercial rejuvenation product and aging biomarker research), Everyday Enhancement (demonstrated air quality impact on cognition), and Climate Change (renewable energy scaling and novel hydrogen production). Most other articles, while scientifically interesting, lacked direct relevance to the specific predictions being tracked or remained speculative without proven impact.
+
 ## 2026-08-24
 
 **Articles scanned:** 149 | **Overall progress:** 25.6%

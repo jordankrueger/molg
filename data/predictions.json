@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-08-31",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -89,7 +89,7 @@
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 42,
+        "progress": 44,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -155,6 +155,11 @@
             "title": "Inside Moderna and Merck's cancer vaccine triumph",
             "url": "https://www.statnews.com/2026/08/24/inside-moderna-and-merck-cancer-vaccine-triumph/?utm_campaign=rss",
             "date": "2026-08-24"
+          },
+          {
+            "title": "FDA approves Protagonist and Takeda's drug for rare blood cancer",
+            "url": "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/",
+            "date": "2026-08-30"
           }
         ]
       },
@@ -277,7 +282,7 @@
       {
         "title": "Lifespan Extension",
         "description": "Doubling of human lifespan to ~150 years",
-        "progress": 14,
+        "progress": 16,
         "evidence": [
           {
             "title": "Scientists successfully transfer longevity gene and extend lifespan",
@@ -293,6 +298,11 @@
             "title": "This shark can live 400 years. Its eyes barely seem to age",
             "url": "https://www.sciencedaily.com/releases/2026/08/260821012232.htm",
             "date": "2026-08-21"
+          },
+          {
+            "title": "A startup claims it's found a drug to make your blood young",
+            "url": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
+            "date": "2026-08-27"
           }
         ]
       }
@@ -380,7 +390,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 48,
+        "progress": 49,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -446,6 +456,11 @@
             "title": "This common vitamin was linked to 13% better cognitive scores",
             "url": "https://www.sciencedaily.com/releases/2026/08/260822015138.htm",
             "date": "2026-08-22"
+          },
+          {
+            "title": "HEPA air purifiers may boost brain function after just one month",
+            "url": "https://www.sciencedaily.com/releases/2026/08/260830000016.htm",
+            "date": "2026-08-30"
           }
         ]
       }
@@ -498,7 +513,7 @@
       {
         "title": "Climate Change",
         "description": "Major advances in carbon removal and clean energy technology",
-        "progress": 31,
+        "progress": 33,
         "evidence": [
           {
             "title": "This new carbon material could make carbon capture far more affordable",
@@ -534,6 +549,11 @@
             "title": "So much solar: Digging into the list of every US power plant that went online this year",
             "url": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
             "date": "2026-08-17"
+          },
+          {
+            "title": "Australia's red soil may be hiding a massive clean energy source",
+            "url": "https://www.sciencedaily.com/releases/2026/08/260829035214.htm",
+            "date": "2026-08-29"
           }
         ]
       }
