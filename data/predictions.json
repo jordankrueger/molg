@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31",
+  "lastUpdated": "2026-09-07",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 53,
+        "progress": 52,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -83,6 +83,11 @@
             "title": "Scientists deploy Merck's Ebola vaccine in DRC",
             "url": "https://www.statnews.com/2026/08/21/health-news-scientists-deploy-merck-ebola-vaccine-in-drc/",
             "date": "2026-08-21"
+          },
+          {
+            "title": "Opinion: Make infectious disease data boring again",
+            "url": "https://www.statnews.com/2026/09/04/pennsylvania-measles-deaths-data-cdc-director-rfk-jr/",
+            "date": "2026-09-04"
           }
         ]
       },
@@ -166,7 +171,7 @@
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 53,
+        "progress": 54,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -222,6 +227,11 @@
             "title": "FDA approves Ultragenyx gene therapy",
             "url": "https://www.statnews.com/2026/08/20/biotech-news-utlragenyx-gene-therapy/?utm_campaign=rss",
             "date": "2026-08-20"
+          },
+          {
+            "title": "Life uses 4 DNA letters. Scientists just made 8 work",
+            "url": "https://www.sciencedaily.com/releases/2026/09/260904000310.htm",
+            "date": "2026-09-04"
           }
         ]
       },
@@ -315,7 +325,7 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 32,
+        "progress": 31,
         "evidence": [
           {
             "title": "These overlooked brain cells may control fear and PTSD",
@@ -356,13 +366,18 @@
             "title": "Schizophrenia's lost brain connections follow a surprising pattern",
             "url": "https://www.sciencedaily.com/releases/2026/08/260820002443.htm",
             "date": "2026-08-20"
+          },
+          {
+            "title": "STAT+: Lindsay Clancy case exposes dangers of fragmented U.S. health system, experts say",
+            "url": "https://www.statnews.com/2026/09/04/lindsay-clancy-health-care-silos-postpartum-care-failures/",
+            "date": "2026-09-04"
           }
         ]
       },
       {
         "title": "Structural Conditions",
         "description": "Solutions for 'structural' conditions like psychopathy and some forms of autism",
-        "progress": 15,
+        "progress": 16,
         "evidence": [
           {
             "title": "Brain scans reveal a shocking difference between psychopaths and other people",
@@ -378,6 +393,11 @@
             "title": "New autism therapy shows surprising benefits even in adult mice",
             "url": "https://www.sciencedaily.com/releases/2026/08/260805082508.htm",
             "date": "2026-08-05"
+          },
+          {
+            "title": "Scientists find a weak spot in one of the deadliest brain cancers",
+            "url": "https://www.sciencedaily.com/releases/2026/09/260903064242.htm",
+            "date": "2026-09-03"
           }
         ]
       },

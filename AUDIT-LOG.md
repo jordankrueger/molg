@@ -3,6 +3,18 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-09-07
+
+**Articles scanned:** 149 | **Overall progress:** 25.9%
+
+**Changes:**
+- **Genetic Disease** (biology): 53% → 54% — Researchers demonstrated that RNA polymerase can accurately read an eight-letter genetic alphabet (doubling the standard four DNA letters), representing meaningful progress in synthetic biology and potential genetic engineering capabilities.
+- **Structural Conditions** (neuroscience): 15% → 16% — Researchers discovered that blocking protein SET prevented tumor formation in glioblastoma preclinical models and made cancer cells more vulnerable to treatment. While focused on cancer, this represents progress in understanding and modulating structural brain conditions at the molecular level.
+- **Infectious Disease Prevention** (biology): 53% → 52% — An opinion piece from former CDC officials questions whether data standards are being applied inconsistently regarding infectious disease tracking (referencing measles deaths data), and a report notes disabled workers losing health insurance coverage. These suggest institutional fragmentation in disease prevention infrastructure.
+- **Mental Illness Treatment** (neuroscience): 32% → 31% — The Lindsay Clancy case reveals critical failures in the fragmented U.S. health system where a woman repeatedly seeking mental health help was unable to receive coordinated care, ultimately leading to tragedy. This indicates systemic barriers to effective mental illness treatment persist.
+
+**Summary:** This week's news cycle included substantive developments in biotechnology, but also revealed institutional and systemic challenges. The most positive signal was a UC San Diego breakthrough demonstrating eight-letter genetic alphabets functioning in cells, representing genuine progress toward expanded genetic engineering capabilities for disease treatment. However, multiple articles highlighted setbacks and obstacles: drug trials for cardiovascular and rare genetic conditions failed (Novo Nordisk, Ultragenyx, Novartis); healthcare system fragmentation contributed to preventable tragedy in mental health; and questions emerged about inconsistent disease surveillance protocols. A minor positive development was FDA approval for Alexander disease treatment and progress with xenografted pig kidneys, though these represent incremental advances rather than transformative breakthroughs. The evidence overall suggests incremental technical progress in some areas offset by persistent systemic and regulatory barriers to realizing Amodei's predictions.
+
 ## 2026-08-31
 
 **Articles scanned:** 149 | **Overall progress:** 25.9%
