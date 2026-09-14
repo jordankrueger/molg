@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07",
+  "lastUpdated": "2026-09-14",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 52,
+        "progress": 50,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -88,6 +88,11 @@
             "title": "Opinion: Make infectious disease data boring again",
             "url": "https://www.statnews.com/2026/09/04/pennsylvania-measles-deaths-data-cdc-director-rfk-jr/",
             "date": "2026-09-04"
+          },
+          {
+            "title": "Pennsylvania officials report state's third death involving measles",
+            "url": "https://www.statnews.com/2026/09/14/third-measles-related-death-pennsylvania-outbreak/",
+            "date": "2026-09-14"
           }
         ]
       },
@@ -171,7 +176,7 @@
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 54,
+        "progress": 55,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -232,6 +237,11 @@
             "title": "Life uses 4 DNA letters. Scientists just made 8 work",
             "url": "https://www.sciencedaily.com/releases/2026/09/260904000310.htm",
             "date": "2026-09-04"
+          },
+          {
+            "title": "STAT+: Scholar Rock wins FDA approval for first drug to target SMA muscle loss",
+            "url": "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/",
+            "date": "2026-09-11"
           }
         ]
       },
@@ -292,7 +302,7 @@
       {
         "title": "Lifespan Extension",
         "description": "Doubling of human lifespan to ~150 years",
-        "progress": 16,
+        "progress": 18,
         "evidence": [
           {
             "title": "Scientists successfully transfer longevity gene and extend lifespan",
@@ -313,6 +323,11 @@
             "title": "A startup claims it's found a drug to make your blood young",
             "url": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
             "date": "2026-08-27"
+          },
+          {
+            "title": "Scientists find Ozempic may slow aging itself",
+            "url": "https://www.sciencedaily.com/releases/2026/09/260911214238.htm",
+            "date": "2026-09-11"
           }
         ]
       }
@@ -325,7 +340,7 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 31,
+        "progress": 33,
         "evidence": [
           {
             "title": "These overlooked brain cells may control fear and PTSD",
@@ -371,6 +386,11 @@
             "title": "STAT+: Lindsay Clancy case exposes dangers of fragmented U.S. health system, experts say",
             "url": "https://www.statnews.com/2026/09/04/lindsay-clancy-health-care-silos-postpartum-care-failures/",
             "date": "2026-09-04"
+          },
+          {
+            "title": "STAT+: Definium's LSD therapy eased anxiety in second large trial",
+            "url": "https://www.statnews.com/2026/09/14/definiums-lsd-therapy-eased-anxiety-large-trial-psychedelic/",
+            "date": "2026-09-14"
           }
         ]
       },

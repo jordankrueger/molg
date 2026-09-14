@@ -3,6 +3,18 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-09-14
+
+**Articles scanned:** 150 | **Overall progress:** 26.1%
+
+**Changes:**
+- **Mental Illness Treatment** (neuroscience): 31% → 33% — Definium's LSD therapy demonstrated efficacy in a second large trial for anxiety treatment, representing concrete clinical progress toward regulatory approval for psychedelic-based mental illness treatments
+- **Genetic Disease** (biology): 54% → 55% — Scholar Rock won FDA approval for Isembyld, the first drug targeting SMA muscle loss through a novel mechanism, demonstrating concrete progress in genetic disease treatment combining traditional and new approaches
+- **Lifespan Extension** (biology): 16% → 18% — Research found that semaglutide (Ozempic) slowed aging in mice, improved multiple biological markers of aging, and extended lifespan beyond what calorie restriction alone achieves, suggesting a novel biological pathway for age extension
+- **Infectious Disease Prevention** (biology): 52% → 50% — Multiple measles deaths in Pennsylvania and ongoing cyclospora outbreak (though declared over) indicate persistent gaps in infectious disease control, suggesting slower progress than previously assessed
+
+**Summary:** This week's news cycle focused heavily on biotech developments, AI applications in healthcare, and aging research. Key concrete progress emerged in three areas: psychedelic-assisted mental health treatment (Definium's second successful LSD trial), genetic disease therapy (Scholar Rock's FDA approval for SMA), and lifespan extension (semaglutide's demonstrated anti-aging effects in animal models beyond calorie restriction). However, infectious disease control showed setback indicators with measles deaths occurring despite vaccine availability, suggesting the infectious disease prevention prediction may be progressing slower than the 52% rating indicates. Most other articles represented either speculative announcements, policy discussions, or general research findings without specific evidence of progress toward the major predictions. AI tool approvals for EKG analysis showed incremental progress but were too specialized to warrant category-level changes.
+
 ## 2026-09-07
 
 **Articles scanned:** 149 | **Overall progress:** 25.9%
