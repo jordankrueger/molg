@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14",
+  "lastUpdated": "2026-09-21",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -99,7 +99,7 @@
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 44,
+        "progress": 45,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -170,6 +170,11 @@
             "title": "FDA approves Protagonist and Takeda's drug for rare blood cancer",
             "url": "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/",
             "date": "2026-08-30"
+          },
+          {
+            "title": "Lilly's breast cancer combo wins approval",
+            "url": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/",
+            "date": "2026-09-21"
           }
         ]
       },
@@ -430,7 +435,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 49,
+        "progress": 50,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -501,6 +506,11 @@
             "title": "HEPA air purifiers may boost brain function after just one month",
             "url": "https://www.sciencedaily.com/releases/2026/08/260830000016.htm",
             "date": "2026-08-30"
+          },
+          {
+            "title": "Alkermes' orexin agonist shows potential to treat ADHD in early-stage trial",
+            "url": "https://www.statnews.com/2026/09/21/alkermes-orexin-agonist-adhd-study/",
+            "date": "2026-09-21"
           }
         ]
       }

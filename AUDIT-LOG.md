@@ -3,6 +3,16 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-09-21
+
+**Articles scanned:** 150 | **Overall progress:** 26.2%
+
+**Changes:**
+- **Everyday Enhancement** (neuroscience): 49% → 50% — Alkermes' orexin agonist showed potential to treat ADHD in early-stage trial, representing concrete progress in pharmacological enhancement of focus and attention
+- **Cancer Treatment** (biology): 44% → 45% — FDA approval of Lilly's new combination drug treatment for advanced breast cancer represents incremental progress toward mortality reduction, though single approval is modest contribution to the 95%+ reduction target
+
+**Summary:** This week's news focused primarily on pharmaceutical developments, governance/trust issues, and border surveillance failures. Two articles warranted modest progress updates: Alkermes' early-stage ADHD treatment data provides concrete evidence toward everyday cognitive enhancement (+1%), and Lilly's FDA-approved breast cancer combination therapy represents incremental progress on cancer mortality reduction (+1%). Notable observations include growing scientific mistrust and vaccine hesitancy under the current administration (contradicting the 'Information Environment' prediction), multiple governance barriers to health equity implementation, and mixed biotech progress. The news on advanced brain implants (needle-thin device for neural recording, drug delivery, and stimulation) was scientifically interesting but too early-stage to warrant prediction progress. Climate policy continues to face setbacks. Overall, modest biomedical progress was offset by governance and trust challenges.
+
 ## 2026-09-14
 
 **Articles scanned:** 150 | **Overall progress:** 26.1%
