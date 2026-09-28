@@ -3,6 +3,18 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-09-28
+
+**Articles scanned:** 150 | **Overall progress:** 26.4%
+
+**Changes:**
+- **Infectious Disease Prevention** (biology): 50% → 51% — Pandemic preparedness licensing deals for generic Roche flu treatment show incremental progress toward reliable infectious disease prevention, though this is a modest step rather than a major breakthrough.
+- **Genetic Disease** (biology): 55% → 57% — CRISPR therapy successfully cut LDL cholesterol and triglycerides by ~50% in a single dose with sustained effects at one year, demonstrating meaningful progress toward genetic disease treatment through gene therapy advances.
+- **Everyday Enhancement** (neuroscience): 50% → 51% — Research showing coffee (both caffeinated and decaf) produces measurable improvements in mood, stress, depression, and impulsivity through gut microbe modulation represents concrete progress toward everyday enhancement of common issues.
+- **Information Environment** (governance): 11% → 10% — Multiple reports show governmental actions undermining information integrity and science: RFK Jr. manipulating health statistics, tobacco industry flooding FDA with fake comments, and Trump administration cutting HHS funding and attempting to politicize NIH grants, indicating movement away from the prediction's goal.
+
+**Summary:** This week's news covered health policy, biomedical advances, and governance dynamics. Notable progress: a CRISPR cholesterol therapy achieved sustained 50% reductions (supporting genetic disease treatment), coffee was shown to measurably improve mood and stress markers (supporting everyday enhancement), and pandemic preparedness licensing deals advanced infectious disease prevention. However, governance trends were concerning: evidence emerged of industry manipulation of FDA processes, politicization of health statistics, and attempts to give political appointees veto power over NIH grants—all moving against the prediction of creating a globally free information environment. One article warned that AI development is eroding bioweapon defenses, though this is speculative. Net result: three modest positive changes offset by one negative governance trend.
+
 ## 2026-09-21
 
 **Articles scanned:** 150 | **Overall progress:** 26.2%

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21",
+  "lastUpdated": "2026-09-28",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 50,
+        "progress": 51,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -93,6 +93,11 @@
             "title": "Pennsylvania officials report state's third death involving measles",
             "url": "https://www.statnews.com/2026/09/14/third-measles-related-death-pennsylvania-outbreak/",
             "date": "2026-09-14"
+          },
+          {
+            "title": "STAT+: Licensing deals on generic versions of Roche flu drug aimed at preparing for pandemic",
+            "url": "https://www.statnews.com/pharmalot/2026/09/25/roche-xofluza-influenza-treatment-agreements/",
+            "date": "2026-09-25"
           }
         ]
       },
@@ -181,7 +186,7 @@
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 55,
+        "progress": 57,
         "evidence": [
           {
             "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
@@ -247,6 +252,11 @@
             "title": "STAT+: Scholar Rock wins FDA approval for first drug to target SMA muscle loss",
             "url": "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/",
             "date": "2026-09-11"
+          },
+          {
+            "title": "One CRISPR treatment cut \"bad\" cholesterol in half for a full year",
+            "url": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm",
+            "date": "2026-09-25"
           }
         ]
       },
@@ -435,7 +445,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 50,
+        "progress": 51,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -511,6 +521,11 @@
             "title": "Alkermes' orexin agonist shows potential to treat ADHD in early-stage trial",
             "url": "https://www.statnews.com/2026/09/21/alkermes-orexin-agonist-adhd-study/",
             "date": "2026-09-21"
+          },
+          {
+            "title": "Scientists just discovered what coffee really does to your gut and brain",
+            "url": "https://www.sciencedaily.com/releases/2026/09/260927034331.htm",
+            "date": "2026-09-27"
           }
         ]
       }
@@ -628,7 +643,7 @@
       {
         "title": "Information Environment",
         "description": "Creation of globally free information environment",
-        "progress": 11,
+        "progress": 10,
         "evidence": [
           {
             "title": "STAT+: As controversial decisions mount, FDA shuns public advisory meetings",
@@ -639,6 +654,11 @@
             "title": "A new US phone network for Christians aims to block porn and gender-related content",
             "url": "https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/",
             "date": "2026-05-01"
+          },
+          {
+            "title": "How Big Tobacco flooded the FDA with public comments to kill a menthol cigarette ban; Opinion: RFK Jr.'s use of the National Center for Health Statistics will add confusion to measles deaths count; Russel Vought will reportedly be given veto power over all NIH grants",
+            "url": "https://www.statnews.com/2026/09/25/fake-grassroots-campaign-jama-study-rutgers-researchers-fda-menthol-ban/",
+            "date": "2026-09-25"
           }
         ]
       },
