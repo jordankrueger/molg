@@ -3,6 +3,17 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-10-05
+
+**Articles scanned:** 150 | **Overall progress:** 26.6%
+
+**Changes:**
+- **Cancer Treatment** (biology): 45% → 47% — Multiple concrete developments in cancer treatment: FDA approval of Lilly's Jaypirca for CLL as first-line therapy, Vaxcyte pneumococcal vaccine Phase 3 success, melanoma vaccine late-stage trial success, and emerging evidence on cancer vaccine approaches. These represent tangible therapeutic advances, though broader mortality reduction goals remain distant.
+- **Infectious Disease Prevention** (biology): 51% → 52% — Vaxcyte's Phase 3 success with pneumococcal vaccine represents incremental progress in infectious disease prevention, though this is an iterative improvement on existing vaccine approaches rather than a breakthrough. Also noteworthy: ongoing Congo Ebola outbreak with 4,000+ deaths suggests current prevention/containment remains inadequate.
+- **Everyday Enhancement** (neuroscience): 51% → 52% — Research on vagus nerve stimulation improving motor learning retention, combined with emerging findings on gut bacteria's relationship to brain aging and MIND diet effects on brain shrinkage, represents incremental progress in understanding and enhancing cognitive functions. These are mechanistic insights that could eventually enable practical interventions.
+
+**Summary:** This week's news included several biomedical developments worth tracking. The cancer treatment domain showed incremental progress with FDA approval of Jaypirca for CLL and Phase 3 success for cancer vaccines (Vaxcyte pneumococcal, melanoma vaccine), supporting a modest +2 point increase. Infectious disease prevention received a small bump from vaccine advances, though the ongoing Ebola outbreak in Congo highlights how far current prevention remains from the prediction's ambitious goals. In neuroscience, three separate studies on vagus nerve stimulation, gut-brain-aging connections, and dietary effects on brain aging provided mechanistic insights into cognitive enhancement, warranting a +1 point increase in everyday enhancement. Notably, several articles highlighted health care system challenges (pricing, access, retention of addiction treatment) that represent headwinds against achieving the economic and health distribution goals in the predictions. No changes were warranted for most other predictions due to lack of concrete evidence of progress.
+
 ## 2026-09-28
 
 **Articles scanned:** 150 | **Overall progress:** 26.4%

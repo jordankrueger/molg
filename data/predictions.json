@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-10-05",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,7 +7,7 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 51,
+        "progress": 52,
         "evidence": [
           {
             "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
@@ -98,13 +98,18 @@
             "title": "STAT+: Licensing deals on generic versions of Roche flu drug aimed at preparing for pandemic",
             "url": "https://www.statnews.com/pharmalot/2026/09/25/roche-xofluza-influenza-treatment-agreements/",
             "date": "2026-09-25"
+          },
+          {
+            "title": "Vaxcyte claims success in bid to beat Pfizer and Merck in lucrative vaccine market",
+            "url": "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/",
+            "date": "2026-10-05"
           }
         ]
       },
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 45,
+        "progress": 47,
         "evidence": [
           {
             "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
@@ -180,6 +185,11 @@
             "title": "Lilly's breast cancer combo wins approval",
             "url": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/",
             "date": "2026-09-21"
+          },
+          {
+            "title": "Lilly's Jaypirca approved as first-line CLL therapy; Vaxcyte pneumococcal vaccine Phase 3 success; divergent cancer vaccine trial results",
+            "url": "https://www.statnews.com/2026/10/05/biotech-news-lilly-jaypirca-approved-as-first-line-cll-therapy/",
+            "date": "2026-10-05"
           }
         ]
       },
@@ -445,7 +455,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 51,
+        "progress": 52,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -526,6 +536,11 @@
             "title": "Scientists just discovered what coffee really does to your gut and brain",
             "url": "https://www.sciencedaily.com/releases/2026/09/260927034331.htm",
             "date": "2026-09-27"
+          },
+          {
+            "title": "Vagus Nerve Stimulation Could Help New Skills Stick; Your gut bacteria may reveal how fast your brain is aging; This diet may slow brain aging by 2.5 years",
+            "url": "https://www.sciencedaily.com/releases/2026/10/261002080034.htm",
+            "date": "2026-10-02"
           }
         ]
       }
