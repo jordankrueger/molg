@@ -4,11 +4,11 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://aiprogresstracker.com'),
-  title: 'Machines of Loving Grace — AI Progress Tracker',
-  description: 'Tracking progress toward the predictions in Dario Amodei\'s essay on how AI could transform the world for the better.',
+  title: 'Machines of Loving Grace Tracker: Dario Amodei\'s AI Predictions',
+  description: 'Tracking progress toward the predictions in Dario Amodei\'s essay Machines of Loving Grace on how AI could transform the world for the better.',
   openGraph: {
-    title: 'Machines of Loving Grace — AI Progress Tracker',
-    description: 'Tracking progress toward the predictions in Dario Amodei\'s essay on how AI could transform the world for the better.',
+    title: 'Machines of Loving Grace Tracker: Dario Amodei\'s AI Predictions',
+    description: 'Tracking progress toward the predictions in Dario Amodei\'s essay Machines of Loving Grace on how AI could transform the world for the better.',
     url: 'https://aiprogresstracker.com',
     siteName: 'AI Progress Tracker',
     type: 'website',
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Machines of Loving Grace — AI Progress Tracker',
-    description: 'Tracking progress toward the predictions in Dario Amodei\'s essay on how AI could transform the world for the better.',
+    title: 'Machines of Loving Grace Tracker: Dario Amodei\'s AI Predictions',
+    description: 'Tracking progress toward the predictions in Dario Amodei\'s essay Machines of Loving Grace on how AI could transform the world for the better.',
     images: ['/og.png'],
   },
   alternates: {

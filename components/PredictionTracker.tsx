@@ -54,7 +54,7 @@ export default function PredictionTracker() {
           Machines of Loving Grace
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
-          Tracking the predictions from Dario Amodei&apos;s vision of how AI could transform the world for the better. Based on the timeline of 5-10 years after the development of powerful AI.
+          Tracking the predictions in Dario Amodei&apos;s 2024 essay <em>Machines of Loving Grace</em> on how AI could transform the world for the better. Based on the timeline of 5-10 years after the development of powerful AI.
         </p>
         <p className="text-sm text-gray-400 mb-10">
           Last updated: {formatDate(lastUpdated as string)}
