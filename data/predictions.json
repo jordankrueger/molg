@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-10-12",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -273,7 +273,7 @@
       {
         "title": "Alzheimer's Prevention",
         "description": "Understanding and prevention of Alzheimer's disease",
-        "progress": 28,
+        "progress": 29,
         "evidence": [
           {
             "title": "Beyond amyloid plaques: AI reveals hidden chemical changes across the Alzheimer's brain",
@@ -309,13 +309,18 @@
             "title": "New WHO guidelines: up to 45% of dementia risk could be prevented or delayed",
             "url": "https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed",
             "date": "2026-07-15"
+          },
+          {
+            "title": "The hidden math of Alzheimer's could point to new treatments",
+            "url": "https://www.sciencedaily.com/releases/2026/10/261008102714.htm",
+            "date": "2026-10-08"
           }
         ]
       },
       {
         "title": "Biological Freedom",
         "description": "Enhanced control over weight, appearance, reproduction, and other biological processes",
-        "progress": 27,
+        "progress": 29,
         "evidence": [
           {
             "title": "Stanford scientists discover \"natural Ozempic\" without side effects",
@@ -365,7 +370,7 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 33,
+        "progress": 34,
         "evidence": [
           {
             "title": "These overlooked brain cells may control fear and PTSD",
@@ -416,6 +421,11 @@
             "title": "STAT+: Definium's LSD therapy eased anxiety in second large trial",
             "url": "https://www.statnews.com/2026/09/14/definiums-lsd-therapy-eased-anxiety-large-trial-psychedelic/",
             "date": "2026-09-14"
+          },
+          {
+            "title": "Controlling the brain with light earns a physiology Nobel",
+            "url": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
+            "date": "2026-10-10"
           }
         ]
       },
@@ -455,7 +465,7 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 52,
+        "progress": 53,
         "evidence": [
           {
             "title": "This new therapy turns off pain without opioids or addiction",
@@ -541,6 +551,11 @@
             "title": "Vagus Nerve Stimulation Could Help New Skills Stick; Your gut bacteria may reveal how fast your brain is aging; This diet may slow brain aging by 2.5 years",
             "url": "https://www.sciencedaily.com/releases/2026/10/261002080034.htm",
             "date": "2026-10-02"
+          },
+          {
+            "title": "Just 10 minutes of daily exercise could unlock deeper sleep",
+            "url": "https://www.sciencedaily.com/releases/2026/10/261008102721.htm",
+            "date": "2026-10-08"
           }
         ]
       }

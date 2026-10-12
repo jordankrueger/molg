@@ -3,6 +3,18 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-10-12
+
+**Articles scanned:** 150 | **Overall progress:** 26.9%
+
+**Changes:**
+- **Everyday Enhancement** (neuroscience): 52% → 53% — Concrete research finding that 10 minutes of daily exercise improves deep, restorative sleep quality, directly addressing everyday enhancement of sleep and cognitive function
+- **Biological Freedom** (biology): 27% → 29% — Two concrete developments: (1) experimental injection that destroys fat cells and reduces belly fat with potential to prevent weight regain from weight-loss drugs, (2) research showing GLP-1 drugs may affect biological age markers. Both represent tangible progress in biological control.
+- **Mental Illness Treatment** (neuroscience): 33% → 34% — Nobel Prize awarded for optogenetics (controlling the brain with light), a foundational neuroscience technique with therapeutic potential for mental and neurological conditions, representing significant scientific validation and advancement
+- **Alzheimer's Prevention** (biology): 28% → 29% — Mathematical model developed showing how copper and zinc influence protein buildup associated with Alzheimer's, identifying potential intervention points. Represents concrete scientific progress toward understanding prevention mechanisms.
+
+**Summary:** This week's news review examined 80 articles across health, biotech, climate, space, and technology domains against Dario Amodei's "Machines of Loving Grace" predictions. Most articles represented incremental scientific progress or policy discussions without concrete evidence of major advances toward the specific predictions. However, four modest but concrete developments warranted small increases: an injectable fat-cell destruction technology and GLP-1 biological aging research advancing Biological Freedom; exercise-sleep research supporting Everyday Enhancement; optogenetics Nobel Prize validating a key neuroscience tool for Mental Illness Treatment; and mathematical modeling of Alzheimer's protein dynamics contributing to prevention understanding. Notably, numerous articles on infectious disease policy, cancer drug development, and mental health treatment existed but involved either regulatory/administrative matters, early-stage trials, or safety concerns rather than evidence of major breakthrough progress. The governance and economic development predictions remain largely unsupported by this week's coverage, with political uncertainty and research funding challenges actually suggesting headwinds.
+
 ## 2026-10-05
 
 **Articles scanned:** 150 | **Overall progress:** 26.6%
