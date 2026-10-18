@@ -117,7 +117,7 @@ export default function PredictionTracker() {
                 <div className="px-6 pb-6">
                   {s.predictions.map((prediction: Prediction, index: number) => {
                     const evidenceKey = `${key}-${index}`;
-                    const newestFirst = [...prediction.evidence].reverse();
+                    const newestFirst = [...prediction.evidence].sort((x, y) => y.date.localeCompare(x.date));
                     const shown = allEvidence[evidenceKey] ? newestFirst : newestFirst.slice(0, 5);
                     return (
                     <div key={index} className="mb-6 last:mb-0">

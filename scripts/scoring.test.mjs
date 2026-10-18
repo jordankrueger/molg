@@ -1,7 +1,7 @@
 // Run with: node --test scripts/*.test.mjs
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { applyChanges, interleaveByFeed, normalizeUrl } from './scoring.mjs';
+import { applyChanges, decodeEntities, interleaveByFeed, normalizeUrl } from './scoring.mjs';
 
 const TODAY = '2026-10-19';
 
@@ -112,4 +112,36 @@ test('interleaveByFeed takes one article per feed in turn up to the cap', () => 
   ];
   assert.deepEqual(interleaveByFeed(items, 5).map(i => i.title), ['a1', 'b1', 'c1', 'a2', 'c2']);
   assert.equal(interleaveByFeed(items, 100).length, 6);
+});
+
+test('rejects non-numeric scores and non-integer article numbers instead of coercing them', () => {
+  const p = fixture();
+  const { applied, rejected } = applyChanges(p, [
+    { prediction: 'Cancer Treatment', article: 1, new_progress: null },
+    { prediction: 'Cancer Treatment', article: 1, new_progress: '' },
+    { prediction: 'Cancer Treatment', article: 1, new_progress: { toString: null } },
+    { prediction: 'Cancer Treatment', article: true, new_progress: 48 },
+    { prediction: 'Cancer Treatment', article: [1], new_progress: 48 },
+    { prediction: 'Cancer Treatment', article: '1', new_progress: 48 },
+    { prediction: 'Cancer Treatment', article: 1.5, new_progress: 48 },
+  ], ARTICLES, TODAY);
+  assert.equal(applied.length, 0);
+  assert.deepEqual(rejected.map(r => r.why), [
+    'no new score given', 'no new score given', 'no new score given',
+    'no matching article', 'no matching article', 'no matching article', 'no matching article',
+  ]);
+  assert.equal(p.biology.predictions[0].progress, 47);
+});
+
+test('the same link with and without tracking params normalizes to one key', () => {
+  assert.equal(
+    normalizeUrl('https://example.org/result?name=AI%20trial&utm_source=rss'),
+    normalizeUrl('https://example.org/result?name=AI%20trial'),
+  );
+});
+
+test('decodeEntities unescapes feed links so tracking params can be stripped', () => {
+  assert.equal(decodeEntities('https://e.org/a?id=1&amp;utm_source=rss'), 'https://e.org/a?id=1&utm_source=rss');
+  assert.equal(normalizeUrl(decodeEntities('https://e.org/a?id=1&amp;utm_source=rss')), 'https://e.org/a?id=1');
+  assert.equal(decodeEntities('Tom &amp; Jerry &#8217;s &#x2014; &lt;b&gt;'), 'Tom & Jerry \u2019s \u2014 <b>');
 });

@@ -15,7 +15,7 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { applyChanges, interleaveByFeed, overallProgress } from './scoring.mjs';
+import { applyChanges, decodeEntities, interleaveByFeed, overallProgress } from './scoring.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -97,7 +97,7 @@ function parseRSSItems(xml) {
     )?.[1]?.trim() || '';
 
     if (title) {
-      items.push({ title, link, description: desc, pubDate });
+      items.push({ title: decodeEntities(title), link: decodeEntities(link), description: decodeEntities(desc), pubDate });
     }
   }
 

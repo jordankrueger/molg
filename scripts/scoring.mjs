@@ -14,12 +14,24 @@ export function normalizeUrl(raw) {
     for (const key of [...u.searchParams.keys()]) {
       if (key.toLowerCase().startsWith('utm_')) u.searchParams.delete(key);
     }
+    const query = u.searchParams.toString(); // re-encode so %20 and + compare equal
+    u.search = query ? `?${query}` : '';
     u.hostname = u.hostname.toLowerCase();
     if (u.pathname.length > 1) u.pathname = u.pathname.replace(/\/+$/, '');
     return u.toString();
   } catch {
     return null;
   }
+}
+
+// Feed text arrives XML-escaped: a link with two query params reads "a=1&amp;b=2".
+export function decodeEntities(text) {
+  return String(text)
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d)))
+    .replace(/&quot;/g, '"').replace(/&apos;/g, "'")
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
 }
 
 export function isoDate(pubDate, fallback) {
@@ -79,14 +91,16 @@ export function applyChanges(predictions, changes, articles, today) {
     if (!found) { reject(change, 'unknown prediction'); continue; }
     if (touched.has(change.prediction)) { reject(change, 'more than one change for this prediction'); continue; }
 
-    const n = Number(change.article);
+    const n = change.article;
     const article = Number.isInteger(n) && n >= 1 ? articles[n - 1] : undefined;
     const url = article && normalizeUrl(article.link);
     if (!url) { reject(change, 'no matching article'); continue; }
     if (usedUrls.has(url)) { reject(change, 'article already counted'); continue; }
 
-    const target = Math.round(Number(change.new_progress));
-    if (!Number.isFinite(target)) { reject(change, 'no new score given'); continue; }
+    if (typeof change.new_progress !== 'number' || !Number.isFinite(change.new_progress)) {
+      reject(change, 'no new score given'); continue;
+    }
+    const target = Math.round(change.new_progress);
     const old = found.pred.progress;
     const step = Math.max(-MAX_STEP, Math.min(MAX_STEP, target - old));
     const next = Math.max(0, Math.min(100, old + step));
