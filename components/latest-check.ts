@@ -4,8 +4,9 @@ import { join } from 'path';
 export type Move = { prediction: string; from: number; to: number; note: string };
 export type LatestCheck = { date: string; text: string; moves: Move[]; noChanges: boolean };
 
+// Split only where a sentence end is followed by a space and a capital, so "12.5%" stays whole.
 const firstSentences = (s: string, n: number) =>
-  (s.match(/[^.!?]+[.!?]+(\s|$)/g) || [s]).slice(0, n).join('').trim();
+  s.trim().split(/(?<=[.!?])\s+(?=[A-Z"'(])/).slice(0, n).join(' ');
 
 // Newest entry of AUDIT-LOG.md (entries are newest first), read at build time.
 export function parseLatestCheck(log: string): LatestCheck | null {

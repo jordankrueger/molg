@@ -78,10 +78,10 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--focus); outline
 .col { position: relative; height: 100%; display: flex; align-items: flex-end; cursor: default; }
 .col .fill { width: 100%; background: var(--fill-v); border-radius: 4px 4px 0 0; transform-origin: bottom; }
 .col:hover .fill, .col:focus-visible .fill { filter: brightness(1.12); }
-.tip { position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%); background: var(--ink); color: #fff; font-size: 0.8rem; line-height: 1.3; padding: 0.45rem 0.6rem; border-radius: 6px; white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity 120ms; z-index: 2; }
-.col:hover .tip, .col:focus-visible .tip { opacity: 1; }
-.col:nth-child(-n+3) .tip { left: 0; transform: none; }
-.col:nth-last-child(-n+3) .tip { left: auto; right: 0; transform: none; }
+.tip { position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%); background: var(--ink); color: #fff; font-size: 0.8rem; line-height: 1.3; padding: 0.45rem 0.6rem; border-radius: 6px; white-space: nowrap; display: none; pointer-events: none; z-index: 2; }
+.col:hover .tip, .col:focus-visible .tip { display: block; } /* hidden tips must not widen the page on small phones */
+.col:nth-of-type(-n+3) .tip { left: 0; transform: none; }
+.col:nth-last-of-type(-n+3) .tip { left: auto; right: 0; transform: none; }
 .groups { display: grid; grid-template-columns: 6fr 4fr 4fr 4fr; gap: 6px; margin-top: 0.5rem; margin-left: 2.25rem; font-size: 0.78rem; color: var(--muted); }
 .groups span { border-left: 1.5px solid var(--rule); padding-left: 0.4rem; line-height: 1.25; }
 .avgline { position: absolute; left: 0; right: 0; border-top: 1.5px dashed var(--ink); z-index: 1; pointer-events: none; }

@@ -58,7 +58,7 @@ export default function Home() {
               {[100, 75, 50, 25, 0].map(v => <span key={v} style={{ bottom: `${v}%` }}>{v}</span>)}
             </div>
             <div className="skyline" role="list" style={{ gridTemplateColumns: `repeat(${all.length}, 1fr)` }}>
-              <div className="avgline" style={{ bottom: `${avg}%` }}></div>
+              <span className="avgline" style={{ bottom: `${avg}%` }}></span>
               {all.map((p, i) => (
                 <div key={p.title} className="col" role="listitem" tabIndex={0} aria-label={`${p.title}: ${p.progress} of 100`} style={{ '--i': i } as CSSProperties}>
                   <span className="fill" style={{ height: `${p.progress}%` }}></span>
