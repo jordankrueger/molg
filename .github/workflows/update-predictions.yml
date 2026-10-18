@@ -17,7 +17,10 @@ jobs:
 
       - uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '24'
+
+      - name: Test scoring rules
+        run: node --test scripts/*.test.mjs
 
       - name: Run prediction updater
         env:

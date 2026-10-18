@@ -30,6 +30,7 @@ type PredictionsData = {
 
 export default function PredictionTracker() {
   const [expandedSections, setExpandedSections] = useState<{[key: string]: boolean}>({});
+  const [allEvidence, setAllEvidence] = useState<{[key: string]: boolean}>({});
 
   const toggleSection = (id: string) => {
     setExpandedSections(prev => ({
@@ -87,6 +88,7 @@ export default function PredictionTracker() {
       <div className="max-w-4xl mx-auto pb-24 px-6">
         {Object.entries(sections).map(([key, section]) => {
           const s = section as Section;
+          const average = Math.round(s.predictions.reduce((sum, p) => sum + p.progress, 0) / s.predictions.length);
           return (
             <div key={key} className="mb-8 bg-white rounded-xl shadow-lg overflow-hidden">
               <button
@@ -94,9 +96,15 @@ export default function PredictionTracker() {
                 aria-expanded={!!expandedSections[key]}
                 className="w-full p-6 flex justify-between items-center hover:bg-gray-50 transition-colors"
               >
-                <div className="text-left">
+                <div className="text-left flex-1 mr-4">
                   <h2 className="text-2xl font-semibold text-gray-800">{s.title}</h2>
                   <p className="text-gray-600 mt-2">{s.description}</p>
+                  <div className="flex items-center gap-3 mt-3">
+                    <div className="h-2 flex-1 max-w-xs bg-gray-100 rounded-full overflow-hidden" aria-hidden="true">
+                      <div className="h-full bg-gradient-to-r from-blue-500 to-purple-500" style={{ width: `${average}%` }}></div>
+                    </div>
+                    <span className="text-sm text-gray-600">Average {average}% across {s.predictions.length} predictions</span>
+                  </div>
                 </div>
                 {expandedSections[key] ? (
                   <ChevronUp className="text-gray-400" aria-hidden="true" />
@@ -107,7 +115,11 @@ export default function PredictionTracker() {
 
               {expandedSections[key] && (
                 <div className="px-6 pb-6">
-                  {s.predictions.map((prediction: Prediction, index: number) => (
+                  {s.predictions.map((prediction: Prediction, index: number) => {
+                    const evidenceKey = `${key}-${index}`;
+                    const newestFirst = [...prediction.evidence].reverse();
+                    const shown = allEvidence[evidenceKey] ? newestFirst : newestFirst.slice(0, 5);
+                    return (
                     <div key={index} className="mb-6 last:mb-0">
                       <div className="flex justify-between mb-2">
                         <h3 className="font-medium text-gray-800">{prediction.title}</h3>
@@ -129,7 +141,7 @@ export default function PredictionTracker() {
                       </div>
                       {prediction.evidence.length > 0 && (
                         <div className="mt-2 space-y-1">
-                          {prediction.evidence.map((item: Evidence, i: number) => (
+                          {shown.map((item: Evidence, i: number) => (
                             <a
                               key={i}
                               href={item.url}
@@ -142,10 +154,20 @@ export default function PredictionTracker() {
                               <span className="text-gray-400">({item.date})</span>
                             </a>
                           ))}
+                          {newestFirst.length > 5 && (
+                            <button
+                              onClick={() => setAllEvidence(prev => ({ ...prev, [evidenceKey]: !prev[evidenceKey] }))}
+                              aria-expanded={!!allEvidence[evidenceKey]}
+                              className="text-xs text-gray-500 hover:text-gray-700 underline"
+                            >
+                              {allEvidence[evidenceKey] ? 'Show fewer' : `Show all ${newestFirst.length} sources`}
+                            </button>
+                          )}
                         </div>
                       )}
                     </div>
-                  ))}
+                    );
+                  })}
                 </div>
               )}
             </div>

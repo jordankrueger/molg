@@ -7,13 +7,15 @@
  * along with current prediction data, and updates predictions.json if Claude
  * identifies meaningful progress. Appends every run to AUDIT-LOG.md.
  *
- * Runs via GitHub Actions on a weekly schedule. Uses Claude Haiku for cost efficiency.
- * Zero npm dependencies — uses Node 20 native fetch.
+ * Runs via GitHub Actions on a weekly schedule. Which suggested changes are allowed
+ * to land is decided in scoring.mjs, not by the model.
+ * Zero npm dependencies — uses native fetch.
  */
 
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { applyChanges, interleaveByFeed, overallProgress } from './scoring.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -60,10 +62,11 @@ function parseRSSItems(xml) {
   const items = [];
 
   // Handle RSS 2.0 (<item>) and Atom (<entry>) formats
-  const itemRegex = /<(?:item|entry)>([\s\S]*?)<\/(?:item|entry)>/gi;
+  // Attributes allowed: Nature's RSS 1.0 feed uses <item rdf:about="...">
+  const itemRegex = /<(item|entry)(?:\s[^>]*)?>([\s\S]*?)<\/\1>/gi;
   let match;
   while ((match = itemRegex.exec(xml)) !== null) {
-    const block = match[1];
+    const block = match[2];
 
     // Title: handle CDATA and plain text
     const title = (
@@ -89,7 +92,8 @@ function parseRSSItems(xml) {
     const pubDate = (
       block.match(/<pubDate>(.*?)<\/pubDate>/) ||
       block.match(/<published>(.*?)<\/published>/) ||
-      block.match(/<updated>(.*?)<\/updated>/)
+      block.match(/<updated>(.*?)<\/updated>/) ||
+      block.match(/<dc:date>(.*?)<\/dc:date>/)
     )?.[1]?.trim() || '';
 
     if (title) {
@@ -111,8 +115,7 @@ async function fetchFeed(feed) {
     clearTimeout(timeout);
 
     if (!response.ok) {
-      console.warn(`  [WARN] ${feed.name}: HTTP ${response.status}`);
-      return [];
+      throw new Error(`HTTP ${response.status}`);
     }
 
     const xml = await response.text();
@@ -121,20 +124,22 @@ async function fetchFeed(feed) {
     return items.map(item => ({ ...item, source: feed.name }));
   } catch (err) {
     console.warn(`  [WARN] ${feed.name}: ${err.message}`);
-    return [];
+    throw err; // counted as a failed feed in rss_feeds_ok
   }
 }
 
-function filterRecentItems(items, daysBack = 14) {
+function filterRecentItems(items, daysBack = 7) {
   const cutoff = Date.now() - daysBack * 24 * 60 * 60 * 1000;
   return items.filter(item => {
-    if (!item.pubDate) return true; // include items without dates
+    if (!item.pubDate) return true; // include items without dates; reused links are still blocked
     const d = new Date(item.pubDate);
     return !isNaN(d.getTime()) && d.getTime() > cutoff;
   });
 }
 
 // ─── Claude API ─────────────────────────────────────────────────
+
+const MODEL = 'claude-opus-5-5';
 
 async function callClaude(prompt) {
   const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -145,8 +150,9 @@ async function callClaude(prompt) {
       'anthropic-version': '2023-06-01',
     },
     body: JSON.stringify({
-      model: 'claude-haiku-4-5-20251001',
-      max_tokens: 4096,
+      model: MODEL,
+      max_tokens: 16000,
+      output_config: { effort: 'medium' },
       messages: [{ role: 'user', content: prompt }],
     }),
   });
@@ -157,7 +163,11 @@ async function callClaude(prompt) {
   }
 
   const data = await response.json();
-  return data.content[0].text;
+  if (data.stop_reason === 'refusal') throw new Error('Claude declined the request (stop_reason: refusal)');
+  // Thinking is always on for this model, so the first block may be a thinking block.
+  const text = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('');
+  if (!text) throw new Error(`No text in Claude response (stop_reason: ${data.stop_reason})`);
+  return text;
 }
 
 // ─── Main Logic ─────────────────────────────────────────────────
@@ -179,18 +189,18 @@ async function main() {
   let rssFeedsOk = 0;
   for (const result of feedResults) {
     if (result.status === 'fulfilled') {
-      rssFeedsOk += 1;
+      if (result.value.length > 0) rssFeedsOk += 1; // an empty feed counts as down
       allItems.push(...result.value);
     }
   }
 
-  // 3. Filter to recent items
+  // 3. Filter to the last week (runs are weekly, so no article is shown twice)
   const recentItems = filterRecentItems(allItems);
-  console.log(`\n${recentItems.length} recent articles (last 14 days) from ${allItems.length} total.`);
+  console.log(`\n${recentItems.length} recent articles (last 7 days) from ${allItems.length} total.`);
 
   if (recentItems.length === 0) {
     console.log('No recent articles found. Writing audit log and exiting.');
-    appendAuditLog(today, 0, 'No recent articles found from any RSS feeds. Feeds may be down.', [], predictions);
+    appendAuditLog(today, 0, 0, 'No recent articles found from any RSS feeds. Feeds may be down.', [], [], predictions);
     writeRunSummary({
       rssFeedsOk,
       articlesEvaluated: 0,
@@ -200,80 +210,76 @@ async function main() {
     process.exit(0);
   }
 
-  const articlesEvaluated = Math.min(recentItems.length, 80);
-
-  // 4. Build article summary for Claude (truncate to keep token usage reasonable)
-  const articleSummary = recentItems
-    .slice(0, 80) // cap at 80 articles
-    .map((item, i) => `${i + 1}. [${item.source}] "${item.title}" — ${item.description}${item.link ? ` (${item.link})` : ''}`)
+  // 4. Pick up to 80 articles, one feed at a time, and number them
+  const articles = interleaveByFeed(recentItems, 80);
+  const articlesEvaluated = articles.length;
+  const articleSummary = articles
+    .map((item, i) => `${i + 1}. [${item.source}] "${item.title}" — ${item.description}`)
     .join('\n');
 
   // 5. Build the prediction summary
   const { lastUpdated, ...sections } = predictions;
-  const predictionSummary = Object.entries(sections)
-    .map(([key, section]) => {
-      const s = section;
+  const predictionSummary = Object.values(sections)
+    .map(s => {
       const preds = s.predictions
         .map(p => `  - ${p.title}: ${p.progress}% — ${p.description}`)
         .join('\n');
-      return `### ${s.title} (section key: "${key}")\n${preds}`;
+      return `### ${s.title}\n${preds}`;
     })
     .join('\n\n');
 
   // 6. Call Claude
-  console.log('\nAsking Claude to evaluate...');
-  const prompt = `You are evaluating progress on predictions from Dario Amodei's "Machines of Loving Grace" essay. These predictions describe what AI could achieve in 5-10 years after powerful AI is developed.
+  console.log(`\nAsking Claude (${MODEL}) to evaluate ${articlesEvaluated} articles...`);
+  const prompt = `You are scoring progress on predictions from Dario Amodei's "Machines of Loving Grace" essay. The essay predicts what powerful AI could achieve within 5-10 years of being developed. Each score is a 0-100 judgment of how far the world has moved toward that prediction.
 
-## Current Prediction Progress (as of ${lastUpdated})
+## Current scores (as of ${lastUpdated})
 
 ${predictionSummary}
 
-## Recent News Articles (last 14 days)
+## This week's articles (numbered)
 
 ${articleSummary}
 
-## Your Task
+## Scoring rules
 
-Evaluate whether any of the recent articles represent meaningful progress toward any of the predictions. Be CONSERVATIVE:
+Most weeks nothing should change. Zero or one change is the normal result; never change a score just because an article is on a related topic.
 
-- Only recommend a progress change if there's clear, concrete evidence (not just speculation or announcements)
-- Progress changes should be small: typically 1-3 percentage points
-- A single news article rarely justifies more than a 1-2 point change
-- If nothing significant happened, say so — no changes is a perfectly valid outcome
-- Progress can also go DOWN if evidence suggests setbacks
+A score goes UP only when BOTH are true:
+1. AI or machine learning played a direct, named part in the result (for example an AI-designed drug, an AI model used in a trial or diagnosis, AI-run public services). General science or health news with no AI role does not count, however good it is.
+2. The evidence is solid: a peer-reviewed result, a regulatory approval or decision, official data from a government or international body (WHO, UN, World Bank), or a deployment that is live, not announced.
 
-Respond with ONLY a JSON object in this exact format (no markdown code fences, no other text):
+A score goes DOWN when an article gives the same kind of solid evidence that the world moved away from the prediction (an official statistic worsening, a law or policy that reverses progress, a documented failure), whether or not AI was involved.
+
+Never count announcements, press releases, funding rounds, early-stage or animal studies, opinion pieces, or predictions. Each change is at most 3 points. Use one article per change, and change each prediction at most once.
+
+## Response format
+
+Respond with ONLY a JSON object (no code fences, no other text):
 
 {
   "changes": [
     {
-      "section": "biology (use the exact section key shown above)",
-      "prediction": "Cancer Treatment (use the exact prediction title shown above)",
-      "old_progress": 20,
-      "new_progress": 22,
-      "reason": "Brief explanation of why",
-      "evidence": {
-        "title": "Article title",
-        "url": "https://...",
-        "date": "YYYY-MM-DD"
-      }
+      "prediction": "Cancer Treatment (exact title from the list above)",
+      "article": 12,
+      "new_progress": 48,
+      "reason": "One or two sentences: what happened, what AI did, and why the evidence meets the rules"
     }
   ],
-  "summary": "One paragraph summary of this week's evaluation. What did you look at, what was notable even if it didn't warrant a change, and what changed if anything."
+  "summary": "One paragraph for a general reader: what you looked at, what came close but did not meet the rules, and what changed, if anything. Name stories by what they are, never by their article number."
 }
 
-If no changes are warranted, return: { "changes": [], "summary": "..." }`;
+"article" is the number of the article in the list above. If nothing meets the rules, return { "changes": [], "summary": "..." }`;
 
   const responseText = await callClaude(prompt);
 
   let evaluation;
   try {
-    // Handle case where Claude wraps in code fences despite instructions
-    const jsonStr = responseText.replace(/^```json?\n?/m, '').replace(/\n?```$/m, '').trim();
-    evaluation = JSON.parse(jsonStr);
+    const start = responseText.indexOf('{');
+    const end = responseText.lastIndexOf('}');
+    evaluation = JSON.parse(responseText.slice(start, end + 1));
   } catch (err) {
     console.error('Failed to parse Claude response:', responseText.slice(0, 500));
-    appendAuditLog(today, recentItems.length, 'Error: Could not parse Claude API response.', [], predictions);
+    appendAuditLog(today, recentItems.length, articlesEvaluated, 'Error: Could not parse Claude API response.', [], [], predictions);
     writeRunSummary({
       rssFeedsOk,
       articlesEvaluated,
@@ -283,51 +289,16 @@ If no changes are warranted, return: { "changes": [], "summary": "..." }`;
     process.exit(1);
   }
 
-  console.log(`\nEvaluation: ${evaluation.changes.length} changes recommended.`);
-  console.log(`Summary: ${evaluation.summary}\n`);
+  const summary = String(evaluation.summary ?? '');
+  console.log(`\nEvaluation: ${(evaluation.changes || []).length} changes suggested.`);
+  console.log(`Summary: ${summary}\n`);
 
-  // 7. Apply changes if any
-  // Build flexible lookups — Claude returns inconsistent key formats
-  const sectionLookup = {}; // normalized string → section key
-  for (const [key, section] of Object.entries(sections)) {
-    const norm = str => str.toLowerCase().replace(/[^a-z]/g, '');
-    sectionLookup[norm(key)] = key;
-    sectionLookup[norm(section.title)] = key;
-  }
+  // 7. Apply only the changes that pass the checks in scoring.mjs
+  const { applied, rejected } = applyChanges(predictions, evaluation.changes, articles, today);
+  for (const c of applied) console.log(`  ${c.section}/${c.prediction}: ${c.old_progress}% → ${c.new_progress}%`);
+  for (const r of rejected) console.warn(`  [SKIPPED] ${r.prediction}: ${r.why}`);
 
-  function resolveSection(input) {
-    const norm = input.toLowerCase().replace(/[^a-z]/g, '');
-    return sectionLookup[norm] || null;
-  }
-
-  if (evaluation.changes.length > 0) {
-    for (const change of evaluation.changes) {
-      const sectionKey = resolveSection(change.section);
-      const section = sectionKey ? predictions[sectionKey] : null;
-      if (!section) {
-        console.warn(`  [WARN] Unknown section: ${change.section}`);
-        continue;
-      }
-      const pred = section.predictions.find(p => p.title === change.prediction);
-      if (!pred) {
-        console.warn(`  [WARN] Unknown prediction: ${change.prediction} in ${change.section}`);
-        continue;
-      }
-      const oldVal = pred.progress;
-      pred.progress = change.new_progress;
-
-      // Add evidence if provided
-      if (change.evidence && change.evidence.title && change.evidence.url) {
-        if (!pred.evidence) pred.evidence = [];
-        // Avoid duplicate URLs
-        if (!pred.evidence.some(e => e.url === change.evidence.url)) {
-          pred.evidence.push(change.evidence);
-        }
-      }
-
-      console.log(`  ${change.section}/${change.prediction}: ${oldVal}% → ${change.new_progress}%`);
-    }
-
+  if (applied.length > 0) {
     predictions.lastUpdated = today;
     writeFileSync(PREDICTIONS_PATH, JSON.stringify(predictions, null, 2) + '\n');
     console.log('\npredictions.json updated.');
@@ -336,43 +307,35 @@ If no changes are warranted, return: { "changes": [], "summary": "..." }`;
   }
 
   // 8. Write audit log
-  appendAuditLog(today, recentItems.length, evaluation.summary, evaluation.changes, predictions);
+  appendAuditLog(today, recentItems.length, articlesEvaluated, summary, applied, rejected, predictions);
   console.log('Audit log updated.');
 
   // 9. Write run summary for Drift watcher
   writeRunSummary({
     rssFeedsOk,
     articlesEvaluated,
-    predictionsChanged: evaluation.changes.length,
+    predictionsChanged: applied.length,
   });
   console.log('Run summary written.');
 }
 
-function appendAuditLog(date, articlesScanned, summary, changes, predictions) {
-  // Calculate overall progress
-  const { lastUpdated, ...sections } = predictions;
-  let totalProgress = 0;
-  let totalPredictions = 0;
-  for (const section of Object.values(sections)) {
-    for (const pred of section.predictions) {
-      totalProgress += pred.progress;
-      totalPredictions++;
-    }
-  }
-  const avgProgress = (totalProgress / totalPredictions).toFixed(1);
-
+function appendAuditLog(date, articlesFound, articlesSent, summary, applied, rejected, predictions) {
   // Build the new entry
   let entry = `\n## ${date}\n\n`;
-  entry += `**Articles scanned:** ${articlesScanned} | **Overall progress:** ${avgProgress}%\n\n`;
+  entry += `**Articles found:** ${articlesFound} | **Sent to the model:** ${articlesSent} | **Overall progress:** ${overallProgress(predictions)}%\n\n`;
 
-  if (changes.length > 0) {
+  if (applied.length > 0) {
     entry += `**Changes:**\n`;
-    for (const c of changes) {
+    for (const c of applied) {
       entry += `- **${c.prediction}** (${c.section}): ${c.old_progress}% → ${c.new_progress}% — ${c.reason}\n`;
     }
     entry += '\n';
   } else {
     entry += `**No changes this week.**\n\n`;
+  }
+
+  if (rejected.length > 0) {
+    entry += `**Suggested but not applied:** ${rejected.map(r => `${r.prediction} (${r.why})`).join('; ')}\n\n`;
   }
 
   entry += `**Summary:** ${summary}\n`;
