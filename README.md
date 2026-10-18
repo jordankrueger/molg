@@ -9,7 +9,7 @@
 
 **Live at [aiprogresstracker.com](https://aiprogresstracker.com)**
 
-[Join our Reddit community](https://www.reddit.com/r/MachinesofLovingGrace/) to discuss updates and contribute to tracking progress!
+[Join our Reddit community](https://www.reddit.com/r/MachinesofLovingGrace/) to discuss updates and contribute to tracking progress! Follow weekly updates on [Bluesky](https://bsky.app/profile/aiprogresstracker.com) and [X](https://x.com/AIProgressTrkr).
 
 ## About This Project
 
