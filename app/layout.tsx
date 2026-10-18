@@ -3,6 +3,7 @@ import Link from 'next/link'
 import localFont from 'next/font/local'
 import predictions from '../data/predictions.json'
 import { formatDate } from '../components/format'
+import { LINKS, external } from '../components/links'
 import './globals.css'
 
 const geist = localFont({
@@ -11,8 +12,6 @@ const geist = localFont({
   weight: '100 900',
   display: 'swap',
 })
-
-const ESSAY_URL = 'https://darioamodei.com/machines-of-loving-grace'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://aiprogresstracker.com'),
@@ -64,8 +63,6 @@ function Wordmark() {
   )
 }
 
-const external = { target: '_blank', rel: 'noopener noreferrer' }
-
 export default function RootLayout({
   children,
 }: {
@@ -79,7 +76,7 @@ export default function RootLayout({
           <Wordmark />
           <nav aria-label="Primary">
             <Link href="/#how" className="hide-sm">How scoring works</Link>
-            <a href={ESSAY_URL} {...external}>Read the essay</a>
+            <a href={LINKS.essay} {...external}>Read the essay</a>
           </nav>
         </header>
 
@@ -92,12 +89,12 @@ export default function RootLayout({
               <p>An independent project tracking the predictions in Machines of Loving Grace. Not affiliated with Anthropic or Dario Amodei.</p>
             </div>
             <nav aria-label="Footer">
-              <a href={ESSAY_URL} {...external}>Read the essay</a>
-              <a href="https://bsky.app/profile/aiprogresstracker.com" {...external}>Bluesky</a>
-              <a href="https://x.com/AIProgressTrkr" {...external}>X (Twitter)</a>
-              <a href="https://www.reddit.com/r/MachinesofLovingGrace/" {...external}>Reddit community</a>
-              <a href="https://github.com/jordankrueger/molg" {...external}>Source on GitHub</a>
-              <a href="https://github.com/jordankrueger/molg/blob/main/AUDIT-LOG.md" {...external}>Full change log</a>
+              <a href={LINKS.essay} {...external}>Read the essay</a>
+              <a href={LINKS.bluesky} {...external}>Bluesky</a>
+              <a href={LINKS.x} {...external}>X (Twitter)</a>
+              <a href={LINKS.reddit} {...external}>Reddit community</a>
+              <a href={LINKS.github} {...external}>Source on GitHub</a>
+              <a href={LINKS.changeLog} {...external}>Full change log</a>
               <Link href="/privacy">Privacy</Link>
               <Link href="/terms">Terms</Link>
               <Link href="/accessibility">Accessibility</Link>

@@ -2,6 +2,7 @@ import type { CSSProperties } from 'react';
 import predictionsData from '../data/predictions.json';
 import { formatDate } from '../components/format';
 import { readLatestCheck } from '../components/latest-check';
+import { LINKS, external } from '../components/links';
 
 type Evidence = { title: string; url: string; date: string };
 type Prediction = { title: string; description: string; progress: number; evidence: Evidence[] };
@@ -17,15 +18,13 @@ const SHORT: Record<string, string> = {
 const sentenceCase = (s: string) => s.charAt(0) + s.slice(1).toLowerCase();
 const average = (ps: Prediction[]) => ps.reduce((sum, p) => sum + p.progress, 0) / ps.length;
 
-const ArrowUp = () => (
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" /></svg>
+// Stroke icons in the Lucide style; children are the shape(s).
+const Icon = ({ size = 20, weight = 2.2, children }: { size?: number; weight?: number; children: React.ReactNode }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={weight} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{children}</svg>
 );
-const ArrowDown = () => (
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M12 5v14M19 12l-7 7-7-7" /></svg>
-);
-const ExternalIcon = () => (
-  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M15 3h6v6M10 14L21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></svg>
-);
+const ArrowUp = () => <Icon><path d="M12 19V5M5 12l7-7 7 7" /></Icon>;
+const ArrowDown = () => <Icon><path d="M12 5v14M19 12l-7 7-7-7" /></Icon>;
+const ExternalIcon = () => <Icon size={14} weight={2}><path d="M15 3h6v6M10 14L21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></Icon>;
 
 export default function Home() {
   const { lastUpdated, ...rest } = predictionsData as unknown as { lastUpdated: string } & Record<string, Section>;
@@ -44,7 +43,7 @@ export default function Home() {
           <p className="meta">Average of all {all.length} scores. Updated {formatDate(lastUpdated)}.</p>
           <div className="actions">
             <a className="btn primary" href="#all">See all {all.length} predictions</a>
-            <a className="btn ghost" href="https://www.reddit.com/r/MachinesofLovingGrace/" target="_blank" rel="noopener noreferrer">Discuss on Reddit</a>
+            <a className="btn ghost" href={LINKS.reddit} {...external}>Discuss on Reddit</a>
           </div>
         </div>
 
@@ -96,7 +95,7 @@ export default function Home() {
                       {newest.map(e => (
                         <div key={e.url} className="source">
                           <ExternalIcon />
-                          <span><a href={e.url} target="_blank" rel="noopener noreferrer">{e.title}</a>, {formatDate(e.date, true)}</span>
+                          <span><a href={e.url} {...external}>{e.title}</a>, {formatDate(e.date, true)}</span>
                         </div>
                       ))}
                     </li>
@@ -136,15 +135,15 @@ export default function Home() {
                 )}
               </>
             )}
-            <p className="more"><a href="https://github.com/jordankrueger/molg/blob/main/AUDIT-LOG.md" target="_blank" rel="noopener noreferrer">Every past check, with sources</a></p>
+            <p className="more"><a href={LINKS.changeLog} {...external}>Every past check, with sources</a></p>
           </div>
           <div className="panel">
             <h3>The rules</h3>
             <ul className="rules">
               <li><span className="ic" aria-hidden="true"><ArrowUp /></span><span><b>Up only with AI and proof</b>AI played a direct, named part, and the evidence is peer-reviewed, a regulator&apos;s decision, official data, or something already in use.</span></li>
               <li><span className="ic" aria-hidden="true"><ArrowDown /></span><span><b>Down on the same kind of proof</b>An official statistic worsening, a policy reversal, or a documented failure, whether or not AI was involved.</span></li>
-              <li><span className="ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9" /><path d="M5.6 5.6l12.8 12.8" /></svg></span><span><b>Never counted</b>Announcements, funding rounds, animal studies, opinion pieces and predictions.</span></li>
-              <li><span className="ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12h16M4 6h16M4 18h10" /></svg></span><span><b>Small steps</b>At most 3 points per change, one change per prediction per week, and each article counts once.</span></li>
+              <li><span className="ic" aria-hidden="true"><Icon size={18}><circle cx="12" cy="12" r="9" /><path d="M5.6 5.6l12.8 12.8" /></Icon></span><span><b>Never counted</b>Announcements, funding rounds, animal studies, opinion pieces and predictions.</span></li>
+              <li><span className="ic" aria-hidden="true"><Icon size={18}><path d="M4 12h16M4 6h16M4 18h10" /></Icon></span><span><b>Small steps</b>At most 3 points per change, one change per prediction per week, and each article counts once.</span></li>
             </ul>
           </div>
         </div>
