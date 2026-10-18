@@ -5,6 +5,14 @@ Each entry shows what was scanned, what changed, and why.
 
 ## 2026-10-18
 
+**Articles found:** 214 | **Sent to the model:** 80 | **Overall progress:** 18.1%
+
+**No changes this week.**
+
+**Summary:** This week's articles produced no score changes. The closest AI-related story was research using AI to design proteins that cut up other proteins. It is a notable lab advance, but it is early-stage work with no clinical or deployed result, so it does not qualify. A roundtable with the researcher behind AI-designed viruses revisited earlier work and reported nothing new. Several strong medical stories had no named AI role, so they could not raise a score: the PRIMA retinal implant restoring sight in macular degeneration, European regulators recommending Revolution Medicines' pancreatic cancer drug, Merck and Moderna's personalized cancer vaccine, deep brain stimulation pathways for depression, and pig kidneys revived after cryogenic storage. Others were animal studies or announcements, including a brain 'youth protein' in mice, psilocybin calming fish, and a soy compound protecting mice from high salt intake. On the negative side, a global hunger monitor reported record acute food insecurity in Afghanistan, and the UN described worsening famine in Sudan and record civilian casualties in Ukraine. These are serious humanitarian setbacks, but they are regional crises driven by conflict and aid shortfalls rather than clear global evidence against the predictions, so no scores were lowered.
+
+## 2026-10-18
+
 **Scores re-checked under the new rules** | **Overall progress:** 18.1%
 
 Every automated change since 2026-02-26 (120 in all) was re-judged against the scoring rules adopted today: a score goes up only when AI played a direct, named part and the evidence is a peer-reviewed result, a regulatory decision, official data or a live deployment; it goes down on the same kind of evidence. Scores were rebuilt from the 2026-02-26 starting values plus the 2 changes that met the rules, and source links for changes that did not were removed.
