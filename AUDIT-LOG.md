@@ -3,6 +3,28 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-10-18
+
+**Scores re-checked under the new rules** | **Overall progress:** 18.1%
+
+Every automated change since 2026-02-26 (120 in all) was re-judged against the scoring rules adopted today: a score goes up only when AI played a direct, named part and the evidence is a peer-reviewed result, a regulatory decision, official data or a live deployment; it goes down on the same kind of evidence. Scores were rebuilt from the 2026-02-26 starting values plus the 2 changes that met the rules, and source links for changes that did not were removed.
+
+**Changes:**
+- **Infectious Disease Prevention** (biology): 52% → 33%
+- **Cancer Treatment** (biology): 47% → 20%
+- **Genetic Disease** (biology): 57% → 30%
+- **Alzheimer's Prevention** (biology): 29% → 15%
+- **Biological Freedom** (biology): 29% → 25%
+- **Lifespan Extension** (biology): 18% → 10%
+- **Mental Illness Treatment** (neuroscience): 34% → 20%
+- **Structural Conditions** (neuroscience): 16% → 10%
+- **Everyday Enhancement** (neuroscience): 53% → 30%
+- **Health Distribution** (economics): 13% → 10%
+- **Food Security** (economics): 19% → 15%
+- **Climate Change** (economics): 33% → 20%
+- **Information Environment** (governance): 10% → 15%
+- **Legal Systems** (governance): 11% → 10%
+
 ## 2026-10-12
 
 **Articles scanned:** 150 | **Overall progress:** 26.9%

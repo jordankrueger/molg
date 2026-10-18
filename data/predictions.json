@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-18",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -7,349 +7,44 @@
       {
         "title": "Infectious Disease Prevention",
         "description": "Reliable prevention and treatment of nearly all natural infectious disease",
-        "progress": 52,
+        "progress": 33,
         "evidence": [
-          {
-            "title": "Denmark becomes first country in the European Union to eliminate mother-to-child transmission of HIV and syphilis",
-            "url": "https://www.who.int/news/item/27-02-2026-denmark-becomes-first-country-in-the-european-union-to-eliminate-of-mother-to-child-transmission-of-hiv-and-syphilis",
-            "date": "2026-02-27"
-          },
-          {
-            "title": "WHO validates elimination of trachoma as a public health problem in Libya",
-            "url": "https://www.who.int/news/item/18-02-2026-who-validates-elimination-of-trachoma-as-a-public-health-problem-in-libya",
-            "date": "2026-02-18"
-          },
-          {
-            "title": "Chile becomes the first country in the Americas to be verified by WHO for the elimination of leprosy",
-            "url": "https://www.who.int/news/item/04-03-2026-chile-becomes-the-first-country-in-the-americas-to-be-verified-by-who-for-the-elimination-of-leprosy",
-            "date": "2026-03-04"
-          },
-          {
-            "title": "WHO recommends new diagnostic tools to help end TB",
-            "url": "https://www.who.int/news/item/24-03-2026-who-recommends-new-diagnostic-tools-to-help-end-tb",
-            "date": "2026-03-24"
-          },
-          {
-            "title": "First-ever WHO Forum unites 800+ Collaborating Centres for stronger scientific collaboration",
-            "url": "https://www.who.int/news/item/09-04-2026-first-ever-who-forum-unites-800--collaborating-centres-for-stronger-scientific-collaboration",
-            "date": "2026-04-09"
-          },
-          {
-            "title": "WHO prequalifies first-ever malaria treatment for newborns and infants, adds new diagnostic tests",
-            "url": "https://www.who.int/news/item/24-04-2026-who-prequalifies-first-ever-malaria-treatment-for-newborns-and-infants-adds-new-diagnostic-tests",
-            "date": "2026-04-24"
-          },
-          {
-            "title": "Tunisia validated by WHO as having eliminated trachoma as a public health problem",
-            "url": "https://www.who.int/news/item/14-05-2026-tunisia-validated-by-who-as-having-eliminated-trachoma-as-a-public-health-problem",
-            "date": "2026-05-14"
-          },
-          {
-            "title": "As Ebola outbreak grows, Trump administration veers from previous government playbook",
-            "url": "https://www.statnews.com/2026/05/30/trump-ebola-response-biden-pandemic-preparations-thrown-away/",
-            "date": "2026-05-30"
-          },
-          {
-            "title": "AI-designed universal coronavirus vaccine passes first human trial",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260605023357.htm",
-            "date": "2026-06-05"
-          },
-          {
-            "title": "Amid confusion over Pfizer's emergency penicillin program, newborn is diagnosed with preventable syphilis",
-            "url": "https://www.statnews.com/2026/06/15/pfizer-bicillin-shortage-preventable-congenital-syphilis-surging/",
-            "date": "2026-06-15"
-          },
-          {
-            "title": "Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections",
-            "url": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
-            "date": "2026-06-24"
-          },
-          {
-            "title": "WHO adds first diagnostic test for Ebola Bundibugyo virus to its Emergency Use Listing",
-            "url": "https://www.who.int/news/item/02-07-2026-who-adds-first-diagnostic-test-for-ebola-bundibugyo-virus-to-its-emergency-use-listing",
-            "date": "2026-07-02"
-          },
-          {
-            "title": "El Salvador validated by WHO as having eliminated trachoma as a public health problem",
-            "url": "https://www.who.int/news/item/13-07-2026-el-salvador-validated-by-who-as-having-eliminated-trachoma-as-a-public-health-problem",
-            "date": "2026-07-13"
-          },
-          {
-            "title": "Scientists deploy Merck's Ebola vaccine in DRC",
-            "url": "https://www.statnews.com/2026/08/21/health-news-scientists-deploy-merck-ebola-vaccine-in-drc/",
-            "date": "2026-08-21"
-          },
-          {
-            "title": "Opinion: Make infectious disease data boring again",
-            "url": "https://www.statnews.com/2026/09/04/pennsylvania-measles-deaths-data-cdc-director-rfk-jr/",
-            "date": "2026-09-04"
-          },
           {
             "title": "Pennsylvania officials report state's third death involving measles",
             "url": "https://www.statnews.com/2026/09/14/third-measles-related-death-pennsylvania-outbreak/",
             "date": "2026-09-14"
-          },
-          {
-            "title": "STAT+: Licensing deals on generic versions of Roche flu drug aimed at preparing for pandemic",
-            "url": "https://www.statnews.com/pharmalot/2026/09/25/roche-xofluza-influenza-treatment-agreements/",
-            "date": "2026-09-25"
-          },
-          {
-            "title": "Vaxcyte claims success in bid to beat Pfizer and Merck in lucrative vaccine market",
-            "url": "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/",
-            "date": "2026-10-05"
           }
         ]
       },
       {
         "title": "Cancer Treatment",
         "description": "95%+ reduction in cancer mortality and incidence",
-        "progress": 47,
-        "evidence": [
-          {
-            "title": "Scientists engineer bacteria to eat cancer tumors from the inside out",
-            "url": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-            "date": "2026-02-24"
-          },
-          {
-            "title": "Cancer cells can 'barf' proteins onto their cell surface. That may create new targets for immunotherapies",
-            "url": "https://www.statnews.com/2026/03/12/cancer-researchers-new-immunology-target-oncogene-src/",
-            "date": "2026-03-12"
-          },
-          {
-            "title": "New AI tool predicts cancer spread with surprising accuracy",
-            "url": "https://www.sciencedaily.com/releases/2026/03/260321012709.htm",
-            "date": "2026-03-21"
-          },
-          {
-            "title": "AI drug developer Insilico Medicine and Lilly ink commercialization deal worth up to $2.75 billion",
-            "url": "https://www.statnews.com/2026/03/29/insilico-medicine-lilly-sign-ai-drug-commercialization-deal/",
-            "date": "2026-03-29"
-          },
-          {
-            "title": "The race to catch KRAS, pancreatic cancer's 'greasy ball,' and create the most promising drug in decades",
-            "url": "https://www.statnews.com/2026/04/19/daraxonrasib-pancreatic-cancer-kras-revolution-medicines-patient-story/",
-            "date": "2026-04-19"
-          },
-          {
-            "title": "A revolutionary cancer treatment could transform autoimmune disease",
-            "url": "https://arstechnica.com/science/2026/05/a-revolutionary-cancer-treatment-could-transform-autoimmune-disease/",
-            "date": "2026-05-18"
-          },
-          {
-            "title": "Merck-Kelun lung cancer drug cut risk of tumor progression by 65%, ASCO abstract shows",
-            "url": "https://www.statnews.com/2026/05/21/merck-kelun-sac-tmt-lung-cancer-drug-trial-results/",
-            "date": "2026-05-21"
-          },
-          {
-            "title": "STAT+: Practice-changing results reported for Revolution Medicines pancreatic cancer drug",
-            "url": "https://www.statnews.com/2026/05/31/pancreatic-cancer-daraxonrasib-revolution-medicines-results-asco-2026/",
-            "date": "2026-05-31"
-          },
-          {
-            "title": "Ozempic and similar weight-loss drugs linked to 30% lower breast cancer risk",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260605023400.htm",
-            "date": "2026-06-05"
-          },
-          {
-            "title": "STAT+: Moderna co-founder Kenneth Chien on the future of mRNA — and Moderna",
-            "url": "https://www.statnews.com/2026/06/29/moderna-founder-kenneth-chien-on-cancer-vaccine-and-mrna-future/?utm_campaign=rss",
-            "date": "2026-06-29"
-          },
-          {
-            "title": "A breakthrough in pancreatic cancer has experts excited — and braced for what's to come",
-            "url": "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/",
-            "date": "2026-07-13"
-          },
-          {
-            "title": "FDA approves Replimune melanoma drug previously rejected twice",
-            "url": "https://www.statnews.com/2026/08/06/replimune-melanoma-drug-rp1-fda-approves-phase-3-confirmatory-trial/",
-            "date": "2026-08-06"
-          },
-          {
-            "title": "Inside Moderna and Merck's cancer vaccine triumph",
-            "url": "https://www.statnews.com/2026/08/24/inside-moderna-and-merck-cancer-vaccine-triumph/?utm_campaign=rss",
-            "date": "2026-08-24"
-          },
-          {
-            "title": "FDA approves Protagonist and Takeda's drug for rare blood cancer",
-            "url": "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/",
-            "date": "2026-08-30"
-          },
-          {
-            "title": "Lilly's breast cancer combo wins approval",
-            "url": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/",
-            "date": "2026-09-21"
-          },
-          {
-            "title": "Lilly's Jaypirca approved as first-line CLL therapy; Vaxcyte pneumococcal vaccine Phase 3 success; divergent cancer vaccine trial results",
-            "url": "https://www.statnews.com/2026/10/05/biotech-news-lilly-jaypirca-approved-as-first-line-cll-therapy/",
-            "date": "2026-10-05"
-          }
-        ]
+        "progress": 20,
+        "evidence": []
       },
       {
         "title": "Genetic Disease",
         "description": "Prevention and cures for most genetic diseases through improved screening and CRISPR advances",
-        "progress": 57,
-        "evidence": [
-          {
-            "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
-            "url": "https://www.sciencedaily.com/releases/2026/03/260314030507.htm",
-            "date": "2026-03-14"
-          },
-          {
-            "title": "FDA approves Rocket gene therapy for rare immune disorder",
-            "url": "https://www.statnews.com/2026/03/26/rocket-pharma-kresladi-lad-1-fda-approval/",
-            "date": "2026-03-26"
-          },
-          {
-            "title": "Deafness reversed: One injection restores hearing in just weeks",
-            "url": "https://www.sciencedaily.com/releases/2026/04/260403044651.htm",
-            "date": "2026-04-03"
-          },
-          {
-            "title": "Clinical trial shows gene editing works for β-Thalassaemia, too",
-            "url": "https://arstechnica.com/science/2026/04/clinical-trial-shows-gene-editing-works-for-%ce%b2-thalassaemia-too/",
-            "date": "2026-04-XX"
-          },
-          {
-            "title": "Clinical trial shows gene editing works for β-Thalassaemia, too",
-            "url": "https://www.arstechnica.com/science/2026/04/clinical-trial-shows-gene-editing-works-for-%ce%b2-thalassaemia-too/",
-            "date": "2026-04-15"
-          },
-          {
-            "title": "STAT+: Servier to buy Edgewise Therapeutics' muscular dystrophy drug",
-            "url": "https://www.statnews.com/2026/06/01/servier-edgewise-therapeutics-muscular-dystrophy-drug-sevasemten/",
-            "date": "2026-06-01"
-          },
-          {
-            "title": "FDA reverses course on Regenxbio's childhood gene therapy after rejection",
-            "url": "https://www.statnews.com/2026/06/22/fda-reverses-course-regenxbio-gene-therapy-navsunli-hunter-syndrome/",
-            "date": "2026-06-22"
-          },
-          {
-            "title": "WHO urges scale up of newborn screening to improve early detection and care of birth defects",
-            "url": "https://www.who.int/news/item/23-06-2026-who-urges-scale-up-of-newborn-screening-to-improve-early-detection-and-care-of-birth-defects",
-            "date": "2026-06-23"
-          },
-          {
-            "title": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
-            "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
-            "date": "2026-07-31"
-          },
-          {
-            "title": "Cloning could be used to save species—or make human 'organ sacks'",
-            "url": "https://www.technologyreview.com/2026/08/14/1141919/cloning-save-species-or-make-human-organ-sacks/",
-            "date": "2026-08-14"
-          },
-          {
-            "title": "Life uses 4 DNA letters. Scientists just made 8 work",
-            "url": "https://www.sciencedaily.com/releases/2026/09/260904000310.htm",
-            "date": "2026-09-04"
-          },
-          {
-            "title": "STAT+: Scholar Rock wins FDA approval for first drug to target SMA muscle loss",
-            "url": "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/",
-            "date": "2026-09-11"
-          },
-          {
-            "title": "One CRISPR treatment cut \"bad\" cholesterol in half for a full year",
-            "url": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm",
-            "date": "2026-09-25"
-          }
-        ]
+        "progress": 30,
+        "evidence": []
       },
       {
         "title": "Alzheimer's Prevention",
         "description": "Understanding and prevention of Alzheimer's disease",
-        "progress": 29,
-        "evidence": [
-          {
-            "title": "Beyond amyloid plaques: AI reveals hidden chemical changes across the Alzheimer's brain",
-            "url": "https://www.sciencedaily.com/releases/2026/02/260228093505.htm",
-            "date": "2026-02-28"
-          },
-          {
-            "title": "Scientists discover hidden brain cells that may stop Alzheimer's tau buildup",
-            "url": "https://www.sciencedaily.com/releases/2026/03/260307155945.htm",
-            "date": "2026-03-07"
-          },
-          {
-            "title": "Scientists reversed liver aging with young gut bacteria in stunning study",
-            "url": "https://www.sciencedaily.com/releases/2026/05/260509210643.htm",
-            "date": "2026-05-09"
-          },
-          {
-            "title": "Scientists reverse Alzheimer's in mice with breakthrough nanotechnology",
-            "url": "https://www.sciencedaily.com/releases/2026/05/260517030326.htm",
-            "date": "2026-05-17"
-          },
-          {
-            "title": "Scientists may have finally found how Alzheimer's spreads through the brain",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260630020521.htm",
-            "date": "2026-06-30"
-          },
-          {
-            "title": "Tau in the spotlight at Alzheimer's conference",
-            "url": "https://www.statnews.com/2026/07/12/aaic-in-30-alzheimers-treaatments-focus-on-tau-blood-brain-barrier/",
-            "date": "2026-07-12"
-          },
-          {
-            "title": "New WHO guidelines: up to 45% of dementia risk could be prevented or delayed",
-            "url": "https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed",
-            "date": "2026-07-15"
-          },
-          {
-            "title": "The hidden math of Alzheimer's could point to new treatments",
-            "url": "https://www.sciencedaily.com/releases/2026/10/261008102714.htm",
-            "date": "2026-10-08"
-          }
-        ]
+        "progress": 15,
+        "evidence": []
       },
       {
         "title": "Biological Freedom",
         "description": "Enhanced control over weight, appearance, reproduction, and other biological processes",
-        "progress": 29,
-        "evidence": [
-          {
-            "title": "Stanford scientists discover \"natural Ozempic\" without side effects",
-            "url": "https://www.sciencedaily.com/releases/2026/04/260412221946.htm",
-            "date": "2026-04-12"
-          }
-        ]
+        "progress": 25,
+        "evidence": []
       },
       {
         "title": "Lifespan Extension",
         "description": "Doubling of human lifespan to ~150 years",
-        "progress": 18,
-        "evidence": [
-          {
-            "title": "Scientists successfully transfer longevity gene and extend lifespan",
-            "url": "https://www.sciencedaily.com/releases/2026/05/260510030948.htm",
-            "date": "2026-05-10"
-          },
-          {
-            "title": "Longevity startup Retro Biosciences says latest fundraising values it at $1.8 billion",
-            "url": "https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/",
-            "date": "2026-05-22"
-          },
-          {
-            "title": "This shark can live 400 years. Its eyes barely seem to age",
-            "url": "https://www.sciencedaily.com/releases/2026/08/260821012232.htm",
-            "date": "2026-08-21"
-          },
-          {
-            "title": "A startup claims it's found a drug to make your blood young",
-            "url": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
-            "date": "2026-08-27"
-          },
-          {
-            "title": "Scientists find Ozempic may slow aging itself",
-            "url": "https://www.sciencedaily.com/releases/2026/09/260911214238.htm",
-            "date": "2026-09-11"
-          }
-        ]
+        "progress": 10,
+        "evidence": []
       }
     ]
   },
@@ -360,91 +55,14 @@
       {
         "title": "Mental Illness Treatment",
         "description": "Effective treatments for most mental illnesses including PTSD, depression, schizophrenia",
-        "progress": 34,
-        "evidence": [
-          {
-            "title": "These overlooked brain cells may control fear and PTSD",
-            "url": "https://www.sciencedaily.com/releases/2026/04/260403224508.htm",
-            "date": "2026-04-03"
-          },
-          {
-            "title": "How Trump is pushing psychedelics reform through the health agencies",
-            "url": "https://www.statnews.com/2026/04/18/psychedelics-ptsd-mental-health-research-boost-from-trump-executive-order/",
-            "date": "2026-04-18"
-          },
-          {
-            "title": "STAT+: Zap in a cap: How one neurotech startup is using a hat to treat depression",
-            "url": "https://www.statnews.com/2026/04/27/motif-neurotech-gets-fda-nod-brain-implant-depression/?utm_campaign=rss",
-            "date": "2026-04-27"
-          },
-          {
-            "title": "Scientists just discovered what coffee is really doing to your gut and brain",
-            "url": "https://www.sciencedaily.com/releases/2026/05/260502233911.htm",
-            "date": "2026-05-02"
-          },
-          {
-            "title": "Definium LSD therapy helped patients with major depression in late-stage trial",
-            "url": "https://www.statnews.com/2026/06/22/definium-lsd-dt120-major-depression-phase-3-data/",
-            "date": "2026-06-22"
-          },
-          {
-            "title": "Common antidepressant may ease long COVID's crushing fatigue",
-            "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
-            "date": "2026-07-18"
-          },
-          {
-            "title": "AI can tell if your brain is aging faster than you are",
-            "url": "https://www.sciencedaily.com/releases/2026/07/260729051540.htm",
-            "date": "2026-07-29"
-          },
-          {
-            "title": "Schizophrenia's lost brain connections follow a surprising pattern",
-            "url": "https://www.sciencedaily.com/releases/2026/08/260820002443.htm",
-            "date": "2026-08-20"
-          },
-          {
-            "title": "STAT+: Lindsay Clancy case exposes dangers of fragmented U.S. health system, experts say",
-            "url": "https://www.statnews.com/2026/09/04/lindsay-clancy-health-care-silos-postpartum-care-failures/",
-            "date": "2026-09-04"
-          },
-          {
-            "title": "STAT+: Definium's LSD therapy eased anxiety in second large trial",
-            "url": "https://www.statnews.com/2026/09/14/definiums-lsd-therapy-eased-anxiety-large-trial-psychedelic/",
-            "date": "2026-09-14"
-          },
-          {
-            "title": "Controlling the brain with light earns a physiology Nobel",
-            "url": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
-            "date": "2026-10-10"
-          }
-        ]
+        "progress": 20,
+        "evidence": []
       },
       {
         "title": "Structural Conditions",
         "description": "Solutions for 'structural' conditions like psychopathy and some forms of autism",
-        "progress": 16,
-        "evidence": [
-          {
-            "title": "Brain scans reveal a shocking difference between psychopaths and other people",
-            "url": "https://www.sciencedaily.com/releases/2026/05/260510030946.htm",
-            "date": "2026-05-10"
-          },
-          {
-            "title": "Scientists reprogram brain immune cells to fight Alzheimer's",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260619020506.htm",
-            "date": "2026-06-19"
-          },
-          {
-            "title": "New autism therapy shows surprising benefits even in adult mice",
-            "url": "https://www.sciencedaily.com/releases/2026/08/260805082508.htm",
-            "date": "2026-08-05"
-          },
-          {
-            "title": "Scientists find a weak spot in one of the deadliest brain cancers",
-            "url": "https://www.sciencedaily.com/releases/2026/09/260903064242.htm",
-            "date": "2026-09-03"
-          }
-        ]
+        "progress": 10,
+        "evidence": []
       },
       {
         "title": "Genetic Prevention",
@@ -455,99 +73,8 @@
       {
         "title": "Everyday Enhancement",
         "description": "Solutions for common issues like focus, mood, and anxiety management",
-        "progress": 53,
-        "evidence": [
-          {
-            "title": "This new therapy turns off pain without opioids or addiction",
-            "url": "https://www.sciencedaily.com/releases/2026/03/260328043558.htm",
-            "date": "2026-03-28"
-          },
-          {
-            "title": "STAT+: FDA to speed up review of three psychedelics as mental health treatments",
-            "url": "https://www.statnews.com/2026/04/24/trump-psychedelic-drugs-fda-priority-review-mental-health-treatment/?utm_campaign=rss",
-            "date": "2026-04-24"
-          },
-          {
-            "title": "Scientists find hidden brain nutrient deficit that may fuel anxiety",
-            "url": "https://www.sciencedaily.com/releases/2026/05/260515234759.htm",
-            "date": "2026-05-15"
-          },
-          {
-            "title": "Opinion: Check-in and intake at the doctor's office are perfect for AI",
-            "url": "https://www.statnews.com/2026/05/22/chatbots-doctor-office-check-in-intake-ai/",
-            "date": "2026-05-22"
-          },
-          {
-            "title": "China has approved the world's first invasive brain-computer chip—here's what's next",
-            "url": "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/",
-            "date": "2026-06-01"
-          },
-          {
-            "title": "Scientists discover the brain chemical that helps you break bad habits",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260606075901.htm",
-            "date": "2026-06-06"
-          },
-          {
-            "title": "Your brain can keep improving into your 90s, study finds",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260613034222.htm",
-            "date": "2026-06-13"
-          },
-          {
-            "title": "Scientists discover ancient brain cells that help block distractions",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260624025426.htm",
-            "date": "2026-06-24"
-          },
-          {
-            "title": "Scientists say creatine may help fight depression",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260630020231.htm",
-            "date": "2026-06-30"
-          },
-          {
-            "title": "Scientists discover how the brain rewires itself to truly multitask",
-            "url": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
-            "date": "2026-07-12"
-          },
-          {
-            "title": "Are AI scribes useful tools in medical education, or a crutch that imperils learning?",
-            "url": "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch/?utm_campaign=rss",
-            "date": "2026-08-03"
-          },
-          {
-            "title": "Wearable ultrasound patch boosts REM sleep without drugs or surgery",
-            "url": "https://www.sciencedaily.com/releases/2026/08/260806050709.htm",
-            "date": "2026-08-06"
-          },
-          {
-            "title": "This common vitamin was linked to 13% better cognitive scores",
-            "url": "https://www.sciencedaily.com/releases/2026/08/260822015138.htm",
-            "date": "2026-08-22"
-          },
-          {
-            "title": "HEPA air purifiers may boost brain function after just one month",
-            "url": "https://www.sciencedaily.com/releases/2026/08/260830000016.htm",
-            "date": "2026-08-30"
-          },
-          {
-            "title": "Alkermes' orexin agonist shows potential to treat ADHD in early-stage trial",
-            "url": "https://www.statnews.com/2026/09/21/alkermes-orexin-agonist-adhd-study/",
-            "date": "2026-09-21"
-          },
-          {
-            "title": "Scientists just discovered what coffee really does to your gut and brain",
-            "url": "https://www.sciencedaily.com/releases/2026/09/260927034331.htm",
-            "date": "2026-09-27"
-          },
-          {
-            "title": "Vagus Nerve Stimulation Could Help New Skills Stick; Your gut bacteria may reveal how fast your brain is aging; This diet may slow brain aging by 2.5 years",
-            "url": "https://www.sciencedaily.com/releases/2026/10/261002080034.htm",
-            "date": "2026-10-02"
-          },
-          {
-            "title": "Just 10 minutes of daily exercise could unlock deeper sleep",
-            "url": "https://www.sciencedaily.com/releases/2026/10/261008102721.htm",
-            "date": "2026-10-08"
-          }
-        ]
+        "progress": 30,
+        "evidence": []
       }
     ]
   },
@@ -558,19 +85,8 @@
       {
         "title": "Health Distribution",
         "description": "50% of AI-driven health benefits reaching poorest countries",
-        "progress": 13,
-        "evidence": [
-          {
-            "title": "Largest catch-up initiative delivers over 100 million childhood vaccinations",
-            "url": "https://www.who.int/news/item/24-04-2026-largest-catch-up-initiative-delivers-over-100-million-childhood-vaccinations",
-            "date": "2026-04-24"
-          },
-          {
-            "title": "Merck strikes voluntary licensing deals in poor countries for an experimental HIV prevention pill",
-            "url": "https://www.statnews.com/pharmalot/2026/07/24/merck-experimental-hiv-prevention-pill-licensing-deals/",
-            "date": "2026-07-24"
-          }
-        ]
+        "progress": 10,
+        "evidence": []
       },
       {
         "title": "Economic Growth",
@@ -581,66 +97,14 @@
       {
         "title": "Food Security",
         "description": "Second Green Revolution through AI-driven agricultural advances",
-        "progress": 19,
-        "evidence": [
-          {
-            "title": "Scientists turned red lettuce green and something surprising happened",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260614011854.htm",
-            "date": "2026-06-14"
-          },
-          {
-            "title": "These tiny soil microbes could rescue crops from salty farmland",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260626124703.htm",
-            "date": "2026-06-26"
-          }
-        ]
+        "progress": 15,
+        "evidence": []
       },
       {
         "title": "Climate Change",
         "description": "Major advances in carbon removal and clean energy technology",
-        "progress": 33,
-        "evidence": [
-          {
-            "title": "This new carbon material could make carbon capture far more affordable",
-            "url": "https://www.sciencedaily.com/releases/2026/03/260328043549.htm",
-            "date": "2026-03-28"
-          },
-          {
-            "title": "Renewables dominate 2025's newly installed generating capacity",
-            "url": "https://arstechnica.com/science/2026/04/globally-86-percent-of-the-new-generating-capacity-was-renewable-in-2025/",
-            "date": "2026-04-XX"
-          },
-          {
-            "title": "Global growth in solar \"the largest ever observed for any source\"",
-            "url": "https://arstechnica.com/science/2026/04/global-growth-in-solar-the-largest-ever-observed-for-any-source/",
-            "date": "2026-04-24"
-          },
-          {
-            "title": "How a new extraction process could unlock the world's lithium",
-            "url": "https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero/",
-            "date": "2026-05-28"
-          },
-          {
-            "title": "Hawaii is turning ocean plastic and fishing nets into roads",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260625014830.htm",
-            "date": "2026-06-25"
-          },
-          {
-            "title": "US home battery installations hit record high on rising electricity costs",
-            "url": "https://arstechnica.com/science/2026/07/us-home-battery-installations-hit-record-high-in-early-2026/",
-            "date": "2026-07-02"
-          },
-          {
-            "title": "So much solar: Digging into the list of every US power plant that went online this year",
-            "url": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
-            "date": "2026-08-17"
-          },
-          {
-            "title": "Australia's red soil may be hiding a massive clean energy source",
-            "url": "https://www.sciencedaily.com/releases/2026/08/260829035214.htm",
-            "date": "2026-08-29"
-          }
-        ]
+        "progress": 20,
+        "evidence": []
       }
     ]
   },
@@ -663,36 +127,14 @@
       {
         "title": "Information Environment",
         "description": "Creation of globally free information environment",
-        "progress": 10,
-        "evidence": [
-          {
-            "title": "STAT+: As controversial decisions mount, FDA shuns public advisory meetings",
-            "url": "https://www.statnews.com/2026/03/09/fda-cuts-back-advisory-meetings-controversial-decisions-grow/",
-            "date": "2026-03-09"
-          },
-          {
-            "title": "A new US phone network for Christians aims to block porn and gender-related content",
-            "url": "https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/",
-            "date": "2026-05-01"
-          },
-          {
-            "title": "How Big Tobacco flooded the FDA with public comments to kill a menthol cigarette ban; Opinion: RFK Jr.'s use of the National Center for Health Statistics will add confusion to measles deaths count; Russel Vought will reportedly be given veto power over all NIH grants",
-            "url": "https://www.statnews.com/2026/09/25/fake-grassroots-campaign-jama-study-rutgers-researchers-fda-menthol-ban/",
-            "date": "2026-09-25"
-          }
-        ]
+        "progress": 15,
+        "evidence": []
       },
       {
         "title": "Legal Systems",
         "description": "AI improving impartiality and fairness in legal systems",
-        "progress": 11,
-        "evidence": [
-          {
-            "title": "Have politics finally come for the National Academies of Science?",
-            "url": "https://arstechnica.com/science/2026/06/have-politics-finally-come-for-the-national-academies-of-science/",
-            "date": "2026-06-12"
-          }
-        ]
+        "progress": 10,
+        "evidence": []
       },
       {
         "title": "Government Services",

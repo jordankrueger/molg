@@ -11,4 +11,4 @@ Public repo. Live at aiprogresstracker.com (Cloudflare Pages project `molg`, aut
 
 ## History
 
-- Before 2026-10-19 the model scored freely: 123 of 132 changes were increases, some logged changes were never applied (wrong section), and 3 evidence links were broken (2 removed, 1 fixed). Past scores were not reset.
+- Before 2026-10-19 the model scored freely: 123 of 132 changes were increases, some logged changes were never applied (wrong section), and 3 evidence links were broken (2 removed, 1 fixed). On 2026-10-18 every past change was re-judged under the new rules; only 2 (both decreases) held up, so scores were rebuilt from the 2026-02-26 starting values (average 26.9% → 18.1%). The replay script is not in the repo; the audit log entry for 2026-10-18 records the result.
