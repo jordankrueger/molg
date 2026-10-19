@@ -3,6 +3,14 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-10-19
+
+**Articles found:** 214 | **Sent to the model:** 80 | **Overall progress:** 18.1%
+
+**No changes this week.**
+
+**Summary:** This week's articles included several stories that came close but did not meet the bar for changing a score. The most AI-relevant was research using AI to design proteins that cut up other proteins. It is a notable lab result, but it is early-stage work with no clinical or deployed application yet. A retinal implant that restores some sight in macular degeneration patients has European approval, but no direct AI role was described. Several Alzheimer's stories also appeared: walking linked to slower tau buildup, a protective rare mutation, and restored sleep in mice. None involved AI, and some were animal or observational studies. Other stories also fell short. There was a feature on AI-designed viruses, and a piece on whether Isomorphic Labs can deliver AI-driven drugs. A Gilead bowel-disease drug trial produced positive mid-stage results without an AI role. China's proposed limits on foreign biotech acquisitions are only a proposal. On the negative side, the World Food Programme cut food aid in Gaza for about 500,000 people. That is serious, but it reflects conflict-driven humanitarian funding shortfalls rather than a reversal in agricultural productivity, so it was not counted against food security. Measles resurgence pieces and Ukraine casualty reports were either opinion or not tied directly to a tracked prediction. No scores changed this week.
+
 ## 2026-10-18
 
 **Articles found:** 214 | **Sent to the model:** 80 | **Overall progress:** 18.1%
