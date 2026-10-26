@@ -3,6 +3,14 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-10-26
+
+**Articles found:** 211 | **Sent to the model:** 80 | **Overall progress:** 18.1%
+
+**No changes this week.**
+
+**Summary:** This week brought a lot of cancer news from Europe's major oncology conference, but none of it qualified for a score change. Highlights included Moderna and Merck's mRNA cancer vaccine nearly halving the risk of melanoma returning, Merck and Kelun-Biotech's targeted drug cutting the risk of death in advanced endometrial cancer by a third, and Incyte's pancreatic cancer combination producing lasting tumor responses. These are meaningful advances, but the reports did not name a direct role for AI. The same was true of a study linking low-dose aspirin to a 70% lower dementia risk in people with a specific genetic profile. Several other stories also did not move any scores. The UN projection that the world will overshoot 1.5°C of warming concerns emissions, not the carbon-removal and clean-energy technology the prediction tracks. The ongoing Ebola outbreak in DR Congo and the first human infection with the Shamonda virus are concerning, but they do not show clear backsliding in infectious disease prevention. Kenya's soil-mapping initiative for farmers and Anthropic's IPO filing were not backed by AI-specific results or solid evidence. No scores changed this week.
+
 ## 2026-10-19
 
 **Articles found:** 214 | **Sent to the model:** 80 | **Overall progress:** 18.1%
