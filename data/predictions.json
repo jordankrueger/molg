@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18",
+  "lastUpdated": "2026-11-02",
   "biology": {
     "title": "Biology and Physical Health",
     "description": "Timeline: 5-10 years after powerful AI development to achieve '50-100 years of progress'",
@@ -127,8 +127,14 @@
       {
         "title": "Information Environment",
         "description": "Creation of globally free information environment",
-        "progress": 15,
-        "evidence": []
+        "progress": 14,
+        "evidence": [
+          {
+            "title": "Six in seven journalist murders go unpunished,  UNESCO reports",
+            "url": "https://news.un.org/feed/view/en/story/2026/11/1168719",
+            "date": "2026-11-02"
+          }
+        ]
       },
       {
         "title": "Legal Systems",

@@ -3,6 +3,15 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-11-02
+
+**Articles found:** 209 | **Sent to the model:** 80 | **Overall progress:** 18.1%
+
+**Changes:**
+- **Information Environment** (governance): 15% → 14% — UNESCO's official report shows global impunity for journalist killings rose for the first time in over a decade, with six in seven murders unpunished. This is solid evidence from a UN body that conditions for a free information environment worsened.
+
+**Summary:** This week's articles were mostly general science, health policy and tech industry news, and almost none involved AI directly producing a verified result. The FDA's approval of a generic HIV prevention shot is a real regulatory step that widens access in lower-income countries, but AI played no role in it, so it cannot raise a score. A new natural-language interface for protein and genome design software, a focused-ultrasound approach to brain cancer, and a pesticide–Parkinson's study were all either early-stage or had no AI role. The pieces on agentic AI and agent monitoring were commentary rather than evidence. On the negative side, reports on measles resurging and on deepening hunger in the DR Congo were considered, but they describe ongoing regional situations rather than a clear new global setback. The one change is a small reduction to the information environment score. UNESCO's latest official report found that impunity for journalist killings has risen for the first time in more than a decade, which is a documented step away from a globally free information environment.
+
 ## 2026-10-26
 
 **Articles found:** 211 | **Sent to the model:** 80 | **Overall progress:** 18.1%
