@@ -139,7 +139,7 @@ function filterRecentItems(items, daysBack = 7) {
 
 // ─── Claude API ─────────────────────────────────────────────────
 
-const MODEL = 'claude-opus-5-5';
+const MODEL = 'claude-sonnet-5-5';
 
 async function callClaude(prompt) {
   const response = await fetch('https://api.anthropic.com/v1/messages', {
