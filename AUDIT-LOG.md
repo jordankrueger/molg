@@ -3,6 +3,14 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-11-09
+
+**Articles found:** 204 | **Sent to the model:** 80 | **Overall progress:** 18.1%
+
+**No changes this week.**
+
+**Summary:** I went through this week's articles and found nothing that meets the bar for a score change. The closest items were a study linking a high-dose flu shot to lower Alzheimer's risk (no AI role), a report that gene therapy viruses can cause cancer (a setback for genetic disease treatment, but not AI-related and too small a signal to move a score), and an opinion piece arguing the climate case for AI has not been made. Other near-misses were an essay on how AI has transformed mathematics, a humanoid robot cleaning service that is not tied to any prediction, and a STAT commentary on AI hype after heart drug failures, which is opinion. The Anthropic model launch, the new US bioweapons rule, Pelosi's successor and AI regulation, and the Texas data center outlook are announcements, policy discussion or opinion, not solid evidence of progress or reversal on any prediction. Climate summit and heat reports describe conditions rather than AI-driven results. No scores change this week.
+
 ## 2026-11-02
 
 **Articles found:** 209 | **Sent to the model:** 80 | **Overall progress:** 18.1%
