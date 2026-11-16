@@ -3,6 +3,14 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-11-16
+
+**Articles found:** 208 | **Sent to the model:** 80 | **Overall progress:** 18.1%
+
+**No changes this week.**
+
+**Summary:** I went through this week's articles for solid evidence that AI directly moved one of the essay's predictions, or that the world clearly moved away from one, and found none. Several stories came close on topic but did not qualify. The COP31 climate talks involve AI initiatives, but those are announcements, and the negotiations remain deadlocked on finance. The AI primary-care tool backed by John Doerr is a funding story. The GLP-1 access story is an expert warning about a possible fight over access, with no AI role and no new official data. The psychedelic depression drug, the bladder cancer immunotherapy and the osteoporosis drug in zebrafish had no named AI role, and the last of these was an animal study. The Alzheimer's brain-shrinkage research and the sex-differences findings were also not AI-driven. The Chinese gene-editing trial in which a child died is a documented setback, but it is a single event and does not amount to a policy or statistical reversal. Reports on high oil prices lowering emissions, 1.5°C being reached sooner, and the chip-tracking story did not give evidence that clearly moves any specific prediction. No scores change.
+
 ## 2026-11-09
 
 **Articles found:** 204 | **Sent to the model:** 80 | **Overall progress:** 18.1%
