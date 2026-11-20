@@ -10,7 +10,7 @@ export default function AccessibilityPage() {
   return (
     <main className="mx-auto max-w-2xl px-6 py-16 leading-relaxed">
       <h1 className="text-3xl font-bold mb-2">Accessibility</h1>
-      <p className="opacity-60 mb-8">Last updated: June 8, 2026</p>
+      <p className="text-[var(--muted)] mb-8">Last updated: June 8, 2026</p>
 
       <p className="mb-6">
         I want the AI Progress Tracker to work for everyone, including people who use screen

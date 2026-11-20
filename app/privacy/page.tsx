@@ -9,7 +9,7 @@ export default function PrivacyPage() {
   return (
     <main className="mx-auto max-w-2xl px-6 py-16 leading-relaxed">
       <h1 className="text-3xl font-bold mb-2">Privacy</h1>
-      <p className="opacity-60 mb-8">Last updated: June 8, 2026</p>
+      <p className="text-[var(--muted)] mb-8">Last updated: June 8, 2026</p>
 
       <p className="mb-6">
         The AI Progress Tracker is a static site. It doesn&apos;t ask for your information, and
