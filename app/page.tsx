@@ -1,5 +1,6 @@
 import type { CSSProperties } from 'react';
 import predictionsData from '../data/predictions.json';
+import summary from '../data/last-run-summary.json';
 import { formatDate } from '../components/format';
 import { readLatestCheck } from '../components/latest-check';
 import { LINKS, external } from '../components/links';
@@ -40,7 +41,7 @@ export default function Home() {
           <p className="figure" aria-label={`${Math.round(avg)} percent`}>{Math.round(avg)}<span className="unit">%</span></p>
           <h1>of the way to the future Machines of Loving Grace describes.</h1>
           <p className="lede">Dario Amodei&apos;s 2024 essay made {all.length} predictions about what powerful AI could do for health, the mind, poverty and democracy. This page scores each one against the news, every week.</p>
-          <p className="meta">Average of all {all.length} scores. Updated {formatDate(lastUpdated)}.</p>
+          <p className="meta">Average of all {all.length} scores. Updated {formatDate(lastUpdated)}; last checked {formatDate(summary.generated_at.slice(0, 10))}.</p>
           <div className="actions">
             <a className="btn primary" href="#all">See all {all.length} predictions</a>
             <a className="btn ghost" href={LINKS.reddit} {...external}>Discuss on Reddit</a>

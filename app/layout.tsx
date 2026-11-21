@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import localFont from 'next/font/local'
 import predictions from '../data/predictions.json'
+import summary from '../data/last-run-summary.json'
 import { formatDate } from '../components/format'
 import { LINKS, external } from '../components/links'
 import './globals.css'
@@ -101,7 +102,7 @@ export default function RootLayout({
             </nav>
           </div>
           <div className="wrap fine">
-            <span>Scores updated {formatDate(predictions.lastUpdated)}</span>
+            <span>{`Scores updated ${formatDate(predictions.lastUpdated)} · Last checked ${formatDate(summary.generated_at.slice(0, 10))}`}</span>
             <span>Code licensed GPL-3.0</span>
           </div>
         </footer>
