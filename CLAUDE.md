@@ -15,8 +15,10 @@ Public repo. Live at aiprogresstracker.com (Cloudflare Pages project `molg`, aut
 
 ## Site and model
 
-- Model: Claude Opus 5.5 (`claude-opus-5-5`, effort medium) with the scoring rubric in `scripts/update-predictions.mjs`. Workflow runs Node 24.
+- Model: Claude Sonnet 5.5 (`claude-sonnet-5-5`, switched from Opus 2026-11-07 in the cost audit, commit 4dc53a7) with the scoring rubric in `scripts/update-predictions.mjs`. Workflow runs Node 24.
 - Homepage (redesign 2026-10-18): headline average + per-prediction bars, all 18 predictions visible, "How a score moves" section with the latest weekly check (parsed from `AUDIT-LOG.md` at build) and the rules. Header and footer live in `app/layout.tsx`. Shared links in `components/links.ts`.
+- Last checked (PR #8, 2026-11-21): footer and hero show "Scores updated X · Last checked Y". Y is `generated_at` in `data/last-run-summary.json`, written every run; X (`lastUpdated` in `data/predictions.json`) only moves when a score changes.
+- No branch protection on this repo: `gh pr merge` does not wait on a failing check, so read `gh pr checks` before merging (PR #8 merged with a failed OpenAI review, judged a false positive).
 - Weekly workflow verified end to end on GitHub 2026-10-18 (manual run, 8/8 feeds, 214 articles, no changes). First scheduled Monday run under the new rules: 2026-10-19 09:00 UTC.
 - Social: Bluesky @aiprogresstracker.com, X @AIProgressTrkr (X handles max 15 chars), Reddit copy/paste via social-week. Brag video and profile art live in `~/ClaudeCode/brag-videos/molg/`. hello@ forwards to Jordan via Cloudflare Email Routing.
 - Dependencies: Next.js 15.5.28 + postcss override. One Dependabot alert left (postcss-selector-parser via Tailwind 3, build-time only).
