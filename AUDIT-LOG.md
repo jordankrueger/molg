@@ -3,6 +3,14 @@
 Automated weekly evaluation of AI progress predictions.
 Each entry shows what was scanned, what changed, and why.
 
+## 2026-11-23
+
+**Articles found:** 200 | **Sent to the model:** 80 | **Overall progress:** 18.1%
+
+**No changes this week.**
+
+**Summary:** I reviewed this week's articles against the essay's predictions and found nothing that meets the bar for a change. The closest candidates were the Kymera eczema pill trial, the FDA's rejection of Capricor's Duchenne therapy, the Genmab cancer trial wins, and the record seven-week human liver preservation. None of these named a direct AI role, and several were early-stage or not yet published. The COP31 climate talks collapsing without a pact is a setback for climate policy. But the Climate Change prediction is about carbon removal and clean energy technology, and the talks do not show a documented technical failure in that area. The article on rock-based carbon removal possibly reducing crop growth is a research caution, not solid evidence of a reversal. The Sila-Panasonic battery deal is a commercial announcement with no AI involvement. The UN's AI safety framework calls and the Bridgetown summit are announcements and talks, not deployed outcomes. The METR report on AI capabilities, Claude's pull-request tool, and the opinion and career pieces on AI do not map to any health, economic or governance prediction with solid evidence. All scores stay as they are.
+
 ## 2026-11-16
 
 **Articles found:** 208 | **Sent to the model:** 80 | **Overall progress:** 18.1%
